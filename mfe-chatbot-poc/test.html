@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Testing ChatBot Micro Frontend</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <h1>Testing ChatBot Micro Frontend</h1>
+
+    <!-- Your custom element -->
+    <chat-bot></chat-bot>
+
+    <!-- React 18 & ReactDOM UMD (must come before your bundle) -->
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+
+    <!-- Your built MFE script -->
+    <script src="./dist/chat-bot.iife.js"></script>
+  </body>
+</html>
