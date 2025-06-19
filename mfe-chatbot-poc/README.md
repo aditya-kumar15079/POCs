@@ -1,12 +1,24 @@
-# React + Vite
+# Microfrontend via Webcomponents POC
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Steps to run the app
+- npm i
 
-Currently, two official plugins are available:
+- npm run build
+ -- It will generate dist/chat-bot.iife.js (mfe build)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- npx serve .
 
-## Expanding the ESLint configuration
+ -- It will serve the test.html file which hosts the mfe. mfe is taken directly from path ./dist/chat-bot.iife.js
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ ### To host the mfe on another app just paste the built iife.js file to the host assets folder and load the mfe js by script tag.
+ - Copy chat-bot.iife.js and style.css into the host app's public folder
+
+- In the host app HTML or main layout:<br>
+< chat-bot></ chat-bot><br>
+< script src="/assets/chat-bot.iife.js"></ script>
+
+
+If using frameworks like React, Angular, etc., include the < chat-bot></ chat-bot> element in the appropriate part of your layout (e.g. JSX dangerouslySetInnerHTML, or in index.html).
+
+
+
