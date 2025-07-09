@@ -14,8 +14,10 @@
  - Copy chat-bot.iife.js and style.css into the host app's public folder
 
 - In the host app HTML or main layout:<br>
+```bash
 < chat-bot></ chat-bot><br>
 < script src="/assets/chat-bot.iife.js"></ script>
+```
 
 
 If using frameworks like React, Angular, etc., include the < chat-bot></ chat-bot> element in the appropriate part of your layout (e.g. JSX dangerouslySetInnerHTML, or in index.html).
