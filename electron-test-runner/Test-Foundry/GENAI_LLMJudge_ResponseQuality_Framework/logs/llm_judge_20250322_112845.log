@@ -1,6 +1,0 @@
-2025-03-22 11:28:45,905 - llm_judge - INFO - Logger initialized
-2025-03-22 11:28:45,905 - llm_judge - INFO - Initialized OpenAI client with model: gpt-4o
-2025-03-22 11:28:45,905 - llm_judge - INFO - LLM Judge initialized successfully
-2025-03-22 11:28:45,905 - llm_judge - INFO - Starting LLM Judge evaluation
-2025-03-22 11:28:46,188 - llm_judge - ERROR - Error reading Excel file: Worksheet named 'TestCases' not found
-2025-03-22 11:28:46,188 - llm_judge - ERROR - Error running LLM Judge: Worksheet named 'TestCases' not found

@@ -1,6 +1,0 @@
-2025-04-11 09:36:14,577 - llm_judge - INFO - Logger initialized
-2025-04-11 09:36:14,577 - llm_judge - INFO - Initialized Azure OpenAI client with deployment: gpt-4o-mini
-2025-04-11 09:36:14,577 - llm_judge - INFO - LLM Judge initialized successfully
-2025-04-11 09:36:14,577 - llm_judge - INFO - Starting LLM Judge evaluation
-2025-04-11 09:36:15,009 - llm_judge - ERROR - Error reading Excel file: Input file missing required columns: TestID, Prompt, ReferenceAnswer, GeneratedAnswer
-2025-04-11 09:36:15,009 - llm_judge - ERROR - Error running LLM Judge: Input file missing required columns: TestID, Prompt, ReferenceAnswer, GeneratedAnswer
