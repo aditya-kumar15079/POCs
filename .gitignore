@@ -1,0 +1,6 @@
+*.zip
+*.AppImage
+*.asar
+venv/
+dist/
+node_modules/
