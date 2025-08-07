@@ -1,0 +1,295 @@
+2025-06-04 15:27:22,433 - INFO - ============================================================
+2025-06-04 15:27:22,433 - INFO - NLP EVALUATION FRAMEWORK - EXECUTION LOG
+2025-06-04 15:27:22,434 - INFO - ============================================================
+2025-06-04 15:27:22,434 - INFO - Log file: C:\GENAI_Compass\Reports\logs\evaluation_log_20250604_152722.txt
+2025-06-04 15:27:22,435 - INFO - Config file: ../config/metrics_config.yaml
+2025-06-04 15:27:22,436 - INFO - Starting evaluation of 3 test cases...
+2025-06-04 15:27:22,437 - INFO - Evaluating 3 enabled test cases
+2025-06-04 15:27:22,439 - DEBUG - Initialized results dataframe with shape: (3, 21)
+2025-06-04 15:27:22,440 - DEBUG - Initial overall_score column: [nan, nan, nan]
+2025-06-04 15:27:22,440 - INFO - Evaluating test case 1: What types of expenses are not reimbursed by the c...
+2025-06-04 15:27:22,448 - DEBUG -     bleu: score=1.0 (type: <class 'float'>)
+2025-06-04 15:27:22,452 - DEBUG -     rouge: score=1.0 (type: <class 'float'>)
+2025-06-04 15:27:22,455 - DEBUG -     meteor: score=0.999999185833503 (type: <class 'float'>)
+2025-06-04 15:27:38,597 - DEBUG -     bert_score: score=0.9999999403953552 (type: <class 'float'>)
+2025-06-04 15:27:38,831 - DEBUG -     accuracy: score=1.0 (type: <class 'float'>)
+2025-06-04 15:27:38,943 - DEBUG -     answer_relevance: score=0.6153575321743279 (type: <class 'numpy.float64'>)
+2025-06-04 15:27:39,471 - DEBUG -     toxicity: score=0.0006534707499668002 (type: <class 'numpy.float32'>)
+2025-06-04 15:27:39,483 - DEBUG - Case 1 metric results: ['bleu', 'rouge', 'meteor', 'bert_score', 'accuracy', 'answer_relevance', 'toxicity']
+2025-06-04 15:27:39,483 - DEBUG -   Stored bleu: score=1.0000
+2025-06-04 15:27:39,499 - DEBUG -   Stored rouge: score=1.0000
+2025-06-04 15:27:39,499 - DEBUG -   Stored meteor: score=1.0000
+2025-06-04 15:27:39,499 - DEBUG -   Stored bert_score: score=1.0000
+2025-06-04 15:27:39,519 - DEBUG -   Stored accuracy: score=1.0000
+2025-06-04 15:27:39,521 - DEBUG -   Stored answer_relevance: score=0.6154
+2025-06-04 15:27:39,522 - WARNING - Invalid score for toxicity: 0.0006534707499668002, setting to 0.0
+2025-06-04 15:27:39,522 - DEBUG -   Stored toxicity: score=0.0000
+2025-06-04 15:27:39,526 - DEBUG - === STARTING OVERALL SCORE CALCULATION ===
+2025-06-04 15:27:39,526 - DEBUG - Configuration weights:
+2025-06-04 15:27:39,531 - DEBUG -   bleu: weight=0.05, enabled=True
+2025-06-04 15:27:39,547 - DEBUG -   rouge: weight=0.1, enabled=True
+2025-06-04 15:27:39,547 - DEBUG -   meteor: weight=0.15, enabled=True
+2025-06-04 15:27:39,547 - DEBUG -   bert_score: weight=0.15, enabled=True
+2025-06-04 15:27:39,547 - DEBUG -   accuracy: weight=0.25, enabled=True
+2025-06-04 15:27:39,566 - DEBUG -   answer_relevance: weight=0.2, enabled=True
+2025-06-04 15:27:39,579 - DEBUG -   toxicity: weight=0.1, enabled=True
+2025-06-04 15:27:39,579 - DEBUG - Processing bleu:
+2025-06-04 15:27:39,579 - DEBUG -   Raw score: 1.0 (type: <class 'float'>)
+2025-06-04 15:27:39,579 - DEBUG -   Weight: 0.05
+2025-06-04 15:27:39,579 - DEBUG -   Reverse scoring: False
+2025-06-04 15:27:39,594 - DEBUG -   Final score: 1.000000
+2025-06-04 15:27:39,610 - DEBUG -   Contribution: 0.050000
+2025-06-04 15:27:39,610 - DEBUG -   Running total_weighted_score: 0.050000
+2025-06-04 15:27:39,610 - DEBUG -   Running total_weight: 0.050000
+2025-06-04 15:27:39,610 - DEBUG - Processing rouge:
+2025-06-04 15:27:39,610 - DEBUG -   Raw score: 1.0 (type: <class 'float'>)
+2025-06-04 15:27:39,610 - DEBUG -   Weight: 0.1
+2025-06-04 15:27:39,610 - DEBUG -   Reverse scoring: False
+2025-06-04 15:27:39,636 - DEBUG -   Final score: 1.000000
+2025-06-04 15:27:39,636 - DEBUG -   Contribution: 0.100000
+2025-06-04 15:27:39,636 - DEBUG -   Running total_weighted_score: 0.150000
+2025-06-04 15:27:39,636 - DEBUG -   Running total_weight: 0.150000
+2025-06-04 15:27:39,636 - DEBUG - Processing meteor:
+2025-06-04 15:27:39,641 - DEBUG -   Raw score: 0.999999185833503 (type: <class 'float'>)
+2025-06-04 15:27:39,641 - DEBUG -   Weight: 0.15
+2025-06-04 15:27:39,641 - DEBUG -   Reverse scoring: False
+2025-06-04 15:27:39,641 - DEBUG -   Final score: 0.999999
+2025-06-04 15:27:39,641 - DEBUG -   Contribution: 0.150000
+2025-06-04 15:27:39,641 - DEBUG -   Running total_weighted_score: 0.300000
+2025-06-04 15:27:39,641 - DEBUG -   Running total_weight: 0.300000
+2025-06-04 15:27:39,641 - DEBUG - Processing bert_score:
+2025-06-04 15:27:39,641 - DEBUG -   Raw score: 0.9999999403953552 (type: <class 'float'>)
+2025-06-04 15:27:39,666 - DEBUG -   Weight: 0.15
+2025-06-04 15:27:39,666 - DEBUG -   Reverse scoring: False
+2025-06-04 15:27:39,673 - DEBUG -   Final score: 1.000000
+2025-06-04 15:27:39,673 - DEBUG -   Contribution: 0.150000
+2025-06-04 15:27:39,673 - DEBUG -   Running total_weighted_score: 0.450000
+2025-06-04 15:27:39,689 - DEBUG -   Running total_weight: 0.450000
+2025-06-04 15:27:39,689 - DEBUG - Processing accuracy:
+2025-06-04 15:27:39,689 - DEBUG -   Raw score: 1.0 (type: <class 'float'>)
+2025-06-04 15:27:39,704 - DEBUG -   Weight: 0.25
+2025-06-04 15:27:39,704 - DEBUG -   Reverse scoring: False
+2025-06-04 15:27:39,704 - DEBUG -   Final score: 1.000000
+2025-06-04 15:27:39,730 - DEBUG -   Contribution: 0.250000
+2025-06-04 15:27:39,736 - DEBUG -   Running total_weighted_score: 0.700000
+2025-06-04 15:27:39,736 - DEBUG -   Running total_weight: 0.700000
+2025-06-04 15:27:39,736 - DEBUG - Processing answer_relevance:
+2025-06-04 15:27:39,736 - DEBUG -   Raw score: 0.6153575321743279 (type: <class 'numpy.float64'>)
+2025-06-04 15:27:39,768 - DEBUG -   Weight: 0.2
+2025-06-04 15:27:39,768 - DEBUG -   Reverse scoring: False
+2025-06-04 15:27:39,768 - DEBUG -   Final score: 0.615358
+2025-06-04 15:27:39,768 - DEBUG -   Contribution: 0.123072
+2025-06-04 15:27:39,768 - DEBUG -   Running total_weighted_score: 0.823071
+2025-06-04 15:27:39,768 - DEBUG -   Running total_weight: 0.900000
+2025-06-04 15:27:39,768 - DEBUG - Processing toxicity:
+2025-06-04 15:27:39,768 - DEBUG -   Raw score: 0.0006534707499668002 (type: <class 'numpy.float32'>)
+2025-06-04 15:27:39,768 - DEBUG -   Weight: 0.1
+2025-06-04 15:27:39,768 - DEBUG -   Reverse scoring: True
+2025-06-04 15:27:39,768 - WARNING -   Invalid score for toxicity: 0.0006534707499668002, using 0.0
+2025-06-04 15:27:39,768 - DEBUG -   Applied reverse scoring: 1.0
+2025-06-04 15:27:39,768 - DEBUG -   Final score: 1.000000
+2025-06-04 15:27:39,768 - DEBUG -   Contribution: 0.100000
+2025-06-04 15:27:39,768 - DEBUG -   Running total_weighted_score: 0.923071
+2025-06-04 15:27:39,768 - DEBUG -   Running total_weight: 1.000000
+2025-06-04 15:27:39,768 - DEBUG - === FINAL CALCULATION ===
+2025-06-04 15:27:39,783 - DEBUG - Total weighted score: 0.923071
+2025-06-04 15:27:39,783 - DEBUG - Total weight: 1.000000
+2025-06-04 15:27:39,799 - DEBUG - Valid metrics processed: 7
+2025-06-04 15:27:39,799 - DEBUG - Calculated overall score: 0.923071
+2025-06-04 15:27:39,799 - DEBUG - Final clamped overall score: 0.923071
+2025-06-04 15:27:39,799 - DEBUG - Calculated overall score for case 1: 0.923071375369194
+2025-06-04 15:27:39,846 - INFO - Evaluating test case 2: Under what conditions will MCUL & CUSG reimburse s...
+2025-06-04 15:27:39,862 - DEBUG -     bleu: score=0.4650646006275415 (type: <class 'float'>)
+2025-06-04 15:27:39,867 - DEBUG -     rouge: score=0.6834677419354839 (type: <class 'float'>)
+2025-06-04 15:27:41,822 - DEBUG -     meteor: score=0.9191871455576559 (type: <class 'float'>)
+2025-06-04 15:27:53,157 - DEBUG -     bert_score: score=0.7558978796005249 (type: <class 'float'>)
+2025-06-04 15:27:53,236 - DEBUG -     accuracy: score=0.9107261916724119 (type: <class 'numpy.float64'>)
+2025-06-04 15:27:53,316 - DEBUG -     answer_relevance: score=0.7656579354604086 (type: <class 'numpy.float64'>)
+2025-06-04 15:27:53,458 - DEBUG -     toxicity: score=0.0006415927782654762 (type: <class 'numpy.float32'>)
+2025-06-04 15:27:53,458 - DEBUG - Case 2 metric results: ['bleu', 'rouge', 'meteor', 'bert_score', 'accuracy', 'answer_relevance', 'toxicity']
+2025-06-04 15:27:53,458 - DEBUG -   Stored bleu: score=0.4651
+2025-06-04 15:27:53,458 - DEBUG -   Stored rouge: score=0.6835
+2025-06-04 15:27:53,458 - DEBUG -   Stored meteor: score=0.9192
+2025-06-04 15:27:53,458 - DEBUG -   Stored bert_score: score=0.7559
+2025-06-04 15:27:53,474 - DEBUG -   Stored accuracy: score=0.9107
+2025-06-04 15:27:53,484 - DEBUG -   Stored answer_relevance: score=0.7657
+2025-06-04 15:27:53,484 - WARNING - Invalid score for toxicity: 0.0006415927782654762, setting to 0.0
+2025-06-04 15:27:53,484 - DEBUG -   Stored toxicity: score=0.0000
+2025-06-04 15:27:53,484 - DEBUG - === STARTING OVERALL SCORE CALCULATION ===
+2025-06-04 15:27:53,490 - DEBUG - Configuration weights:
+2025-06-04 15:27:53,490 - DEBUG -   bleu: weight=0.05, enabled=True
+2025-06-04 15:27:53,490 - DEBUG -   rouge: weight=0.1, enabled=True
+2025-06-04 15:27:53,490 - DEBUG -   meteor: weight=0.15, enabled=True
+2025-06-04 15:27:53,490 - DEBUG -   bert_score: weight=0.15, enabled=True
+2025-06-04 15:27:53,490 - DEBUG -   accuracy: weight=0.25, enabled=True
+2025-06-04 15:27:53,505 - DEBUG -   answer_relevance: weight=0.2, enabled=True
+2025-06-04 15:27:53,505 - DEBUG -   toxicity: weight=0.1, enabled=True
+2025-06-04 15:27:53,521 - DEBUG - Processing bleu:
+2025-06-04 15:27:53,521 - DEBUG -   Raw score: 0.4650646006275415 (type: <class 'float'>)
+2025-06-04 15:27:53,521 - DEBUG -   Weight: 0.05
+2025-06-04 15:27:53,521 - DEBUG -   Reverse scoring: False
+2025-06-04 15:27:53,521 - DEBUG -   Final score: 0.465065
+2025-06-04 15:27:53,531 - DEBUG -   Contribution: 0.023253
+2025-06-04 15:27:53,531 - DEBUG -   Running total_weighted_score: 0.023253
+2025-06-04 15:27:53,537 - DEBUG -   Running total_weight: 0.050000
+2025-06-04 15:27:53,537 - DEBUG - Processing rouge:
+2025-06-04 15:27:53,553 - DEBUG -   Raw score: 0.6834677419354839 (type: <class 'float'>)
+2025-06-04 15:27:53,553 - DEBUG -   Weight: 0.1
+2025-06-04 15:27:53,553 - DEBUG -   Reverse scoring: False
+2025-06-04 15:27:53,553 - DEBUG -   Final score: 0.683468
+2025-06-04 15:27:53,553 - DEBUG -   Contribution: 0.068347
+2025-06-04 15:27:53,553 - DEBUG -   Running total_weighted_score: 0.091600
+2025-06-04 15:27:53,553 - DEBUG -   Running total_weight: 0.150000
+2025-06-04 15:27:53,569 - DEBUG - Processing meteor:
+2025-06-04 15:27:53,573 - DEBUG -   Raw score: 0.9191871455576559 (type: <class 'float'>)
+2025-06-04 15:27:53,585 - DEBUG -   Weight: 0.15
+2025-06-04 15:27:53,585 - DEBUG -   Reverse scoring: False
+2025-06-04 15:27:53,600 - DEBUG -   Final score: 0.919187
+2025-06-04 15:27:53,616 - DEBUG -   Contribution: 0.137878
+2025-06-04 15:27:53,632 - DEBUG -   Running total_weighted_score: 0.229478
+2025-06-04 15:27:53,648 - DEBUG -   Running total_weight: 0.300000
+2025-06-04 15:27:53,663 - DEBUG - Processing bert_score:
+2025-06-04 15:27:53,663 - DEBUG -   Raw score: 0.7558978796005249 (type: <class 'float'>)
+2025-06-04 15:27:53,663 - DEBUG -   Weight: 0.15
+2025-06-04 15:27:53,686 - DEBUG -   Reverse scoring: False
+2025-06-04 15:27:53,695 - DEBUG -   Final score: 0.755898
+2025-06-04 15:27:53,710 - DEBUG -   Contribution: 0.113385
+2025-06-04 15:27:53,736 - DEBUG -   Running total_weighted_score: 0.342863
+2025-06-04 15:27:53,742 - DEBUG -   Running total_weight: 0.450000
+2025-06-04 15:27:53,757 - DEBUG - Processing accuracy:
+2025-06-04 15:27:53,757 - DEBUG -   Raw score: 0.9107261916724119 (type: <class 'numpy.float64'>)
+2025-06-04 15:27:53,773 - DEBUG -   Weight: 0.25
+2025-06-04 15:27:53,773 - DEBUG -   Reverse scoring: False
+2025-06-04 15:27:53,789 - DEBUG -   Final score: 0.910726
+2025-06-04 15:27:53,789 - DEBUG -   Contribution: 0.227682
+2025-06-04 15:27:53,789 - DEBUG -   Running total_weighted_score: 0.570544
+2025-06-04 15:27:53,816 - DEBUG -   Running total_weight: 0.700000
+2025-06-04 15:27:53,831 - DEBUG - Processing answer_relevance:
+2025-06-04 15:27:53,837 - DEBUG -   Raw score: 0.7656579354604086 (type: <class 'numpy.float64'>)
+2025-06-04 15:27:53,837 - DEBUG -   Weight: 0.2
+2025-06-04 15:27:53,837 - DEBUG -   Reverse scoring: False
+2025-06-04 15:27:53,852 - DEBUG -   Final score: 0.765658
+2025-06-04 15:27:53,868 - DEBUG -   Contribution: 0.153132
+2025-06-04 15:27:53,884 - DEBUG -   Running total_weighted_score: 0.723676
+2025-06-04 15:27:53,884 - DEBUG -   Running total_weight: 0.900000
+2025-06-04 15:27:53,900 - DEBUG - Processing toxicity:
+2025-06-04 15:27:53,931 - DEBUG -   Raw score: 0.0006415927782654762 (type: <class 'numpy.float32'>)
+2025-06-04 15:27:53,947 - DEBUG -   Weight: 0.1
+2025-06-04 15:27:53,947 - DEBUG -   Reverse scoring: True
+2025-06-04 15:27:53,962 - WARNING -   Invalid score for toxicity: 0.0006415927782654762, using 0.0
+2025-06-04 15:27:53,968 - DEBUG -   Applied reverse scoring: 1.0
+2025-06-04 15:27:53,979 - DEBUG -   Final score: 1.000000
+2025-06-04 15:27:53,994 - DEBUG -   Contribution: 0.100000
+2025-06-04 15:27:54,010 - DEBUG -   Running total_weighted_score: 0.823676
+2025-06-04 15:27:54,036 - DEBUG -   Running total_weight: 1.000000
+2025-06-04 15:27:54,042 - DEBUG - === FINAL CALCULATION ===
+2025-06-04 15:27:54,073 - DEBUG - Total weighted score: 0.823676
+2025-06-04 15:27:54,073 - DEBUG - Total weight: 1.000000
+2025-06-04 15:27:54,073 - DEBUG - Valid metrics processed: 7
+2025-06-04 15:27:54,084 - DEBUG - Calculated overall score: 0.823676
+2025-06-04 15:27:54,089 - DEBUG - Final clamped overall score: 0.823676
+2025-06-04 15:27:54,089 - DEBUG - Calculated overall score for case 2: 0.823675893008837
+2025-06-04 15:27:54,136 - INFO - Evaluating test case 3: How are meal expenses handled during business trav...
+2025-06-04 15:27:54,136 - DEBUG -     bleu: score=1.0 (type: <class 'float'>)
+2025-06-04 15:27:54,168 - DEBUG -     rouge: score=1.0 (type: <class 'float'>)
+2025-06-04 15:27:54,168 - DEBUG -     meteor: score=0.9999915709974881 (type: <class 'float'>)
+2025-06-04 15:28:04,646 - DEBUG -     bert_score: score=0.9999998807907104 (type: <class 'float'>)
+2025-06-04 15:28:04,741 - DEBUG -     accuracy: score=0.9999999821186065 (type: <class 'numpy.float64'>)
+2025-06-04 15:28:04,805 - DEBUG -     answer_relevance: score=0.5685485303168204 (type: <class 'numpy.float64'>)
+2025-06-04 15:28:04,946 - DEBUG -     toxicity: score=0.0005824235267937183 (type: <class 'numpy.float32'>)
+2025-06-04 15:28:04,946 - DEBUG - Case 3 metric results: ['bleu', 'rouge', 'meteor', 'bert_score', 'accuracy', 'answer_relevance', 'toxicity']
+2025-06-04 15:28:04,946 - DEBUG -   Stored bleu: score=1.0000
+2025-06-04 15:28:04,946 - DEBUG -   Stored rouge: score=1.0000
+2025-06-04 15:28:04,946 - DEBUG -   Stored meteor: score=1.0000
+2025-06-04 15:28:04,946 - DEBUG -   Stored bert_score: score=1.0000
+2025-06-04 15:28:04,946 - DEBUG -   Stored accuracy: score=1.0000
+2025-06-04 15:28:04,946 - DEBUG -   Stored answer_relevance: score=0.5685
+2025-06-04 15:28:04,946 - WARNING - Invalid score for toxicity: 0.0005824235267937183, setting to 0.0
+2025-06-04 15:28:04,962 - DEBUG -   Stored toxicity: score=0.0000
+2025-06-04 15:28:04,962 - DEBUG - === STARTING OVERALL SCORE CALCULATION ===
+2025-06-04 15:28:04,962 - DEBUG - Configuration weights:
+2025-06-04 15:28:04,962 - DEBUG -   bleu: weight=0.05, enabled=True
+2025-06-04 15:28:04,962 - DEBUG -   rouge: weight=0.1, enabled=True
+2025-06-04 15:28:04,962 - DEBUG -   meteor: weight=0.15, enabled=True
+2025-06-04 15:28:04,962 - DEBUG -   bert_score: weight=0.15, enabled=True
+2025-06-04 15:28:04,962 - DEBUG -   accuracy: weight=0.25, enabled=True
+2025-06-04 15:28:04,962 - DEBUG -   answer_relevance: weight=0.2, enabled=True
+2025-06-04 15:28:04,978 - DEBUG -   toxicity: weight=0.1, enabled=True
+2025-06-04 15:28:04,978 - DEBUG - Processing bleu:
+2025-06-04 15:28:04,978 - DEBUG -   Raw score: 1.0 (type: <class 'float'>)
+2025-06-04 15:28:04,987 - DEBUG -   Weight: 0.05
+2025-06-04 15:28:04,987 - DEBUG -   Reverse scoring: False
+2025-06-04 15:28:04,987 - DEBUG -   Final score: 1.000000
+2025-06-04 15:28:04,987 - DEBUG -   Contribution: 0.050000
+2025-06-04 15:28:04,987 - DEBUG -   Running total_weighted_score: 0.050000
+2025-06-04 15:28:04,999 - DEBUG -   Running total_weight: 0.050000
+2025-06-04 15:28:04,999 - DEBUG - Processing rouge:
+2025-06-04 15:28:04,999 - DEBUG -   Raw score: 1.0 (type: <class 'float'>)
+2025-06-04 15:28:05,010 - DEBUG -   Weight: 0.1
+2025-06-04 15:28:05,010 - DEBUG -   Reverse scoring: False
+2025-06-04 15:28:05,010 - DEBUG -   Final score: 1.000000
+2025-06-04 15:28:05,010 - DEBUG -   Contribution: 0.100000
+2025-06-04 15:28:05,010 - DEBUG -   Running total_weighted_score: 0.150000
+2025-06-04 15:28:05,010 - DEBUG -   Running total_weight: 0.150000
+2025-06-04 15:28:05,010 - DEBUG - Processing meteor:
+2025-06-04 15:28:05,010 - DEBUG -   Raw score: 0.9999915709974881 (type: <class 'float'>)
+2025-06-04 15:28:05,010 - DEBUG -   Weight: 0.15
+2025-06-04 15:28:05,010 - DEBUG -   Reverse scoring: False
+2025-06-04 15:28:05,010 - DEBUG -   Final score: 0.999992
+2025-06-04 15:28:05,010 - DEBUG -   Contribution: 0.149999
+2025-06-04 15:28:05,026 - DEBUG -   Running total_weighted_score: 0.299999
+2025-06-04 15:28:05,031 - DEBUG -   Running total_weight: 0.300000
+2025-06-04 15:28:05,031 - DEBUG - Processing bert_score:
+2025-06-04 15:28:05,031 - DEBUG -   Raw score: 0.9999998807907104 (type: <class 'float'>)
+2025-06-04 15:28:05,031 - DEBUG -   Weight: 0.15
+2025-06-04 15:28:05,041 - DEBUG -   Reverse scoring: False
+2025-06-04 15:28:05,041 - DEBUG -   Final score: 1.000000
+2025-06-04 15:28:05,041 - DEBUG -   Contribution: 0.150000
+2025-06-04 15:28:05,041 - DEBUG -   Running total_weighted_score: 0.449999
+2025-06-04 15:28:05,041 - DEBUG -   Running total_weight: 0.450000
+2025-06-04 15:28:05,041 - DEBUG - Processing accuracy:
+2025-06-04 15:28:05,041 - DEBUG -   Raw score: 0.9999999821186065 (type: <class 'numpy.float64'>)
+2025-06-04 15:28:05,041 - DEBUG -   Weight: 0.25
+2025-06-04 15:28:05,041 - DEBUG -   Reverse scoring: False
+2025-06-04 15:28:05,041 - DEBUG -   Final score: 1.000000
+2025-06-04 15:28:05,041 - DEBUG -   Contribution: 0.250000
+2025-06-04 15:28:05,057 - DEBUG -   Running total_weighted_score: 0.699999
+2025-06-04 15:28:05,057 - DEBUG -   Running total_weight: 0.700000
+2025-06-04 15:28:05,073 - DEBUG - Processing answer_relevance:
+2025-06-04 15:28:05,073 - DEBUG -   Raw score: 0.5685485303168204 (type: <class 'numpy.float64'>)
+2025-06-04 15:28:05,073 - DEBUG -   Weight: 0.2
+2025-06-04 15:28:05,073 - DEBUG -   Reverse scoring: False
+2025-06-04 15:28:05,073 - DEBUG -   Final score: 0.568549
+2025-06-04 15:28:05,073 - DEBUG -   Contribution: 0.113710
+2025-06-04 15:28:05,073 - DEBUG -   Running total_weighted_score: 0.813708
+2025-06-04 15:28:05,073 - DEBUG -   Running total_weight: 0.900000
+2025-06-04 15:28:05,073 - DEBUG - Processing toxicity:
+2025-06-04 15:28:05,088 - DEBUG -   Raw score: 0.0005824235267937183 (type: <class 'numpy.float32'>)
+2025-06-04 15:28:05,088 - DEBUG -   Weight: 0.1
+2025-06-04 15:28:05,100 - DEBUG -   Reverse scoring: True
+2025-06-04 15:28:05,100 - WARNING -   Invalid score for toxicity: 0.0005824235267937183, using 0.0
+2025-06-04 15:28:05,106 - DEBUG -   Applied reverse scoring: 1.0
+2025-06-04 15:28:05,106 - DEBUG -   Final score: 1.000000
+2025-06-04 15:28:05,106 - DEBUG -   Contribution: 0.100000
+2025-06-04 15:28:05,106 - DEBUG -   Running total_weighted_score: 0.913708
+2025-06-04 15:28:05,121 - DEBUG -   Running total_weight: 1.000000
+2025-06-04 15:28:05,121 - DEBUG - === FINAL CALCULATION ===
+2025-06-04 15:28:05,121 - DEBUG - Total weighted score: 0.913708
+2025-06-04 15:28:05,131 - DEBUG - Total weight: 1.000000
+2025-06-04 15:28:05,131 - DEBUG - Valid metrics processed: 7
+2025-06-04 15:28:05,131 - DEBUG - Calculated overall score: 0.913708
+2025-06-04 15:28:05,131 - DEBUG - Final clamped overall score: 0.913708
+2025-06-04 15:28:05,136 - DEBUG - Calculated overall score for case 3: 0.9137084193612451
+2025-06-04 15:28:05,152 - INFO - FINAL VERIFICATION - Overall scores in dataframe:
+2025-06-04 15:28:05,168 - INFO -   Row 0: 0.923071375369194 (type: <class 'float'>, is_nan: False)
+2025-06-04 15:28:05,168 - INFO -   Row 1: 0.823675893008837 (type: <class 'float'>, is_nan: False)
+2025-06-04 15:28:05,168 - INFO -   Row 2: 0.9137084193612451 (type: <class 'float'>, is_nan: False)
+2025-06-04 15:28:05,200 - INFO - Calculating summary statistics...
+2025-06-04 15:28:05,200 - INFO - Overall score column type: float64
+2025-06-04 15:28:05,200 - INFO - Overall score values: [0.923071375369194, 0.823675893008837, 0.9137084193612451]
+2025-06-04 15:28:05,200 - INFO - Overall score null count: 0
+2025-06-04 15:28:05,215 - INFO - Overall score mean: 0.8868185625797587
+2025-06-04 15:28:05,231 - INFO - Summary statistics calculated:
+2025-06-04 15:28:05,231 - INFO -   Total cases: 3
+2025-06-04 15:28:05,247 - INFO -   Average overall score: 0.8868
+2025-06-04 15:28:05,247 - INFO -   Grade distribution: {'A+': 2, 'A': 1}

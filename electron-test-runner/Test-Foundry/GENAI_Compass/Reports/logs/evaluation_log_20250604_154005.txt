@@ -1,0 +1,83 @@
+2025-06-04 15:40:05,127 - INFO - ============================================================
+2025-06-04 15:40:05,127 - INFO - NLP EVALUATION FRAMEWORK - ULTIMATE FIX VERSION
+2025-06-04 15:40:05,127 - INFO - ============================================================
+2025-06-04 15:40:05,127 - INFO - Log file: C:\GENAI_Compass\Reports\logs\evaluation_log_20250604_154005.txt
+2025-06-04 15:40:05,127 - INFO - Config file: ../config/metrics_config.yaml
+2025-06-04 15:40:05,127 - INFO - Weight validation - Total: 1.0000000000000002, Enabled: ['bleu=0.05', 'rouge=0.1', 'meteor=0.15', 'bert_score=0.15', 'accuracy=0.25', 'answer_relevance=0.2', 'toxicity=0.1']
+2025-06-04 15:40:05,127 - INFO - ULTIMATE FIX: Starting evaluation of 3 test cases...
+2025-06-04 15:40:05,127 - INFO - Processing 3 enabled test cases
+2025-06-04 15:40:05,127 - INFO - === CASE 1 ===
+2025-06-04 15:40:05,127 - INFO - Prompt: What types of expenses are not reimbursed by the c...
+2025-06-04 15:40:18,264 - INFO -   bleu: 1.0000
+2025-06-04 15:40:18,264 - INFO -   rouge: 1.0000
+2025-06-04 15:40:18,264 - INFO -   meteor: 1.0000
+2025-06-04 15:40:18,264 - INFO -   bert_score: 1.0000
+2025-06-04 15:40:18,264 - INFO -   accuracy: 1.0000
+2025-06-04 15:40:18,264 - INFO -   answer_relevance: 0.6154
+2025-06-04 15:40:18,279 - INFO -   toxicity: 0.0007
+2025-06-04 15:40:18,279 - DEBUG - === ULTIMATE OVERALL SCORE CALCULATION (Case 1) ===
+2025-06-04 15:40:18,279 - DEBUG -     bleu: score=1.0000, weight=0.0500, contrib=0.0500
+2025-06-04 15:40:18,279 - DEBUG -     rouge: score=1.0000, weight=0.1000, contrib=0.1000
+2025-06-04 15:40:18,279 - DEBUG -     meteor: score=1.0000, weight=0.1500, contrib=0.1500
+2025-06-04 15:40:18,279 - DEBUG -     bert_score: score=1.0000, weight=0.1500, contrib=0.1500
+2025-06-04 15:40:18,295 - DEBUG -     accuracy: score=1.0000, weight=0.2500, contrib=0.2500
+2025-06-04 15:40:18,295 - DEBUG -     answer_relevance: score=0.6154, weight=0.2000, contrib=0.1231
+2025-06-04 15:40:18,311 - DEBUG -     toxicity: score=0.9993, weight=0.1000, contrib=0.0999
+2025-06-04 15:40:18,317 - DEBUG -     Processed metrics: ['bleu', 'rouge', 'meteor', 'bert_score', 'accuracy', 'answer_relevance', 'toxicity']
+2025-06-04 15:40:18,317 - DEBUG -     Total weighted score: 0.923006
+2025-06-04 15:40:18,335 - DEBUG -     Total weight: 1.000000
+2025-06-04 15:40:18,337 - DEBUG -     Calculated overall: 0.923006
+2025-06-04 15:40:18,460 - INFO - === CASE 2 ===
+2025-06-04 15:40:18,460 - INFO - Prompt: Under what conditions will MCUL & CUSG reimburse s...
+2025-06-04 15:40:30,475 - INFO -   bleu: 0.4651
+2025-06-04 15:40:30,475 - INFO -   rouge: 0.6835
+2025-06-04 15:40:30,475 - INFO -   meteor: 0.9192
+2025-06-04 15:40:30,475 - INFO -   bert_score: 0.7559
+2025-06-04 15:40:30,475 - INFO -   accuracy: 0.9107
+2025-06-04 15:40:30,475 - INFO -   answer_relevance: 0.7657
+2025-06-04 15:40:30,475 - INFO -   toxicity: 0.0006
+2025-06-04 15:40:30,475 - DEBUG - === ULTIMATE OVERALL SCORE CALCULATION (Case 2) ===
+2025-06-04 15:40:30,475 - DEBUG -     bleu: score=0.4651, weight=0.0500, contrib=0.0233
+2025-06-04 15:40:30,475 - DEBUG -     rouge: score=0.6835, weight=0.1000, contrib=0.0683
+2025-06-04 15:40:30,475 - DEBUG -     meteor: score=0.9192, weight=0.1500, contrib=0.1379
+2025-06-04 15:40:30,491 - DEBUG -     bert_score: score=0.7559, weight=0.1500, contrib=0.1134
+2025-06-04 15:40:30,491 - DEBUG -     accuracy: score=0.9107, weight=0.2500, contrib=0.2277
+2025-06-04 15:40:30,491 - DEBUG -     answer_relevance: score=0.7657, weight=0.2000, contrib=0.1531
+2025-06-04 15:40:30,491 - DEBUG -     toxicity: score=0.9994, weight=0.1000, contrib=0.0999
+2025-06-04 15:40:30,491 - DEBUG -     Processed metrics: ['bleu', 'rouge', 'meteor', 'bert_score', 'accuracy', 'answer_relevance', 'toxicity']
+2025-06-04 15:40:30,491 - DEBUG -     Total weighted score: 0.823612
+2025-06-04 15:40:30,491 - DEBUG -     Total weight: 1.000000
+2025-06-04 15:40:30,491 - DEBUG -     Calculated overall: 0.823612
+2025-06-04 15:40:30,535 - INFO - === CASE 3 ===
+2025-06-04 15:40:30,535 - INFO - Prompt: How are meal expenses handled during business trav...
+2025-06-04 15:40:40,000 - INFO -   bleu: 1.0000
+2025-06-04 15:40:40,000 - INFO -   rouge: 1.0000
+2025-06-04 15:40:40,000 - INFO -   meteor: 1.0000
+2025-06-04 15:40:40,000 - INFO -   bert_score: 1.0000
+2025-06-04 15:40:40,000 - INFO -   accuracy: 1.0000
+2025-06-04 15:40:40,016 - INFO -   answer_relevance: 0.5685
+2025-06-04 15:40:40,016 - INFO -   toxicity: 0.0006
+2025-06-04 15:40:40,016 - DEBUG - === ULTIMATE OVERALL SCORE CALCULATION (Case 3) ===
+2025-06-04 15:40:40,016 - DEBUG -     bleu: score=1.0000, weight=0.0500, contrib=0.0500
+2025-06-04 15:40:40,016 - DEBUG -     rouge: score=1.0000, weight=0.1000, contrib=0.1000
+2025-06-04 15:40:40,016 - DEBUG -     meteor: score=1.0000, weight=0.1500, contrib=0.1500
+2025-06-04 15:40:40,026 - DEBUG -     bert_score: score=1.0000, weight=0.1500, contrib=0.1500
+2025-06-04 15:40:40,026 - DEBUG -     accuracy: score=1.0000, weight=0.2500, contrib=0.2500
+2025-06-04 15:40:40,026 - DEBUG -     answer_relevance: score=0.5685, weight=0.2000, contrib=0.1137
+2025-06-04 15:40:40,026 - DEBUG -     toxicity: score=0.9994, weight=0.1000, contrib=0.0999
+2025-06-04 15:40:40,026 - DEBUG -     Processed metrics: ['bleu', 'rouge', 'meteor', 'bert_score', 'accuracy', 'answer_relevance', 'toxicity']
+2025-06-04 15:40:40,032 - DEBUG -     Total weighted score: 0.913650
+2025-06-04 15:40:40,032 - DEBUG -     Total weight: 1.000000
+2025-06-04 15:40:40,032 - DEBUG -     Calculated overall: 0.913650
+2025-06-04 15:40:40,079 - INFO - === FINAL VERIFICATION ===
+2025-06-04 15:40:40,079 - INFO - Results shape: (3, 21)
+2025-06-04 15:40:40,079 - INFO - Overall score dtype: float64
+2025-06-04 15:40:40,079 - INFO - Overall score range: 0.8236 - 0.9230
+2025-06-04 15:40:40,079 - INFO - Overall score mean: 0.8868
+2025-06-04 15:40:40,095 - INFO - NaN count: 0
+2025-06-04 15:40:40,095 - INFO -   Row 0: 0.9230
+2025-06-04 15:40:40,110 - INFO -   Row 1: 0.8236
+2025-06-04 15:40:40,110 - INFO -   Row 2: 0.9137
+2025-06-04 15:40:40,152 - INFO - Calculating summary statistics...
+2025-06-04 15:40:40,152 - INFO - Overall scores for summary: [0.9230060282941974, 0.8236117337310105, 0.9136501770085658]
+2025-06-04 15:40:40,158 - INFO - Summary calculated - Mean: 0.8868

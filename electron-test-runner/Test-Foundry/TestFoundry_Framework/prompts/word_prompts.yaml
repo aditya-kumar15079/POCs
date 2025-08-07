@@ -1,0 +1,63 @@
+# Word Document Processing Prompts for TestFoundry Framework
+
+qa_generation:
+  main_prompt: |
+    You are analyzing a Word document. Based on the following content extracted from the document, generate {num_questions} comprehensive question-answer pairs that test understanding of the material.
+
+    Word Document Content:
+    {content}
+
+    Instructions:
+    1. Generate diverse question types (factual, analytical, conceptual, procedural)
+    2. Keep questions concise and focused (15-25 words maximum)
+    3. Provide DETAILED, comprehensive answers (40-100 words each)
+    4. Include background context, explanations, and implications in answers
+    5. Explain WHY policies/procedures exist, not just WHAT they are
+    6. Include examples or scenarios when relevant
+    7. Focus on document structure, key concepts, and detailed information
+    8. Reference sections or page numbers when applicable
+    9. Ensure answers are educational and thorough
+    10. Format each Q&A pair as:
+        Q: [concise, focused question]
+        A: [detailed, comprehensive answer with context and explanation]
+
+    Answer Quality Requirements:
+    - Minimum 40 words per answer
+    - Include context and background information
+    - Explain the reasoning behind policies/procedures
+    - Provide practical implications and applications
+    - Use specific details from the document
+    - Make answers educational and thorough
+
+    Question-Answer Pairs:
+
+  context_prompt: |
+    This content is from a Word document: {document_name}
+    Focus on testing comprehension of:
+    - Document structure and hierarchy (headings, sections)
+    - Key concepts and main points with detailed explanations
+    - Detailed information and supporting facts
+    - Relationships between different parts
+    - Tables and structured data if present
+    Generate questions that require detailed, explanatory answers.
+
+follow_up_generation:
+  prompt: |
+    Based on this Q&A pair from a Word document, generate 2 follow-up questions that:
+    1. Test deeper understanding of the concept with detailed explanations
+    2. Explore practical applications with comprehensive scenarios
+    3. Connect to other document sections
+    4. Require detailed, educational responses (50+ words each)
+    
+    Original Q&A:
+    Q: {question}
+    A: {answer}
+    
+    Follow-up questions should test analysis and synthesis skills with detailed answers.
+
+quality_criteria:
+  - Questions should be concise but answers should be comprehensive and detailed
+  - Test both specific details and overall comprehension with explanatory depth
+  - Include questions about document formatting when relevant
+  - Vary complexity from basic recall to analytical thinking with detailed responses
+  - Ensure answers are complete, educational, and well-structured

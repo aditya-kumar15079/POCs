@@ -1,0 +1,214 @@
+2025-06-04 17:20:24,585 - INFO - ============================================================
+2025-06-04 17:20:24,585 - INFO - NLP EVALUATION FRAMEWORK - FINAL WORKING VERSION
+2025-06-04 17:20:24,585 - INFO - ============================================================
+2025-06-04 17:20:24,585 - INFO - Log file: C:\GENAI_Compass\Reports\logs\evaluation_log_20250604_172024.txt
+2025-06-04 17:20:24,585 - INFO - Config file: ../config/metrics_config.yaml
+2025-06-04 17:20:24,585 - INFO - Weight validation - Total: 1.0000000000000002, Enabled: ['bleu=0.05', 'rouge=0.1', 'meteor=0.15', 'bert_score=0.15', 'accuracy=0.25', 'answer_relevance=0.2', 'toxicity=0.1']
+2025-06-04 17:20:24,585 - INFO - FINAL WORKING: Starting evaluation of 10 test cases...
+2025-06-04 17:20:24,585 - INFO - Processing 10 enabled test cases
+2025-06-04 17:20:24,585 - INFO - === CASE 1 ===
+2025-06-04 17:20:36,082 - INFO -   bleu: 0.7749
+2025-06-04 17:20:36,082 - INFO -   rouge: 0.8002
+2025-06-04 17:20:36,082 - INFO -   meteor: 0.9381
+2025-06-04 17:20:36,082 - INFO -   bert_score: 0.9363
+2025-06-04 17:20:36,082 - INFO -   accuracy: 0.9936
+2025-06-04 17:20:36,082 - INFO -   answer_relevance: 0.8498
+2025-06-04 17:20:36,082 - INFO -   toxicity: 0.0006
+2025-06-04 17:20:36,082 - DEBUG - === OVERALL SCORE CALCULATION (Case 1) ===
+2025-06-04 17:20:36,098 - DEBUG -     bleu: score=0.7749, weight=0.0500, contrib=0.0387
+2025-06-04 17:20:36,100 - DEBUG -     rouge: score=0.8002, weight=0.1000, contrib=0.0800
+2025-06-04 17:20:36,100 - DEBUG -     meteor: score=0.9381, weight=0.1500, contrib=0.1407
+2025-06-04 17:20:36,100 - DEBUG -     bert_score: score=0.9363, weight=0.1500, contrib=0.1404
+2025-06-04 17:20:36,100 - DEBUG -     accuracy: score=0.9936, weight=0.2500, contrib=0.2484
+2025-06-04 17:20:36,100 - DEBUG -     answer_relevance: score=0.8498, weight=0.2000, contrib=0.1700
+2025-06-04 17:20:36,114 - DEBUG -     toxicity: score=0.9994, weight=0.1000, contrib=0.0999
+2025-06-04 17:20:36,114 - DEBUG -     Total weighted score: 0.918205
+2025-06-04 17:20:36,114 - DEBUG -     Total weight: 1.000000
+2025-06-04 17:20:36,124 - DEBUG -     Calculated overall: 0.918205
+2025-06-04 17:20:36,213 - INFO - === CASE 2 ===
+2025-06-04 17:20:45,713 - INFO -   bleu: 0.6967
+2025-06-04 17:20:45,713 - INFO -   rouge: 0.8421
+2025-06-04 17:20:45,713 - INFO -   meteor: 0.9148
+2025-06-04 17:20:45,713 - INFO -   bert_score: 0.9441
+2025-06-04 17:20:45,713 - INFO -   accuracy: 0.8188
+2025-06-04 17:20:45,728 - INFO -   answer_relevance: 0.7951
+2025-06-04 17:20:45,728 - INFO -   toxicity: 0.0006
+2025-06-04 17:20:45,728 - DEBUG - === OVERALL SCORE CALCULATION (Case 2) ===
+2025-06-04 17:20:45,728 - DEBUG -     bleu: score=0.6967, weight=0.0500, contrib=0.0348
+2025-06-04 17:20:45,728 - DEBUG -     rouge: score=0.8421, weight=0.1000, contrib=0.0842
+2025-06-04 17:20:45,728 - DEBUG -     meteor: score=0.9148, weight=0.1500, contrib=0.1372
+2025-06-04 17:20:45,728 - DEBUG -     bert_score: score=0.9441, weight=0.1500, contrib=0.1416
+2025-06-04 17:20:45,743 - DEBUG -     accuracy: score=0.8188, weight=0.2500, contrib=0.2047
+2025-06-04 17:20:45,743 - DEBUG -     answer_relevance: score=0.7951, weight=0.2000, contrib=0.1590
+2025-06-04 17:20:45,743 - DEBUG -     toxicity: score=0.9994, weight=0.1000, contrib=0.0999
+2025-06-04 17:20:45,743 - DEBUG -     Total weighted score: 0.861564
+2025-06-04 17:20:45,743 - DEBUG -     Total weight: 1.000000
+2025-06-04 17:20:45,758 - DEBUG -     Calculated overall: 0.861564
+2025-06-04 17:20:45,807 - INFO - === CASE 3 ===
+2025-06-04 17:20:54,624 - INFO -   bleu: 0.6484
+2025-06-04 17:20:54,626 - INFO -   rouge: 0.7399
+2025-06-04 17:20:54,635 - INFO -   meteor: 0.8221
+2025-06-04 17:20:54,647 - INFO -   bert_score: 0.9059
+2025-06-04 17:20:54,657 - INFO -   accuracy: 0.7569
+2025-06-04 17:20:54,663 - INFO -   answer_relevance: 0.8318
+2025-06-04 17:20:54,669 - INFO -   toxicity: 0.0009
+2025-06-04 17:20:54,684 - DEBUG - === OVERALL SCORE CALCULATION (Case 3) ===
+2025-06-04 17:20:54,704 - DEBUG -     bleu: score=0.6484, weight=0.0500, contrib=0.0324
+2025-06-04 17:20:54,718 - DEBUG -     rouge: score=0.7399, weight=0.1000, contrib=0.0740
+2025-06-04 17:20:54,722 - DEBUG -     meteor: score=0.8221, weight=0.1500, contrib=0.1233
+2025-06-04 17:20:54,729 - DEBUG -     bert_score: score=0.9059, weight=0.1500, contrib=0.1359
+2025-06-04 17:20:54,751 - DEBUG -     accuracy: score=0.7569, weight=0.2500, contrib=0.1892
+2025-06-04 17:20:54,769 - DEBUG -     answer_relevance: score=0.8318, weight=0.2000, contrib=0.1664
+2025-06-04 17:20:54,778 - DEBUG -     toxicity: score=0.9991, weight=0.1000, contrib=0.0999
+2025-06-04 17:20:54,783 - DEBUG -     Total weighted score: 0.821104
+2025-06-04 17:20:54,785 - DEBUG -     Total weight: 1.000000
+2025-06-04 17:20:54,786 - DEBUG -     Calculated overall: 0.821104
+2025-06-04 17:20:54,838 - INFO - === CASE 4 ===
+2025-06-04 17:21:03,534 - INFO -   bleu: 0.4561
+2025-06-04 17:21:03,534 - INFO -   rouge: 0.5866
+2025-06-04 17:21:03,534 - INFO -   meteor: 0.6730
+2025-06-04 17:21:03,534 - INFO -   bert_score: 0.8141
+2025-06-04 17:21:03,534 - INFO -   accuracy: 0.6667
+2025-06-04 17:21:03,534 - INFO -   answer_relevance: 0.6149
+2025-06-04 17:21:03,534 - INFO -   toxicity: 0.0006
+2025-06-04 17:21:03,534 - DEBUG - === OVERALL SCORE CALCULATION (Case 4) ===
+2025-06-04 17:21:03,551 - DEBUG -     bleu: score=0.4561, weight=0.0500, contrib=0.0228
+2025-06-04 17:21:03,558 - DEBUG -     rouge: score=0.5866, weight=0.1000, contrib=0.0587
+2025-06-04 17:21:03,558 - DEBUG -     meteor: score=0.6730, weight=0.1500, contrib=0.1009
+2025-06-04 17:21:03,582 - DEBUG -     bert_score: score=0.8141, weight=0.1500, contrib=0.1221
+2025-06-04 17:21:03,597 - DEBUG -     accuracy: score=0.6667, weight=0.2500, contrib=0.1667
+2025-06-04 17:21:03,619 - DEBUG -     answer_relevance: score=0.6149, weight=0.2000, contrib=0.1230
+2025-06-04 17:21:03,644 - DEBUG -     toxicity: score=0.9994, weight=0.1000, contrib=0.0999
+2025-06-04 17:21:03,660 - DEBUG -     Total weighted score: 0.694118
+2025-06-04 17:21:03,660 - DEBUG -     Total weight: 1.000000
+2025-06-04 17:21:03,660 - DEBUG -     Calculated overall: 0.694118
+2025-06-04 17:21:03,724 - INFO - === CASE 5 ===
+2025-06-04 17:21:14,205 - INFO -   bleu: 0.0513
+2025-06-04 17:21:14,205 - INFO -   rouge: 0.2467
+2025-06-04 17:21:14,205 - INFO -   meteor: 0.4694
+2025-06-04 17:21:14,221 - INFO -   bert_score: 0.6707
+2025-06-04 17:21:14,222 - INFO -   accuracy: 0.4469
+2025-06-04 17:21:14,222 - INFO -   answer_relevance: 0.7176
+2025-06-04 17:21:14,222 - INFO -   toxicity: 0.0006
+2025-06-04 17:21:14,222 - DEBUG - === OVERALL SCORE CALCULATION (Case 5) ===
+2025-06-04 17:21:14,222 - DEBUG -     bleu: score=0.0513, weight=0.0500, contrib=0.0026
+2025-06-04 17:21:14,222 - DEBUG -     rouge: score=0.2467, weight=0.1000, contrib=0.0247
+2025-06-04 17:21:14,222 - DEBUG -     meteor: score=0.4694, weight=0.1500, contrib=0.0704
+2025-06-04 17:21:14,232 - DEBUG -     bert_score: score=0.6707, weight=0.1500, contrib=0.1006
+2025-06-04 17:21:14,232 - DEBUG -     accuracy: score=0.4469, weight=0.2500, contrib=0.1117
+2025-06-04 17:21:14,232 - DEBUG -     answer_relevance: score=0.7176, weight=0.2000, contrib=0.1435
+2025-06-04 17:21:14,236 - DEBUG -     toxicity: score=0.9994, weight=0.1000, contrib=0.0999
+2025-06-04 17:21:14,238 - DEBUG -     Total weighted score: 0.553442
+2025-06-04 17:21:14,238 - DEBUG -     Total weight: 1.000000
+2025-06-04 17:21:14,238 - DEBUG -     Calculated overall: 0.553442
+2025-06-04 17:21:14,284 - INFO - === CASE 6 ===
+2025-06-04 17:21:23,784 - INFO -   bleu: 0.3503
+2025-06-04 17:21:23,784 - INFO -   rouge: 0.5766
+2025-06-04 17:21:23,786 - INFO -   meteor: 0.6453
+2025-06-04 17:21:23,786 - INFO -   bert_score: 0.8173
+2025-06-04 17:21:23,786 - INFO -   accuracy: 0.5507
+2025-06-04 17:21:23,786 - INFO -   answer_relevance: 0.8275
+2025-06-04 17:21:23,786 - INFO -   toxicity: 0.0006
+2025-06-04 17:21:23,786 - DEBUG - === OVERALL SCORE CALCULATION (Case 6) ===
+2025-06-04 17:21:23,786 - DEBUG -     bleu: score=0.3503, weight=0.0500, contrib=0.0175
+2025-06-04 17:21:23,802 - DEBUG -     rouge: score=0.5766, weight=0.1000, contrib=0.0577
+2025-06-04 17:21:23,812 - DEBUG -     meteor: score=0.6453, weight=0.1500, contrib=0.0968
+2025-06-04 17:21:23,813 - DEBUG -     bert_score: score=0.8173, weight=0.1500, contrib=0.1226
+2025-06-04 17:21:23,816 - DEBUG -     accuracy: score=0.5507, weight=0.2500, contrib=0.1377
+2025-06-04 17:21:23,818 - DEBUG -     answer_relevance: score=0.8275, weight=0.2000, contrib=0.1655
+2025-06-04 17:21:23,833 - DEBUG -     toxicity: score=0.9994, weight=0.1000, contrib=0.0999
+2025-06-04 17:21:23,833 - DEBUG -     Total weighted score: 0.697696
+2025-06-04 17:21:23,833 - DEBUG -     Total weight: 1.000000
+2025-06-04 17:21:23,833 - DEBUG -     Calculated overall: 0.697696
+2025-06-04 17:21:23,896 - INFO - === CASE 7 ===
+2025-06-04 17:21:33,417 - INFO -   bleu: 0.7004
+2025-06-04 17:21:33,426 - INFO -   rouge: 0.8500
+2025-06-04 17:21:33,426 - INFO -   meteor: 0.8321
+2025-06-04 17:21:33,426 - INFO -   bert_score: 0.9608
+2025-06-04 17:21:33,431 - INFO -   accuracy: 0.7647
+2025-06-04 17:21:33,431 - INFO -   answer_relevance: 0.6876
+2025-06-04 17:21:33,431 - INFO -   toxicity: 0.0006
+2025-06-04 17:21:33,431 - DEBUG - === OVERALL SCORE CALCULATION (Case 7) ===
+2025-06-04 17:21:33,431 - DEBUG -     bleu: score=0.7004, weight=0.0500, contrib=0.0350
+2025-06-04 17:21:33,431 - DEBUG -     rouge: score=0.8500, weight=0.1000, contrib=0.0850
+2025-06-04 17:21:33,448 - DEBUG -     meteor: score=0.8321, weight=0.1500, contrib=0.1248
+2025-06-04 17:21:33,452 - DEBUG -     bert_score: score=0.9608, weight=0.1500, contrib=0.1441
+2025-06-04 17:21:33,452 - DEBUG -     accuracy: score=0.7647, weight=0.2500, contrib=0.1912
+2025-06-04 17:21:33,452 - DEBUG -     answer_relevance: score=0.6876, weight=0.2000, contrib=0.1375
+2025-06-04 17:21:33,452 - DEBUG -     toxicity: score=0.9994, weight=0.1000, contrib=0.0999
+2025-06-04 17:21:33,463 - DEBUG -     Total weighted score: 0.817593
+2025-06-04 17:21:33,468 - DEBUG -     Total weight: 1.000000
+2025-06-04 17:21:33,468 - DEBUG -     Calculated overall: 0.817593
+2025-06-04 17:21:33,511 - INFO - === CASE 8 ===
+2025-06-04 17:21:42,557 - INFO -   bleu: 0.4445
+2025-06-04 17:21:42,557 - INFO -   rouge: 0.7316
+2025-06-04 17:21:42,574 - INFO -   meteor: 0.8307
+2025-06-04 17:21:42,583 - INFO -   bert_score: 0.9268
+2025-06-04 17:21:42,588 - INFO -   accuracy: 0.9374
+2025-06-04 17:21:42,604 - INFO -   answer_relevance: 0.7383
+2025-06-04 17:21:42,604 - INFO -   toxicity: 0.0008
+2025-06-04 17:21:42,604 - DEBUG - === OVERALL SCORE CALCULATION (Case 8) ===
+2025-06-04 17:21:42,620 - DEBUG -     bleu: score=0.4445, weight=0.0500, contrib=0.0222
+2025-06-04 17:21:42,635 - DEBUG -     rouge: score=0.7316, weight=0.1000, contrib=0.0732
+2025-06-04 17:21:42,635 - DEBUG -     meteor: score=0.8307, weight=0.1500, contrib=0.1246
+2025-06-04 17:21:42,635 - DEBUG -     bert_score: score=0.9268, weight=0.1500, contrib=0.1390
+2025-06-04 17:21:42,635 - DEBUG -     accuracy: score=0.9374, weight=0.2500, contrib=0.2344
+2025-06-04 17:21:42,652 - DEBUG -     answer_relevance: score=0.7383, weight=0.2000, contrib=0.1477
+2025-06-04 17:21:42,668 - DEBUG -     toxicity: score=0.9992, weight=0.1000, contrib=0.0999
+2025-06-04 17:21:42,683 - DEBUG -     Total weighted score: 0.840943
+2025-06-04 17:21:42,683 - DEBUG -     Total weight: 1.000000
+2025-06-04 17:21:42,683 - DEBUG -     Calculated overall: 0.840943
+2025-06-04 17:21:42,761 - INFO - === CASE 9 ===
+2025-06-04 17:21:53,648 - INFO -   bleu: 0.0067
+2025-06-04 17:21:53,650 - INFO -   rouge: 0.0351
+2025-06-04 17:21:53,652 - INFO -   meteor: 0.0424
+2025-06-04 17:21:53,654 - INFO -   bert_score: 0.4184
+2025-06-04 17:21:53,655 - INFO -   accuracy: 0.0268
+2025-06-04 17:21:53,657 - INFO -   answer_relevance: 0.0345
+2025-06-04 17:21:53,658 - INFO -   toxicity: 0.0006
+2025-06-04 17:21:53,659 - DEBUG - === OVERALL SCORE CALCULATION (Case 9) ===
+2025-06-04 17:21:53,661 - DEBUG -     bleu: score=0.0067, weight=0.0500, contrib=0.0003
+2025-06-04 17:21:53,662 - DEBUG -     rouge: score=0.0351, weight=0.1000, contrib=0.0035
+2025-06-04 17:21:53,663 - DEBUG -     meteor: score=0.0424, weight=0.1500, contrib=0.0064
+2025-06-04 17:21:53,664 - DEBUG -     bert_score: score=0.4184, weight=0.1500, contrib=0.0628
+2025-06-04 17:21:53,666 - DEBUG -     accuracy: score=0.0268, weight=0.2500, contrib=0.0067
+2025-06-04 17:21:53,666 - DEBUG -     answer_relevance: score=0.0345, weight=0.2000, contrib=0.0069
+2025-06-04 17:21:53,668 - DEBUG -     toxicity: score=0.9994, weight=0.1000, contrib=0.0999
+2025-06-04 17:21:53,668 - DEBUG -     Total weighted score: 0.186523
+2025-06-04 17:21:53,669 - DEBUG -     Total weight: 1.000000
+2025-06-04 17:21:53,670 - DEBUG -     Calculated overall: 0.186523
+2025-06-04 17:21:53,684 - INFO - === CASE 10 ===
+2025-06-04 17:22:03,196 - INFO -   bleu: 0.7692
+2025-06-04 17:22:03,197 - INFO -   rouge: 0.8838
+2025-06-04 17:22:03,199 - INFO -   meteor: 0.9139
+2025-06-04 17:22:03,200 - INFO -   bert_score: 0.9923
+2025-06-04 17:22:03,201 - INFO -   accuracy: 0.9830
+2025-06-04 17:22:03,202 - INFO -   answer_relevance: 0.6538
+2025-06-04 17:22:03,203 - INFO -   toxicity: 0.0006
+2025-06-04 17:22:03,204 - DEBUG - === OVERALL SCORE CALCULATION (Case 10) ===
+2025-06-04 17:22:03,205 - DEBUG -     bleu: score=0.7692, weight=0.0500, contrib=0.0385
+2025-06-04 17:22:03,209 - DEBUG -     rouge: score=0.8838, weight=0.1000, contrib=0.0884
+2025-06-04 17:22:03,209 - DEBUG -     meteor: score=0.9139, weight=0.1500, contrib=0.1371
+2025-06-04 17:22:03,209 - DEBUG -     bert_score: score=0.9923, weight=0.1500, contrib=0.1488
+2025-06-04 17:22:03,209 - DEBUG -     accuracy: score=0.9830, weight=0.2500, contrib=0.2458
+2025-06-04 17:22:03,209 - DEBUG -     answer_relevance: score=0.6538, weight=0.2000, contrib=0.1308
+2025-06-04 17:22:03,209 - DEBUG -     toxicity: score=0.9994, weight=0.1000, contrib=0.0999
+2025-06-04 17:22:03,223 - DEBUG -     Total weighted score: 0.889241
+2025-06-04 17:22:03,231 - DEBUG -     Total weight: 1.000000
+2025-06-04 17:22:03,240 - DEBUG -     Calculated overall: 0.889241
+2025-06-04 17:22:03,274 - INFO - === FINAL VERIFICATION ===
+2025-06-04 17:22:03,274 - INFO - Overall score dtype: float64
+2025-06-04 17:22:03,274 - INFO - Overall score range: 0.1865 - 0.9182
+2025-06-04 17:22:03,274 - INFO - All overall scores are numeric: True
+2025-06-04 17:22:03,274 - INFO -   Row 0: 0.9182 (type: <class 'float'>)
+2025-06-04 17:22:03,274 - INFO -   Row 1: 0.8616 (type: <class 'float'>)
+2025-06-04 17:22:03,292 - INFO -   Row 2: 0.8211 (type: <class 'float'>)
+2025-06-04 17:22:03,296 - INFO -   Row 3: 0.6941 (type: <class 'float'>)
+2025-06-04 17:22:03,297 - INFO -   Row 4: 0.5534 (type: <class 'float'>)
+2025-06-04 17:22:03,303 - INFO -   Row 5: 0.6977 (type: <class 'float'>)
+2025-06-04 17:22:03,304 - INFO -   Row 6: 0.8176 (type: <class 'float'>)
+2025-06-04 17:22:03,306 - INFO -   Row 7: 0.8409 (type: <class 'float'>)
+2025-06-04 17:22:03,309 - INFO -   Row 8: 0.1865 (type: <class 'float'>)
+2025-06-04 17:22:03,309 - INFO -   Row 9: 0.8892 (type: <class 'float'>)
+2025-06-04 17:22:03,340 - INFO - Calculating summary statistics...
+2025-06-04 17:22:03,365 - INFO - Summary calculated - Mean: 0.7280

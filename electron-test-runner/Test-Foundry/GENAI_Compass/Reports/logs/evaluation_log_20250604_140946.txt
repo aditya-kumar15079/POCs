@@ -1,0 +1,36 @@
+2025-06-04 14:09:46,378 - INFO - ============================================================
+2025-06-04 14:09:46,378 - INFO - NLP EVALUATION FRAMEWORK - EXECUTION LOG
+2025-06-04 14:09:46,379 - INFO - ============================================================
+2025-06-04 14:09:46,379 - INFO - Log file: C:\GENAI_Compass\Reports\logs\evaluation_log_20250604_140946.txt
+2025-06-04 14:09:46,379 - INFO - Config file: ../config/metrics_config.yaml
+2025-06-04 14:09:46,380 - INFO - Starting evaluation of 3 test cases...
+2025-06-04 14:09:46,381 - INFO - Evaluating 3 enabled test cases
+2025-06-04 14:09:46,383 - INFO - Evaluating test case 1: What types of expenses are not reimbursed by the c...
+2025-06-04 14:09:57,379 - INFO -   meteor: 1.0000
+2025-06-04 14:09:57,379 - INFO -   bert_score: 1.0000
+2025-06-04 14:09:57,379 - INFO -   accuracy: 1.0000
+2025-06-04 14:09:57,379 - INFO -   answer_relevance: 0.6154
+2025-06-04 14:09:57,379 - INFO -   toxicity: 0.0007
+2025-06-04 14:09:57,395 - WARNING - Non-numeric score for toxicity: 0.0006534707499668002
+2025-06-04 14:09:57,395 - INFO -   Overall score: 0.9359 (Grade: A+)
+2025-06-04 14:09:57,395 - INFO - Evaluating test case 2: Under what conditions will MCUL & CUSG reimburse s...
+2025-06-04 14:10:08,777 - INFO -   meteor: 0.9192
+2025-06-04 14:10:08,777 - INFO -   bert_score: 0.7559
+2025-06-04 14:10:08,777 - INFO -   accuracy: 0.9107
+2025-06-04 14:10:08,777 - INFO -   answer_relevance: 0.7657
+2025-06-04 14:10:08,777 - INFO -   toxicity: 0.0006
+2025-06-04 14:10:08,777 - WARNING - Non-numeric score for toxicity: 0.0006415927782654762
+2025-06-04 14:10:08,777 - INFO -   Overall score: 0.8540 (Grade: A)
+2025-06-04 14:10:08,777 - INFO - Evaluating test case 3: How are meal expenses handled during business trav...
+2025-06-04 14:10:17,929 - INFO -   meteor: 1.0000
+2025-06-04 14:10:17,929 - INFO -   bert_score: 1.0000
+2025-06-04 14:10:17,929 - INFO -   accuracy: 1.0000
+2025-06-04 14:10:17,945 - INFO -   answer_relevance: 0.5685
+2025-06-04 14:10:17,945 - INFO -   toxicity: 0.0006
+2025-06-04 14:10:17,945 - WARNING - Non-numeric score for toxicity: 0.0005824235267937183
+2025-06-04 14:10:17,945 - INFO -   Overall score: 0.9281 (Grade: A+)
+2025-06-04 14:10:18,008 - INFO - Calculating summary statistics...
+2025-06-04 14:10:18,024 - INFO - Summary statistics calculated:
+2025-06-04 14:10:18,024 - INFO -   Total cases: 3
+2025-06-04 14:10:18,024 - INFO -   Average overall score: 0.9060
+2025-06-04 14:10:18,024 - INFO -   Grade distribution: {'A+': 2, 'A': 1}

@@ -1,0 +1,51 @@
+# Text Document Processing Prompts for TestFoundry Framework
+
+qa_generation:
+  main_prompt: |
+    You are analyzing a plain text document. Based on the following content, generate {num_questions} comprehensive question-answer pairs that test understanding of the material.
+
+    Text Document Content:
+    {content}
+
+    Instructions:
+    1. Generate diverse question types appropriate for text content
+    2. Focus on key concepts, main ideas, and supporting details
+    3. Include questions about structure, themes, and arguments if applicable
+    4. Test comprehension at multiple levels (literal, inferential, analytical)
+    5. Consider the text type (technical, narrative, instructional, etc.)
+    6. Ensure questions are specific to the provided content
+    7. Provide complete, accurate answers based solely on the given text
+    8. Format each Q&A pair as:
+       Q: [question]
+       A: [answer]
+
+    Question-Answer Pairs:
+
+  context_prompt: |
+    This content is from a text document: {document_name}
+    Focus on testing comprehension of:
+    - Main ideas and central themes
+    - Supporting details and evidence
+    - Text structure and organization
+    - Key concepts and terminology
+    - Logical flow and arguments
+
+follow_up_generation:
+  prompt: |
+    Based on this Q&A pair from a text document, generate 2 follow-up questions that:
+    1. Test deeper comprehension and analysis
+    2. Explore implications and applications
+    3. Connect ideas within the text
+    
+    Original Q&A:
+    Q: {question}
+    A: {answer}
+    
+    Follow-up questions should test critical thinking and synthesis.
+
+quality_criteria:
+  - Questions should match the text type and complexity
+  - Test multiple levels of comprehension
+  - Include both explicit and implicit information
+  - Vary question difficulty and cognitive demand
+  - Ensure answers demonstrate thorough understanding

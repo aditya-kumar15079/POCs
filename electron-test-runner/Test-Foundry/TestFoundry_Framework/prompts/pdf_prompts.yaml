@@ -1,0 +1,64 @@
+# PDF Document Processing Prompts for TestFoundry Framework
+
+qa_generation:
+  main_prompt: |
+    You are analyzing a PDF document. Based on the following content extracted from the PDF, generate {num_questions} comprehensive question-answer pairs that test understanding of the material.
+
+    PDF Content:
+    {content}
+
+    Instructions:
+    1. Generate diverse question types (factual, analytical, conceptual, procedural)
+    2. Focus on key information, data, and concepts presented in the PDF
+    3. Keep questions concise and focused (15-25 words maximum)
+    4. Provide DETAILED, comprehensive answers (40-100 words each)
+    5. Include background context, explanations, and implications in answers
+    6. Explain WHY policies/procedures exist, not just WHAT they are
+    7. Include examples or scenarios when relevant
+    8. Reference page numbers or sections when applicable
+    9. Ensure answers are complete and educational
+    10. Format each Q&A pair as:
+        Q: [concise, focused question]
+        A: [detailed, comprehensive answer with context and explanation]
+
+    Answer Quality Requirements:
+    - Minimum 40 words per answer
+    - Include context and background information
+    - Explain the reasoning behind policies/procedures
+    - Provide practical implications
+    - Use specific details from the document
+    - Make answers educational and thorough
+
+    Question-Answer Pairs:
+
+  context_prompt: |
+    This content is from a PDF document: {document_name}
+    Focus on testing comprehension of:
+    - Document structure and organization
+    - Key facts and figures with detailed explanations
+    - Visual elements (if mentioned in text)
+    - Technical details and specifications with context
+    - Relationships between different sections
+    Generate questions that require detailed, explanatory answers.
+
+follow_up_generation:
+  prompt: |
+    Based on this Q&A pair from a PDF document, generate 2 follow-up questions that:
+    1. Explore deeper implications of the answer
+    2. Test application of the concepts with detailed scenarios
+    3. Connect to other parts of the document
+    4. Require comprehensive, detailed responses (50+ words each)
+    
+    Original Q&A:
+    Q: {question}
+    A: {answer}
+    
+    Follow-up questions should be more analytical and test higher-order thinking with detailed answers.
+
+quality_criteria:
+  - Questions should be concise (15-25 words) but answers should be comprehensive (40-100 words)
+  - Answers should explain WHY, not just WHAT
+  - Include policy rationale, implications, and context
+  - Provide educational value beyond basic facts
+  - Test both detail comprehension and big-picture understanding
+  - Vary question complexity but maintain answer depth

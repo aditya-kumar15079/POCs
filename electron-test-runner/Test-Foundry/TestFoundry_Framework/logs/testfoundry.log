@@ -1,0 +1,1748 @@
+2025-05-31 23:37:39 | TestFoundry | INFO | TestFoundry Framework started
+2025-05-31 23:37:40 | TestFoundry | INFO | OpenAI client initialized with model: gpt-3.5-turbo
+2025-05-31 23:37:40 | TestFoundry | INFO | OpenAI client initialized with model: gpt-3.5-turbo
+2025-05-31 23:37:40 | TestFoundry | INFO | Starting processing of 2 documents
+2025-05-31 23:37:40 | TestFoundry | INFO | Processing document: 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-05-31 23:37:40 | TestFoundry | INFO | Starting document processing: 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-05-31 23:37:40 | TestFoundry | INFO | Processing 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf with pdf processor
+2025-05-31 23:37:40 | TestFoundry | INFO | Processing PDF document: 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-05-31 23:37:44 | TestFoundry | INFO | PDF processing complete: 6 pages, 14393 characters
+2025-05-31 23:37:44 | TestFoundry | INFO | Successfully processed 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-05-31 23:37:44 | TestFoundry | INFO | Generating Q&A pairs for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-05-31 23:37:50 | TestFoundry | ERROR | OpenAI API error: Connection error.
+2025-05-31 23:37:50 | TestFoundry | ERROR | OpenAI API error: Connection error.
+2025-05-31 23:37:53 | TestFoundry | ERROR | OpenAI API error: Connection error.
+2025-05-31 23:37:55 | TestFoundry | ERROR | OpenAI API error: Connection error.
+2025-05-31 23:37:55 | TestFoundry | ERROR | OpenAI API error: Connection error.
+2025-05-31 23:37:59 | TestFoundry | ERROR | OpenAI API error: Connection error.
+2025-05-31 23:38:01 | TestFoundry | ERROR | OpenAI API error: Connection error.
+2025-05-31 23:38:01 | TestFoundry | ERROR | Error generating Q&A pairs: RetryError[<Future at 0x1e253ea1fc0 state=finished raised APIConnectionError>]
+2025-05-31 23:38:01 | TestFoundry | ERROR | OpenAI API error: Connection error.
+2025-05-31 23:38:01 | TestFoundry | ERROR | Error generating Q&A pairs: RetryError[<Future at 0x1e2529cbbe0 state=finished raised APIConnectionError>]
+2025-05-31 23:38:03 | TestFoundry | ERROR | OpenAI API error: Connection error.
+2025-05-31 23:38:03 | TestFoundry | ERROR | OpenAI API error: Connection error.
+2025-05-31 23:38:05 | TestFoundry | ERROR | OpenAI API error: Connection error.
+2025-05-31 23:38:05 | TestFoundry | ERROR | Error generating Q&A pairs: RetryError[<Future at 0x1e253e5bc70 state=finished raised APIConnectionError>]
+2025-05-31 23:38:06 | TestFoundry | ERROR | OpenAI API error: Connection error.
+2025-05-31 23:38:08 | TestFoundry | ERROR | OpenAI API error: Connection error.
+2025-05-31 23:38:08 | TestFoundry | ERROR | OpenAI API error: Connection error.
+2025-05-31 23:41:24 | TestFoundry | INFO | TestFoundry Framework started
+2025-05-31 23:41:24 | TestFoundry | INFO | OpenAI client initialized with model: gpt-3.5-turbo
+2025-05-31 23:41:24 | TestFoundry | INFO | OpenAI client initialized with model: gpt-3.5-turbo
+2025-05-31 23:41:24 | TestFoundry | INFO | Starting processing of 2 documents
+2025-05-31 23:41:24 | TestFoundry | INFO | Processing document: 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-05-31 23:41:24 | TestFoundry | INFO | Starting document processing: 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-05-31 23:41:24 | TestFoundry | INFO | Processing 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf with pdf processor
+2025-05-31 23:41:24 | TestFoundry | INFO | Processing PDF document: 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-05-31 23:41:29 | TestFoundry | INFO | PDF processing complete: 6 pages, 14393 characters
+2025-05-31 23:41:29 | TestFoundry | INFO | Successfully processed 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-05-31 23:41:29 | TestFoundry | INFO | Generating Q&A pairs for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-05-31 23:41:32 | TestFoundry | ERROR | OpenAI API error: Connection error.
+2025-05-31 23:41:37 | TestFoundry | ERROR | OpenAI API error: Connection error.
+2025-05-31 23:41:37 | TestFoundry | ERROR | OpenAI API error: Connection error.
+2025-05-31 23:41:37 | TestFoundry | ERROR | OpenAI API error: Connection error.
+2025-05-31 23:45:57 | TestFoundry | INFO | TestFoundry Framework started
+2025-05-31 23:45:57 | TestFoundry | ERROR | Error creating OpenAI client: Invalid `http_client` argument; Expected an instance of `httpx.AsyncClient` but got <class 'aiohttp.client.ClientSession'>
+2025-05-31 23:45:57 | TestFoundry | INFO | OpenAI client initialized with model: gpt-3.5-turbo
+2025-05-31 23:45:57 | TestFoundry | ERROR | Error creating OpenAI client: Invalid `http_client` argument; Expected an instance of `httpx.AsyncClient` but got <class 'aiohttp.client.ClientSession'>
+2025-05-31 23:45:57 | TestFoundry | INFO | OpenAI client initialized with model: gpt-3.5-turbo
+2025-05-31 23:45:57 | TestFoundry | INFO | Starting processing of 2 documents
+2025-05-31 23:45:57 | TestFoundry | INFO | Processing document: 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-05-31 23:45:57 | TestFoundry | INFO | Starting document processing: 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-05-31 23:45:57 | TestFoundry | INFO | Processing 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf with pdf processor
+2025-05-31 23:45:57 | TestFoundry | INFO | Processing PDF document: 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-05-31 23:46:01 | TestFoundry | INFO | PDF processing complete: 6 pages, 14393 characters
+2025-05-31 23:46:01 | TestFoundry | INFO | Successfully processed 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-05-31 23:46:01 | TestFoundry | INFO | Generating Q&A pairs for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-05-31 23:46:03 | TestFoundry | ERROR | API connection error: Connection error.
+2025-05-31 23:46:03 | TestFoundry | ERROR | 💡 Check your internet connection and firewall settings
+2025-05-31 23:46:03 | TestFoundry | INFO | Trying alternative connection method...
+2025-05-31 23:46:04 | TestFoundry | ERROR | API connection error: Connection error.
+2025-05-31 23:46:04 | TestFoundry | ERROR | 💡 Check your internet connection and firewall settings
+2025-05-31 23:46:04 | TestFoundry | INFO | Trying alternative connection method...
+2025-05-31 23:46:04 | TestFoundry | ERROR | API connection error: Connection error.
+2025-05-31 23:46:04 | TestFoundry | ERROR | 💡 Check your internet connection and firewall settings
+2025-05-31 23:46:04 | TestFoundry | INFO | Trying alternative connection method...
+2025-05-31 23:46:04 | TestFoundry | ERROR | Alternative connection also failed: Connection error.
+2025-05-31 23:46:04 | TestFoundry | WARNING | No response received for Q&A generation
+2025-05-31 23:46:04 | TestFoundry | ERROR | Alternative connection also failed: Connection error.
+2025-05-31 23:46:04 | TestFoundry | WARNING | No response received for Q&A generation
+2025-05-31 23:46:04 | TestFoundry | ERROR | Alternative connection also failed: Connection error.
+2025-05-31 23:46:04 | TestFoundry | WARNING | No response received for Q&A generation
+2025-05-31 23:46:06 | TestFoundry | ERROR | API connection error: Connection error.
+2025-05-31 23:46:06 | TestFoundry | ERROR | 💡 Check your internet connection and firewall settings
+2025-05-31 23:46:06 | TestFoundry | INFO | Trying alternative connection method...
+2025-05-31 23:46:06 | TestFoundry | ERROR | API connection error: Connection error.
+2025-05-31 23:46:06 | TestFoundry | ERROR | 💡 Check your internet connection and firewall settings
+2025-05-31 23:46:06 | TestFoundry | INFO | Trying alternative connection method...
+2025-05-31 23:46:06 | TestFoundry | ERROR | API connection error: Connection error.
+2025-05-31 23:46:06 | TestFoundry | ERROR | 💡 Check your internet connection and firewall settings
+2025-05-31 23:46:06 | TestFoundry | INFO | Trying alternative connection method...
+2025-05-31 23:46:06 | TestFoundry | ERROR | Alternative connection also failed: Connection error.
+2025-05-31 23:46:06 | TestFoundry | WARNING | No response received for Q&A generation
+2025-05-31 23:46:06 | TestFoundry | ERROR | Alternative connection also failed: Connection error.
+2025-05-31 23:46:06 | TestFoundry | WARNING | No response received for Q&A generation
+2025-05-31 23:46:06 | TestFoundry | ERROR | Alternative connection also failed: Connection error.
+2025-05-31 23:46:07 | TestFoundry | WARNING | No response received for Q&A generation
+2025-05-31 23:46:07 | TestFoundry | INFO | Generated 0 Q&A pairs for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-05-31 23:46:07 | TestFoundry | INFO | Generating adversarial test cases for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-05-31 23:46:07 | TestFoundry | WARNING | No prompt template found for adversarial
+2025-05-31 23:46:07 | TestFoundry | WARNING | No prompt template found for adversarial
+2025-05-31 23:46:07 | TestFoundry | WARNING | No prompt template found for adversarial
+2025-05-31 23:46:07 | TestFoundry | WARNING | No prompt template found for adversarial
+2025-05-31 23:46:07 | TestFoundry | WARNING | No prompt template found for adversarial
+2025-05-31 23:46:07 | TestFoundry | INFO | Generated 0 adversarial test cases for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-05-31 23:46:07 | TestFoundry | INFO | Generating hallucination test cases for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-05-31 23:46:07 | TestFoundry | WARNING | No prompt template found for hallucination
+2025-05-31 23:46:07 | TestFoundry | WARNING | No prompt template found for hallucination
+2025-05-31 23:46:07 | TestFoundry | WARNING | No prompt template found for hallucination
+2025-05-31 23:46:07 | TestFoundry | WARNING | No prompt template found for hallucination
+2025-05-31 23:46:07 | TestFoundry | WARNING | No prompt template found for hallucination
+2025-05-31 23:46:07 | TestFoundry | INFO | Generated 0 hallucination test cases for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-05-31 23:46:07 | TestFoundry | INFO | Successfully processed 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf: 0 Q&A pairs, 0 test cases
+2025-05-31 23:46:07 | TestFoundry | INFO | Processing document: Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-05-31 23:46:07 | TestFoundry | INFO | Starting document processing: Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-05-31 23:46:07 | TestFoundry | INFO | Processing Technology-and-Security-Use-Policies_V16-2024.pdf with pdf processor
+2025-05-31 23:46:07 | TestFoundry | INFO | Processing PDF document: Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-05-31 23:46:08 | TestFoundry | INFO | PDF processing complete: 9 pages, 23343 characters
+2025-05-31 23:46:08 | TestFoundry | INFO | Successfully processed Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-05-31 23:46:08 | TestFoundry | INFO | Generating Q&A pairs for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-05-31 23:46:09 | TestFoundry | ERROR | API connection error: Connection error.
+2025-05-31 23:46:09 | TestFoundry | ERROR | 💡 Check your internet connection and firewall settings
+2025-05-31 23:46:09 | TestFoundry | INFO | Trying alternative connection method...
+2025-05-31 23:46:09 | TestFoundry | ERROR | API connection error: Connection error.
+2025-05-31 23:46:09 | TestFoundry | ERROR | 💡 Check your internet connection and firewall settings
+2025-05-31 23:46:09 | TestFoundry | INFO | Trying alternative connection method...
+2025-05-31 23:46:10 | TestFoundry | ERROR | API connection error: Connection error.
+2025-05-31 23:46:10 | TestFoundry | ERROR | 💡 Check your internet connection and firewall settings
+2025-05-31 23:46:10 | TestFoundry | INFO | Trying alternative connection method...
+2025-05-31 23:46:10 | TestFoundry | ERROR | Alternative connection also failed: Connection error.
+2025-05-31 23:46:10 | TestFoundry | WARNING | No response received for Q&A generation
+2025-05-31 23:46:10 | TestFoundry | ERROR | Alternative connection also failed: Connection error.
+2025-05-31 23:46:10 | TestFoundry | WARNING | No response received for Q&A generation
+2025-05-31 23:46:10 | TestFoundry | ERROR | Alternative connection also failed: Connection error.
+2025-05-31 23:46:10 | TestFoundry | WARNING | No response received for Q&A generation
+2025-05-31 23:46:12 | TestFoundry | ERROR | API connection error: Connection error.
+2025-05-31 23:46:12 | TestFoundry | ERROR | 💡 Check your internet connection and firewall settings
+2025-05-31 23:46:12 | TestFoundry | INFO | Trying alternative connection method...
+2025-05-31 23:46:12 | TestFoundry | ERROR | API connection error: Connection error.
+2025-05-31 23:46:12 | TestFoundry | ERROR | 💡 Check your internet connection and firewall settings
+2025-05-31 23:46:12 | TestFoundry | INFO | Trying alternative connection method...
+2025-05-31 23:46:12 | TestFoundry | ERROR | API connection error: Connection error.
+2025-05-31 23:46:12 | TestFoundry | ERROR | 💡 Check your internet connection and firewall settings
+2025-05-31 23:46:12 | TestFoundry | INFO | Trying alternative connection method...
+2025-05-31 23:46:12 | TestFoundry | ERROR | Alternative connection also failed: Connection error.
+2025-05-31 23:46:12 | TestFoundry | WARNING | No response received for Q&A generation
+2025-05-31 23:46:13 | TestFoundry | ERROR | Alternative connection also failed: Connection error.
+2025-05-31 23:46:13 | TestFoundry | WARNING | No response received for Q&A generation
+2025-05-31 23:46:13 | TestFoundry | ERROR | Alternative connection also failed: Connection error.
+2025-05-31 23:46:13 | TestFoundry | WARNING | No response received for Q&A generation
+2025-05-31 23:46:14 | TestFoundry | ERROR | API connection error: Connection error.
+2025-05-31 23:46:14 | TestFoundry | ERROR | 💡 Check your internet connection and firewall settings
+2025-05-31 23:46:14 | TestFoundry | INFO | Trying alternative connection method...
+2025-05-31 23:46:14 | TestFoundry | ERROR | API connection error: Connection error.
+2025-05-31 23:46:14 | TestFoundry | ERROR | 💡 Check your internet connection and firewall settings
+2025-05-31 23:46:14 | TestFoundry | INFO | Trying alternative connection method...
+2025-05-31 23:46:15 | TestFoundry | ERROR | Alternative connection also failed: Connection error.
+2025-05-31 23:46:15 | TestFoundry | WARNING | No response received for Q&A generation
+2025-05-31 23:46:15 | TestFoundry | ERROR | Alternative connection also failed: Connection error.
+2025-05-31 23:46:15 | TestFoundry | WARNING | No response received for Q&A generation
+2025-05-31 23:46:15 | TestFoundry | ERROR | API connection error: Connection error.
+2025-05-31 23:46:15 | TestFoundry | ERROR | 💡 Check your internet connection and firewall settings
+2025-05-31 23:46:15 | TestFoundry | INFO | Trying alternative connection method...
+2025-05-31 23:46:15 | TestFoundry | ERROR | Alternative connection also failed: Connection error.
+2025-05-31 23:46:15 | TestFoundry | WARNING | No response received for Q&A generation
+2025-05-31 23:46:15 | TestFoundry | INFO | Generated 0 Q&A pairs for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-05-31 23:46:15 | TestFoundry | INFO | Generating adversarial test cases for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-05-31 23:46:15 | TestFoundry | WARNING | No prompt template found for adversarial
+2025-05-31 23:46:15 | TestFoundry | WARNING | No prompt template found for adversarial
+2025-05-31 23:46:15 | TestFoundry | WARNING | No prompt template found for adversarial
+2025-05-31 23:46:15 | TestFoundry | WARNING | No prompt template found for adversarial
+2025-05-31 23:46:15 | TestFoundry | WARNING | No prompt template found for adversarial
+2025-05-31 23:46:15 | TestFoundry | INFO | Generated 0 adversarial test cases for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-05-31 23:46:15 | TestFoundry | INFO | Generating hallucination test cases for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-05-31 23:46:15 | TestFoundry | WARNING | No prompt template found for hallucination
+2025-05-31 23:46:15 | TestFoundry | WARNING | No prompt template found for hallucination
+2025-05-31 23:46:15 | TestFoundry | WARNING | No prompt template found for hallucination
+2025-05-31 23:46:15 | TestFoundry | WARNING | No prompt template found for hallucination
+2025-05-31 23:46:15 | TestFoundry | WARNING | No prompt template found for hallucination
+2025-05-31 23:46:15 | TestFoundry | INFO | Generated 0 hallucination test cases for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-05-31 23:46:15 | TestFoundry | INFO | Successfully processed Technology-and-Security-Use-Policies_V16-2024.pdf: 0 Q&A pairs, 0 test cases
+2025-05-31 23:46:15 | TestFoundry | INFO | Generating Excel report
+2025-05-31 23:46:16 | TestFoundry | INFO | Excel report generated: output\TestFoundry_Report_20250531_234615.xlsx
+2025-05-31 23:46:16 | TestFoundry | INFO | TestFoundry Framework completed successfully
+2025-05-31 23:52:12 | TestFoundry | INFO | TestFoundry Framework started
+2025-05-31 23:52:12 | TestFoundry | ERROR | Error creating OpenAI client: Invalid `http_client` argument; Expected an instance of `httpx.AsyncClient` but got <class 'aiohttp.client.ClientSession'>
+2025-05-31 23:52:12 | TestFoundry | INFO | OpenAI client initialized with model: GPT-4o mini
+2025-05-31 23:52:12 | TestFoundry | ERROR | Error creating OpenAI client: Invalid `http_client` argument; Expected an instance of `httpx.AsyncClient` but got <class 'aiohttp.client.ClientSession'>
+2025-05-31 23:52:12 | TestFoundry | INFO | OpenAI client initialized with model: GPT-4o mini
+2025-05-31 23:52:12 | TestFoundry | INFO | Starting processing of 2 documents
+2025-05-31 23:52:12 | TestFoundry | INFO | Processing document: 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-05-31 23:52:12 | TestFoundry | INFO | Starting document processing: 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-05-31 23:52:12 | TestFoundry | INFO | Processing 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf with pdf processor
+2025-05-31 23:52:12 | TestFoundry | INFO | Processing PDF document: 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-05-31 23:52:15 | TestFoundry | INFO | PDF processing complete: 6 pages, 14393 characters
+2025-05-31 23:52:15 | TestFoundry | INFO | Successfully processed 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-05-31 23:52:15 | TestFoundry | INFO | Generating Q&A pairs for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-05-31 23:52:17 | TestFoundry | ERROR | API connection error: Connection error.
+2025-05-31 23:52:17 | TestFoundry | ERROR | 💡 Check your internet connection and firewall settings
+2025-05-31 23:52:17 | TestFoundry | INFO | Trying alternative connection method...
+2025-05-31 23:52:17 | TestFoundry | ERROR | API connection error: Connection error.
+2025-05-31 23:52:17 | TestFoundry | ERROR | 💡 Check your internet connection and firewall settings
+2025-05-31 23:52:17 | TestFoundry | INFO | Trying alternative connection method...
+2025-05-31 23:52:17 | TestFoundry | ERROR | API connection error: Connection error.
+2025-05-31 23:52:17 | TestFoundry | ERROR | 💡 Check your internet connection and firewall settings
+2025-05-31 23:52:17 | TestFoundry | INFO | Trying alternative connection method...
+2025-05-31 23:52:18 | TestFoundry | ERROR | Alternative connection also failed: Connection error.
+2025-05-31 23:52:18 | TestFoundry | WARNING | No response received for Q&A generation
+2025-05-31 23:52:18 | TestFoundry | ERROR | Alternative connection also failed: Connection error.
+2025-05-31 23:52:18 | TestFoundry | WARNING | No response received for Q&A generation
+2025-05-31 23:52:18 | TestFoundry | ERROR | Alternative connection also failed: Connection error.
+2025-05-31 23:52:18 | TestFoundry | WARNING | No response received for Q&A generation
+2025-05-31 23:52:19 | TestFoundry | ERROR | API connection error: Connection error.
+2025-05-31 23:52:19 | TestFoundry | ERROR | 💡 Check your internet connection and firewall settings
+2025-05-31 23:52:19 | TestFoundry | INFO | Trying alternative connection method...
+2025-05-31 23:52:19 | TestFoundry | ERROR | API connection error: Connection error.
+2025-05-31 23:52:19 | TestFoundry | ERROR | 💡 Check your internet connection and firewall settings
+2025-05-31 23:52:19 | TestFoundry | INFO | Trying alternative connection method...
+2025-05-31 23:52:19 | TestFoundry | ERROR | API connection error: Connection error.
+2025-05-31 23:52:19 | TestFoundry | ERROR | 💡 Check your internet connection and firewall settings
+2025-05-31 23:52:19 | TestFoundry | INFO | Trying alternative connection method...
+2025-05-31 23:52:20 | TestFoundry | ERROR | Alternative connection also failed: Connection error.
+2025-05-31 23:52:20 | TestFoundry | WARNING | No response received for Q&A generation
+2025-05-31 23:52:20 | TestFoundry | ERROR | Alternative connection also failed: Connection error.
+2025-05-31 23:52:20 | TestFoundry | WARNING | No response received for Q&A generation
+2025-05-31 23:52:20 | TestFoundry | ERROR | Alternative connection also failed: Connection error.
+2025-05-31 23:52:20 | TestFoundry | WARNING | No response received for Q&A generation
+2025-05-31 23:52:20 | TestFoundry | INFO | Generated 0 Q&A pairs for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-05-31 23:52:20 | TestFoundry | INFO | Generating adversarial test cases for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-05-31 23:52:20 | TestFoundry | WARNING | No prompt template found for adversarial
+2025-05-31 23:52:20 | TestFoundry | WARNING | No prompt template found for adversarial
+2025-05-31 23:52:20 | TestFoundry | WARNING | No prompt template found for adversarial
+2025-05-31 23:52:20 | TestFoundry | WARNING | No prompt template found for adversarial
+2025-05-31 23:52:20 | TestFoundry | WARNING | No prompt template found for adversarial
+2025-05-31 23:52:20 | TestFoundry | INFO | Generated 0 adversarial test cases for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-05-31 23:52:20 | TestFoundry | INFO | Generating hallucination test cases for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-05-31 23:52:20 | TestFoundry | WARNING | No prompt template found for hallucination
+2025-05-31 23:52:20 | TestFoundry | WARNING | No prompt template found for hallucination
+2025-05-31 23:52:20 | TestFoundry | WARNING | No prompt template found for hallucination
+2025-05-31 23:52:20 | TestFoundry | WARNING | No prompt template found for hallucination
+2025-05-31 23:52:20 | TestFoundry | WARNING | No prompt template found for hallucination
+2025-05-31 23:52:20 | TestFoundry | INFO | Generated 0 hallucination test cases for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-05-31 23:52:20 | TestFoundry | INFO | Successfully processed 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf: 0 Q&A pairs, 0 test cases
+2025-05-31 23:52:20 | TestFoundry | INFO | Processing document: Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-05-31 23:52:20 | TestFoundry | INFO | Starting document processing: Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-05-31 23:52:20 | TestFoundry | INFO | Processing Technology-and-Security-Use-Policies_V16-2024.pdf with pdf processor
+2025-05-31 23:52:20 | TestFoundry | INFO | Processing PDF document: Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-05-31 23:52:21 | TestFoundry | INFO | PDF processing complete: 9 pages, 23343 characters
+2025-05-31 23:52:21 | TestFoundry | INFO | Successfully processed Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-05-31 23:52:21 | TestFoundry | INFO | Generating Q&A pairs for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-05-31 23:52:22 | TestFoundry | ERROR | API connection error: Connection error.
+2025-05-31 23:52:22 | TestFoundry | ERROR | 💡 Check your internet connection and firewall settings
+2025-05-31 23:52:22 | TestFoundry | INFO | Trying alternative connection method...
+2025-05-31 23:52:22 | TestFoundry | ERROR | API connection error: Connection error.
+2025-05-31 23:52:22 | TestFoundry | ERROR | 💡 Check your internet connection and firewall settings
+2025-05-31 23:52:22 | TestFoundry | INFO | Trying alternative connection method...
+2025-05-31 23:52:23 | TestFoundry | ERROR | API connection error: Connection error.
+2025-05-31 23:52:23 | TestFoundry | ERROR | 💡 Check your internet connection and firewall settings
+2025-05-31 23:52:23 | TestFoundry | INFO | Trying alternative connection method...
+2025-05-31 23:52:23 | TestFoundry | ERROR | Alternative connection also failed: Connection error.
+2025-05-31 23:52:23 | TestFoundry | WARNING | No response received for Q&A generation
+2025-05-31 23:52:23 | TestFoundry | ERROR | Alternative connection also failed: Connection error.
+2025-05-31 23:52:23 | TestFoundry | WARNING | No response received for Q&A generation
+2025-05-31 23:52:23 | TestFoundry | ERROR | Alternative connection also failed: Connection error.
+2025-05-31 23:52:23 | TestFoundry | WARNING | No response received for Q&A generation
+2025-05-31 23:52:25 | TestFoundry | ERROR | API connection error: Connection error.
+2025-05-31 23:52:25 | TestFoundry | ERROR | 💡 Check your internet connection and firewall settings
+2025-05-31 23:52:25 | TestFoundry | INFO | Trying alternative connection method...
+2025-05-31 23:52:25 | TestFoundry | ERROR | API connection error: Connection error.
+2025-05-31 23:52:25 | TestFoundry | ERROR | 💡 Check your internet connection and firewall settings
+2025-05-31 23:52:25 | TestFoundry | INFO | Trying alternative connection method...
+2025-05-31 23:52:25 | TestFoundry | ERROR | API connection error: Connection error.
+2025-05-31 23:52:25 | TestFoundry | ERROR | 💡 Check your internet connection and firewall settings
+2025-05-31 23:52:25 | TestFoundry | INFO | Trying alternative connection method...
+2025-05-31 23:52:25 | TestFoundry | ERROR | Alternative connection also failed: Connection error.
+2025-05-31 23:52:25 | TestFoundry | WARNING | No response received for Q&A generation
+2025-05-31 23:52:25 | TestFoundry | ERROR | Alternative connection also failed: Connection error.
+2025-05-31 23:52:25 | TestFoundry | WARNING | No response received for Q&A generation
+2025-05-31 23:52:25 | TestFoundry | ERROR | Alternative connection also failed: Connection error.
+2025-05-31 23:52:25 | TestFoundry | WARNING | No response received for Q&A generation
+2025-05-31 23:52:27 | TestFoundry | ERROR | API connection error: Connection error.
+2025-05-31 23:52:27 | TestFoundry | ERROR | 💡 Check your internet connection and firewall settings
+2025-05-31 23:52:27 | TestFoundry | INFO | Trying alternative connection method...
+2025-05-31 23:52:27 | TestFoundry | ERROR | API connection error: Connection error.
+2025-05-31 23:52:27 | TestFoundry | ERROR | 💡 Check your internet connection and firewall settings
+2025-05-31 23:52:27 | TestFoundry | INFO | Trying alternative connection method...
+2025-05-31 23:52:27 | TestFoundry | ERROR | API connection error: Connection error.
+2025-05-31 23:52:27 | TestFoundry | ERROR | 💡 Check your internet connection and firewall settings
+2025-05-31 23:52:27 | TestFoundry | INFO | Trying alternative connection method...
+2025-05-31 23:52:27 | TestFoundry | ERROR | Alternative connection also failed: Connection error.
+2025-05-31 23:52:27 | TestFoundry | WARNING | No response received for Q&A generation
+2025-05-31 23:52:27 | TestFoundry | ERROR | Alternative connection also failed: Connection error.
+2025-05-31 23:52:27 | TestFoundry | WARNING | No response received for Q&A generation
+2025-05-31 23:52:27 | TestFoundry | ERROR | Alternative connection also failed: Connection error.
+2025-05-31 23:52:27 | TestFoundry | WARNING | No response received for Q&A generation
+2025-05-31 23:52:27 | TestFoundry | INFO | Generated 0 Q&A pairs for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-05-31 23:52:27 | TestFoundry | INFO | Generating adversarial test cases for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-05-31 23:52:27 | TestFoundry | WARNING | No prompt template found for adversarial
+2025-05-31 23:52:27 | TestFoundry | WARNING | No prompt template found for adversarial
+2025-05-31 23:52:27 | TestFoundry | WARNING | No prompt template found for adversarial
+2025-05-31 23:52:27 | TestFoundry | WARNING | No prompt template found for adversarial
+2025-05-31 23:52:27 | TestFoundry | WARNING | No prompt template found for adversarial
+2025-05-31 23:52:27 | TestFoundry | INFO | Generated 0 adversarial test cases for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-05-31 23:52:27 | TestFoundry | INFO | Generating hallucination test cases for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-05-31 23:52:27 | TestFoundry | WARNING | No prompt template found for hallucination
+2025-05-31 23:52:27 | TestFoundry | WARNING | No prompt template found for hallucination
+2025-05-31 23:52:27 | TestFoundry | WARNING | No prompt template found for hallucination
+2025-05-31 23:52:27 | TestFoundry | WARNING | No prompt template found for hallucination
+2025-05-31 23:52:27 | TestFoundry | WARNING | No prompt template found for hallucination
+2025-05-31 23:52:27 | TestFoundry | INFO | Generated 0 hallucination test cases for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-05-31 23:52:27 | TestFoundry | INFO | Successfully processed Technology-and-Security-Use-Policies_V16-2024.pdf: 0 Q&A pairs, 0 test cases
+2025-05-31 23:52:27 | TestFoundry | INFO | Generating Excel report
+2025-05-31 23:52:28 | TestFoundry | INFO | Excel report generated: output\TestFoundry_Report_20250531_235227.xlsx
+2025-05-31 23:52:28 | TestFoundry | INFO | TestFoundry Framework completed successfully
+2025-05-31 23:58:55 | TestFoundry | INFO | TestFoundry Framework started
+2025-05-31 23:58:55 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-05-31 23:58:55 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-05-31 23:58:55 | TestFoundry | INFO | Starting processing of 2 documents
+2025-05-31 23:58:55 | TestFoundry | INFO | Processing document: 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-05-31 23:58:55 | TestFoundry | INFO | Starting document processing: 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-05-31 23:58:55 | TestFoundry | INFO | Processing 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf with pdf processor
+2025-05-31 23:58:55 | TestFoundry | INFO | Processing PDF document: 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-05-31 23:58:57 | TestFoundry | INFO | PDF processing complete: 6 pages, 14393 characters
+2025-05-31 23:58:57 | TestFoundry | INFO | Successfully processed 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-05-31 23:58:57 | TestFoundry | INFO | Generating Q&A pairs for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-05-31 23:59:03 | TestFoundry | INFO | Generated 4 Q&A pairs
+2025-05-31 23:59:03 | TestFoundry | INFO | Generated 4 Q&A pairs
+2025-05-31 23:59:06 | TestFoundry | INFO | Generated 4 Q&A pairs
+2025-05-31 23:59:07 | TestFoundry | INFO | Generated 4 Q&A pairs
+2025-05-31 23:59:08 | TestFoundry | INFO | Generated 4 Q&A pairs
+2025-05-31 23:59:10 | TestFoundry | INFO | Generated 4 Q&A pairs
+2025-05-31 23:59:10 | TestFoundry | INFO | Generated 24 Q&A pairs for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-05-31 23:59:10 | TestFoundry | INFO | Generating adversarial test cases for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-05-31 23:59:10 | TestFoundry | WARNING | No prompt template found for adversarial
+2025-05-31 23:59:10 | TestFoundry | WARNING | No prompt template found for adversarial
+2025-05-31 23:59:10 | TestFoundry | WARNING | No prompt template found for adversarial
+2025-05-31 23:59:10 | TestFoundry | WARNING | No prompt template found for adversarial
+2025-05-31 23:59:10 | TestFoundry | WARNING | No prompt template found for adversarial
+2025-05-31 23:59:10 | TestFoundry | INFO | Generated 0 adversarial test cases for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-05-31 23:59:10 | TestFoundry | INFO | Generating hallucination test cases for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-05-31 23:59:10 | TestFoundry | WARNING | No prompt template found for hallucination
+2025-05-31 23:59:10 | TestFoundry | WARNING | No prompt template found for hallucination
+2025-05-31 23:59:10 | TestFoundry | WARNING | No prompt template found for hallucination
+2025-05-31 23:59:10 | TestFoundry | WARNING | No prompt template found for hallucination
+2025-05-31 23:59:10 | TestFoundry | WARNING | No prompt template found for hallucination
+2025-05-31 23:59:10 | TestFoundry | INFO | Generated 0 hallucination test cases for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-05-31 23:59:10 | TestFoundry | INFO | Successfully processed 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf: 24 Q&A pairs, 0 test cases
+2025-05-31 23:59:10 | TestFoundry | INFO | Processing document: Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-05-31 23:59:10 | TestFoundry | INFO | Starting document processing: Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-05-31 23:59:10 | TestFoundry | INFO | Processing Technology-and-Security-Use-Policies_V16-2024.pdf with pdf processor
+2025-05-31 23:59:10 | TestFoundry | INFO | Processing PDF document: Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-05-31 23:59:11 | TestFoundry | INFO | PDF processing complete: 9 pages, 23343 characters
+2025-05-31 23:59:11 | TestFoundry | INFO | Successfully processed Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-05-31 23:59:11 | TestFoundry | INFO | Generating Q&A pairs for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-05-31 23:59:13 | TestFoundry | INFO | Generated 2 Q&A pairs
+2025-05-31 23:59:14 | TestFoundry | INFO | Generated 2 Q&A pairs
+2025-05-31 23:59:15 | TestFoundry | INFO | Generated 2 Q&A pairs
+2025-05-31 23:59:17 | TestFoundry | INFO | Generated 2 Q&A pairs
+2025-05-31 23:59:17 | TestFoundry | INFO | Generated 2 Q&A pairs
+2025-05-31 23:59:18 | TestFoundry | INFO | Generated 2 Q&A pairs
+2025-05-31 23:59:20 | TestFoundry | INFO | Generated 2 Q&A pairs
+2025-05-31 23:59:21 | TestFoundry | INFO | Generated 2 Q&A pairs
+2025-05-31 23:59:21 | TestFoundry | INFO | Generated 2 Q&A pairs
+2025-05-31 23:59:21 | TestFoundry | INFO | Generated 18 Q&A pairs for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-05-31 23:59:21 | TestFoundry | INFO | Generating adversarial test cases for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-05-31 23:59:21 | TestFoundry | WARNING | No prompt template found for adversarial
+2025-05-31 23:59:21 | TestFoundry | WARNING | No prompt template found for adversarial
+2025-05-31 23:59:21 | TestFoundry | WARNING | No prompt template found for adversarial
+2025-05-31 23:59:21 | TestFoundry | WARNING | No prompt template found for adversarial
+2025-05-31 23:59:21 | TestFoundry | WARNING | No prompt template found for adversarial
+2025-05-31 23:59:21 | TestFoundry | INFO | Generated 0 adversarial test cases for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-05-31 23:59:21 | TestFoundry | INFO | Generating hallucination test cases for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-05-31 23:59:21 | TestFoundry | WARNING | No prompt template found for hallucination
+2025-05-31 23:59:21 | TestFoundry | WARNING | No prompt template found for hallucination
+2025-05-31 23:59:21 | TestFoundry | WARNING | No prompt template found for hallucination
+2025-05-31 23:59:21 | TestFoundry | WARNING | No prompt template found for hallucination
+2025-05-31 23:59:21 | TestFoundry | WARNING | No prompt template found for hallucination
+2025-05-31 23:59:21 | TestFoundry | INFO | Generated 0 hallucination test cases for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-05-31 23:59:21 | TestFoundry | INFO | Successfully processed Technology-and-Security-Use-Policies_V16-2024.pdf: 18 Q&A pairs, 0 test cases
+2025-05-31 23:59:21 | TestFoundry | INFO | Generating Excel report
+2025-05-31 23:59:21 | TestFoundry | INFO | Excel report generated: output\TestFoundry_Report_20250531_235921.xlsx
+2025-05-31 23:59:21 | TestFoundry | INFO | TestFoundry Framework completed successfully
+2025-06-01 00:09:00 | TestFoundry | INFO | TestFoundry Framework started
+2025-06-01 00:09:00 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-06-01 00:09:00 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-06-01 00:09:00 | TestFoundry | INFO | Starting processing of 2 documents
+2025-06-01 00:09:00 | TestFoundry | INFO | Processing document: 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 00:09:00 | TestFoundry | INFO | Starting document processing: 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 00:09:00 | TestFoundry | INFO | Processing 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf with pdf processor
+2025-06-01 00:09:00 | TestFoundry | INFO | Processing PDF document: 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 00:09:04 | TestFoundry | INFO | PDF processing complete: 6 pages, 14393 characters
+2025-06-01 00:09:04 | TestFoundry | INFO | Successfully processed 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 00:09:04 | TestFoundry | INFO | Generating Q&A pairs for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 00:09:10 | TestFoundry | INFO | Generated 4 Q&A pairs
+2025-06-01 00:09:11 | TestFoundry | INFO | Generated 4 Q&A pairs
+2025-06-01 00:09:15 | TestFoundry | INFO | Generated 4 Q&A pairs
+2025-06-01 00:09:17 | TestFoundry | INFO | Generated 4 Q&A pairs
+2025-06-01 00:09:18 | TestFoundry | INFO | Generated 4 Q&A pairs
+2025-06-01 00:09:19 | TestFoundry | INFO | Generated 4 Q&A pairs
+2025-06-01 00:09:19 | TestFoundry | INFO | Generated 24 Q&A pairs for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 00:09:19 | TestFoundry | INFO | Generating adversarial test cases for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 00:09:28 | TestFoundry | INFO | Generated 8 adversarial test cases
+2025-06-01 00:13:54 | TestFoundry | INFO | Generated 7 adversarial test cases
+2025-06-01 00:13:58 | TestFoundry | INFO | Generated 7 adversarial test cases
+2025-06-01 00:14:01 | TestFoundry | INFO | Generated 7 adversarial test cases
+2025-06-01 00:14:01 | TestFoundry | INFO | Generated 1 adversarial test cases
+2025-06-01 00:14:01 | TestFoundry | INFO | Generated 5 adversarial test cases for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 00:14:01 | TestFoundry | INFO | Generating bias test cases for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 00:14:10 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 00:14:11 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 00:14:18 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 00:14:21 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 00:14:22 | TestFoundry | INFO | Generated 1 bias test cases
+2025-06-01 00:14:22 | TestFoundry | INFO | Generated 1 bias test cases for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 00:14:22 | TestFoundry | INFO | Generating hallucination test cases for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 00:14:31 | TestFoundry | INFO | Generated 7 hallucination test cases
+2025-06-01 00:14:31 | TestFoundry | INFO | Generated 7 hallucination test cases
+2025-06-01 00:14:38 | TestFoundry | INFO | Generated 7 hallucination test cases
+2025-06-01 00:14:39 | TestFoundry | INFO | Generated 7 hallucination test cases
+2025-06-01 00:14:41 | TestFoundry | INFO | Generated 7 hallucination test cases
+2025-06-01 00:14:41 | TestFoundry | INFO | Generated 5 hallucination test cases for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 00:14:41 | TestFoundry | INFO | Successfully processed 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf: 24 Q&A pairs, 11 test cases
+2025-06-01 00:14:41 | TestFoundry | INFO | Processing document: Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 00:14:41 | TestFoundry | INFO | Starting document processing: Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 00:14:41 | TestFoundry | INFO | Processing Technology-and-Security-Use-Policies_V16-2024.pdf with pdf processor
+2025-06-01 00:14:41 | TestFoundry | INFO | Processing PDF document: Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 00:14:42 | TestFoundry | INFO | PDF processing complete: 9 pages, 23343 characters
+2025-06-01 00:14:42 | TestFoundry | INFO | Successfully processed Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 00:14:42 | TestFoundry | INFO | Generating Q&A pairs for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 00:14:44 | TestFoundry | INFO | Generated 2 Q&A pairs
+2025-06-01 00:14:45 | TestFoundry | INFO | Generated 2 Q&A pairs
+2025-06-01 00:14:45 | TestFoundry | INFO | Generated 2 Q&A pairs
+2025-06-01 00:14:45 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk Technology-and-Security-Use-Policies_V16-2024_chunk_1
+2025-06-01 00:14:47 | TestFoundry | INFO | Generated 2 Q&A pairs
+2025-06-01 00:14:48 | TestFoundry | INFO | Generated 2 Q&A pairs
+2025-06-01 00:14:49 | TestFoundry | INFO | Generated 2 Q&A pairs
+2025-06-01 00:14:52 | TestFoundry | INFO | Generated 2 Q&A pairs
+2025-06-01 00:14:52 | TestFoundry | INFO | Generated 2 Q&A pairs
+2025-06-01 00:14:53 | TestFoundry | INFO | Generated 2 Q&A pairs
+2025-06-01 00:14:53 | TestFoundry | INFO | Generated 17 Q&A pairs for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 00:14:53 | TestFoundry | INFO | Generating adversarial test cases for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 00:15:01 | TestFoundry | INFO | Generated 6 adversarial test cases
+2025-06-01 00:15:03 | TestFoundry | INFO | Generated 8 adversarial test cases
+2025-06-01 00:15:08 | TestFoundry | INFO | Generated 7 adversarial test cases
+2025-06-01 00:15:12 | TestFoundry | INFO | Generated 8 adversarial test cases
+2025-06-01 00:15:14 | TestFoundry | INFO | Generated 1 adversarial test cases
+2025-06-01 00:15:14 | TestFoundry | INFO | Generated 5 adversarial test cases for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 00:15:14 | TestFoundry | INFO | Generating bias test cases for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 00:15:20 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 00:15:24 | TestFoundry | INFO | Generated 1 bias test cases
+2025-06-01 00:15:29 | TestFoundry | INFO | Generated 1 bias test cases
+2025-06-01 00:15:29 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 00:15:41 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 00:15:41 | TestFoundry | INFO | Generated 2 bias test cases for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 00:15:41 | TestFoundry | INFO | Generating hallucination test cases for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 00:15:49 | TestFoundry | INFO | Generated 7 hallucination test cases
+2025-06-01 00:15:52 | TestFoundry | INFO | Generated 1 hallucination test cases
+2025-06-01 00:15:57 | TestFoundry | INFO | Generated 8 hallucination test cases
+2025-06-01 00:15:57 | TestFoundry | INFO | Generated 7 hallucination test cases
+2025-06-01 00:15:58 | TestFoundry | INFO | Generated 7 hallucination test cases
+2025-06-01 00:15:58 | TestFoundry | INFO | Generated 5 hallucination test cases for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 00:15:58 | TestFoundry | INFO | Successfully processed Technology-and-Security-Use-Policies_V16-2024.pdf: 17 Q&A pairs, 12 test cases
+2025-06-01 00:15:58 | TestFoundry | INFO | Generating Excel report
+2025-06-01 00:15:59 | TestFoundry | INFO | Excel report generated: output\TestFoundry_Report_20250601_001558.xlsx
+2025-06-01 00:15:59 | TestFoundry | INFO | TestFoundry Framework completed successfully
+2025-06-01 00:20:15 | TestFoundry | INFO | TestFoundry Framework started
+2025-06-01 00:20:15 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-06-01 00:20:15 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-06-01 00:20:15 | TestFoundry | INFO | Starting processing of 2 documents
+2025-06-01 00:20:15 | TestFoundry | INFO | Processing document: 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 00:20:15 | TestFoundry | INFO | Starting document processing: 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 00:20:15 | TestFoundry | INFO | Processing 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf with pdf processor
+2025-06-01 00:20:15 | TestFoundry | INFO | Processing PDF document: 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 00:20:19 | TestFoundry | INFO | PDF processing complete: 6 pages, 14393 characters
+2025-06-01 00:20:19 | TestFoundry | INFO | Successfully processed 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 00:20:19 | TestFoundry | INFO | Document stats: 6 pages, 14393 characters
+2025-06-01 00:20:19 | TestFoundry | INFO | Generating Q&A pairs for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 00:20:24 | TestFoundry | INFO | Generated 4 Q&A pairs
+2025-06-01 00:20:26 | TestFoundry | INFO | Generated 4 Q&A pairs
+2025-06-01 00:20:27 | TestFoundry | INFO | Generated 4 Q&A pairs
+2025-06-01 00:20:31 | TestFoundry | INFO | Generated 4 Q&A pairs
+2025-06-01 00:20:31 | TestFoundry | INFO | Generated 4 Q&A pairs
+2025-06-01 00:20:31 | TestFoundry | INFO | Generated 4 Q&A pairs
+2025-06-01 00:20:31 | TestFoundry | INFO | Generated 24 Q&A pairs for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 00:20:31 | TestFoundry | INFO | Generating adversarial test cases for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 00:20:43 | TestFoundry | INFO | Generated 0 adversarial test cases
+2025-06-01 00:20:46 | TestFoundry | INFO | Generated 7 adversarial test cases
+2025-06-01 00:20:50 | TestFoundry | INFO | Generated 8 adversarial test cases
+2025-06-01 00:20:53 | TestFoundry | INFO | Generated 6 adversarial test cases
+2025-06-01 00:20:58 | TestFoundry | INFO | Generated 7 adversarial test cases
+2025-06-01 00:20:58 | TestFoundry | INFO | Generated 5 adversarial test cases for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 00:20:58 | TestFoundry | INFO | Generating bias test cases for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 00:21:05 | TestFoundry | INFO | Generated 8 bias test cases
+2025-06-01 00:21:09 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 00:21:11 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 00:21:15 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 00:21:20 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 00:21:20 | TestFoundry | INFO | Generated 5 bias test cases for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 00:21:20 | TestFoundry | INFO | Generating hallucination test cases for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 00:21:28 | TestFoundry | INFO | Generated 7 hallucination test cases
+2025-06-01 00:21:30 | TestFoundry | INFO | Generated 7 hallucination test cases
+2025-06-01 00:21:30 | TestFoundry | INFO | Generated 7 hallucination test cases
+2025-06-01 00:21:38 | TestFoundry | INFO | Generated 7 hallucination test cases
+2025-06-01 00:21:40 | TestFoundry | INFO | Generated 1 hallucination test cases
+2025-06-01 00:21:40 | TestFoundry | INFO | Generated 5 hallucination test cases for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 00:21:40 | TestFoundry | INFO | Successfully processed 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf: 24 Q&A pairs, 15 test cases
+2025-06-01 00:21:40 | TestFoundry | INFO | Processing document: Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 00:21:40 | TestFoundry | INFO | Starting document processing: Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 00:21:40 | TestFoundry | INFO | Processing Technology-and-Security-Use-Policies_V16-2024.pdf with pdf processor
+2025-06-01 00:21:40 | TestFoundry | INFO | Processing PDF document: Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 00:21:41 | TestFoundry | INFO | PDF processing complete: 9 pages, 23343 characters
+2025-06-01 00:21:41 | TestFoundry | INFO | Successfully processed Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 00:21:41 | TestFoundry | INFO | Document stats: 9 pages, 23343 characters
+2025-06-01 00:21:41 | TestFoundry | INFO | Generating Q&A pairs for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 00:21:44 | TestFoundry | INFO | Generated 2 Q&A pairs
+2025-06-01 00:21:44 | TestFoundry | INFO | Generated 2 Q&A pairs
+2025-06-01 00:21:47 | TestFoundry | INFO | Generated 2 Q&A pairs
+2025-06-01 00:21:47 | TestFoundry | INFO | Generated 2 Q&A pairs
+2025-06-01 00:21:48 | TestFoundry | INFO | Generated 2 Q&A pairs
+2025-06-01 00:21:48 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk Technology-and-Security-Use-Policies_V16-2024_chunk_1
+2025-06-01 00:21:49 | TestFoundry | INFO | Generated 2 Q&A pairs
+2025-06-01 00:21:49 | TestFoundry | INFO | Generated 2 Q&A pairs
+2025-06-01 00:21:50 | TestFoundry | INFO | Generated 2 Q&A pairs
+2025-06-01 00:21:52 | TestFoundry | INFO | Generated 2 Q&A pairs
+2025-06-01 00:21:52 | TestFoundry | INFO | Generated 17 Q&A pairs for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 00:21:52 | TestFoundry | INFO | Generating adversarial test cases for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 00:21:59 | TestFoundry | INFO | Generated 7 adversarial test cases
+2025-06-01 00:22:04 | TestFoundry | INFO | Generated 7 adversarial test cases
+2025-06-01 00:22:06 | TestFoundry | INFO | Generated 7 adversarial test cases
+2025-06-01 00:22:11 | TestFoundry | INFO | Generated 7 adversarial test cases
+2025-06-01 00:22:13 | TestFoundry | INFO | Generated 0 adversarial test cases
+2025-06-01 00:22:13 | TestFoundry | INFO | Generated 5 adversarial test cases for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 00:22:13 | TestFoundry | INFO | Generating bias test cases for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 00:22:22 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 00:22:24 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 00:22:30 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 00:22:34 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 00:22:40 | TestFoundry | INFO | Generated 7 bias test cases
+2025-06-01 00:22:40 | TestFoundry | INFO | Generated 5 bias test cases for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 00:22:40 | TestFoundry | INFO | Generating hallucination test cases for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 00:22:48 | TestFoundry | INFO | Generated 7 hallucination test cases
+2025-06-01 00:22:49 | TestFoundry | INFO | Generated 7 hallucination test cases
+2025-06-01 00:22:56 | TestFoundry | INFO | Generated 7 hallucination test cases
+2025-06-01 00:22:59 | TestFoundry | INFO | Generated 7 hallucination test cases
+2025-06-01 00:23:08 | TestFoundry | INFO | Generated 1 hallucination test cases
+2025-06-01 00:23:08 | TestFoundry | INFO | Generated 5 hallucination test cases for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 00:23:08 | TestFoundry | INFO | Successfully processed Technology-and-Security-Use-Policies_V16-2024.pdf: 17 Q&A pairs, 15 test cases
+2025-06-01 00:23:08 | TestFoundry | INFO | Generating Excel report
+2025-06-01 00:23:08 | TestFoundry | INFO | Excel report generated: output\TestFoundry_Report_20250601_002308.xlsx
+2025-06-01 00:23:08 | TestFoundry | INFO | TestFoundry Framework completed successfully
+2025-06-01 10:56:06 | TestFoundry | INFO | TestFoundry Framework started
+2025-06-01 10:56:06 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-06-01 10:56:06 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-06-01 10:56:06 | TestFoundry | INFO | Starting processing of 1 documents
+2025-06-01 10:56:06 | TestFoundry | INFO | Processing document: TI docs.docx
+2025-06-01 10:56:06 | TestFoundry | INFO | Starting document processing: TI docs.docx
+2025-06-01 10:56:06 | TestFoundry | INFO | Processing TI docs.docx with word processor
+2025-06-01 10:56:06 | TestFoundry | INFO | Processing Word document: TI docs.docx
+2025-06-01 10:56:17 | TestFoundry | INFO | Word processing complete: 15 pages, 33501 characters
+2025-06-01 10:56:17 | TestFoundry | INFO | Successfully processed TI docs.docx
+2025-06-01 10:56:17 | TestFoundry | INFO | Document stats: 15 pages, 33501 characters
+2025-06-01 10:56:17 | TestFoundry | INFO | Generating Q&A pairs for TI docs.docx
+2025-06-01 10:56:23 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 10:56:23 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 10:56:23 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk TI docs_chunk_1
+2025-06-01 10:56:26 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 10:56:26 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk TI docs_chunk_1
+2025-06-01 10:56:27 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 10:56:27 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 10:56:27 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk TI docs_chunk_1
+2025-06-01 10:56:30 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 10:56:31 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 10:56:31 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 10:56:34 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 10:56:34 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk TI docs_chunk_1
+2025-06-01 10:56:35 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 10:56:35 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk TI docs_chunk_1
+2025-06-01 10:56:36 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 10:56:38 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 10:56:38 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 10:56:38 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk TI docs_chunk_1
+2025-06-01 10:56:40 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 10:56:41 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 10:56:41 | TestFoundry | INFO | Generated 39 Q&A pairs for TI docs.docx
+2025-06-01 10:56:41 | TestFoundry | INFO | Generating adversarial test cases for TI docs.docx
+2025-06-01 10:56:46 | TestFoundry | INFO | Generated 0 adversarial test cases
+2025-06-01 10:56:46 | TestFoundry | INFO | Generated 0 adversarial test cases
+2025-06-01 10:56:49 | TestFoundry | INFO | Generated 1 adversarial test cases
+2025-06-01 10:56:50 | TestFoundry | INFO | Generated 0 adversarial test cases
+2025-06-01 10:56:50 | TestFoundry | INFO | Generated 0 adversarial test cases
+2025-06-01 10:56:50 | TestFoundry | INFO | Generated 1 adversarial test cases for TI docs.docx
+2025-06-01 10:56:50 | TestFoundry | INFO | Generating bias test cases for TI docs.docx
+2025-06-01 10:56:59 | TestFoundry | INFO | Generated 1 bias test cases
+2025-06-01 10:57:01 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 10:57:07 | TestFoundry | INFO | Generated 1 bias test cases
+2025-06-01 10:57:10 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 10:57:10 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 10:57:10 | TestFoundry | INFO | Generated 2 bias test cases for TI docs.docx
+2025-06-01 10:57:10 | TestFoundry | INFO | Generating hallucination test cases for TI docs.docx
+2025-06-01 10:57:13 | TestFoundry | INFO | Generated 1 hallucination test cases
+2025-06-01 10:57:15 | TestFoundry | INFO | Generated 0 hallucination test cases
+2025-06-01 10:57:16 | TestFoundry | INFO | Generated 0 hallucination test cases
+2025-06-01 10:57:17 | TestFoundry | INFO | Generated 1 hallucination test cases
+2025-06-01 10:57:18 | TestFoundry | INFO | Generated 0 hallucination test cases
+2025-06-01 10:57:18 | TestFoundry | INFO | Generated 2 hallucination test cases for TI docs.docx
+2025-06-01 10:57:18 | TestFoundry | INFO | Successfully processed TI docs.docx: 39 Q&A pairs, 5 test cases
+2025-06-01 10:57:18 | TestFoundry | INFO | Generating Excel report
+2025-06-01 10:57:18 | TestFoundry | INFO | Excel report generated: output\TestFoundry_Report_20250601_105718.xlsx
+2025-06-01 10:57:18 | TestFoundry | INFO | TestFoundry Framework completed successfully
+2025-06-01 11:02:41 | TestFoundry | INFO | TestFoundry Framework started
+2025-06-01 11:02:41 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-06-01 11:02:41 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-06-01 11:02:41 | TestFoundry | INFO | Starting processing of 1 documents
+2025-06-01 11:02:41 | TestFoundry | INFO | Processing document: TI docs.docx
+2025-06-01 11:02:41 | TestFoundry | INFO | Starting document processing: TI docs.docx
+2025-06-01 11:02:41 | TestFoundry | INFO | Processing TI docs.docx with word processor
+2025-06-01 11:02:41 | TestFoundry | INFO | Processing Word document: TI docs.docx
+2025-06-01 11:02:53 | TestFoundry | INFO | Word processing complete: 15 pages, 33501 characters
+2025-06-01 11:02:53 | TestFoundry | INFO | Successfully processed TI docs.docx
+2025-06-01 11:02:53 | TestFoundry | INFO | Document stats: 15 pages, 33501 characters
+2025-06-01 11:02:53 | TestFoundry | INFO | Generating Q&A pairs for TI docs.docx
+2025-06-01 11:03:00 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:03:02 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:03:03 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:03:05 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:03:05 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk TI docs_chunk_1
+2025-06-01 11:03:08 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:03:08 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:03:10 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:03:12 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:03:15 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:03:15 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk TI docs_chunk_1
+2025-06-01 11:03:16 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:03:16 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk TI docs_chunk_1
+2025-06-01 11:03:17 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:03:22 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:03:22 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk TI docs_chunk_1
+2025-06-01 11:03:22 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:03:25 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:03:30 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:03:30 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk TI docs_chunk_1
+2025-06-01 11:03:30 | TestFoundry | INFO | Generated 40 Q&A pairs for TI docs.docx
+2025-06-01 11:03:30 | TestFoundry | INFO | Generating adversarial test cases for TI docs.docx
+2025-06-01 11:03:33 | TestFoundry | INFO | Generated 2 adversarial test cases
+2025-06-01 11:03:34 | TestFoundry | INFO | Generated 0 adversarial test cases
+2025-06-01 11:03:36 | TestFoundry | INFO | Generated 0 adversarial test cases
+2025-06-01 11:03:38 | TestFoundry | INFO | Generated 7 adversarial test cases
+2025-06-01 11:03:46 | TestFoundry | INFO | Generated 0 adversarial test cases
+2025-06-01 11:03:46 | TestFoundry | INFO | Generated 9 adversarial test cases for TI docs.docx
+2025-06-01 11:03:46 | TestFoundry | INFO | Generating bias test cases for TI docs.docx
+2025-06-01 11:03:50 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 11:03:53 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 11:04:03 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 11:04:05 | TestFoundry | INFO | Generated 1 bias test cases
+2025-06-01 11:04:12 | TestFoundry | INFO | Generated 1 bias test cases
+2025-06-01 11:04:12 | TestFoundry | INFO | Generated 2 bias test cases for TI docs.docx
+2025-06-01 11:04:12 | TestFoundry | INFO | Generating hallucination test cases for TI docs.docx
+2025-06-01 11:04:14 | TestFoundry | INFO | Generated 1 hallucination test cases
+2025-06-01 11:04:16 | TestFoundry | INFO | Generated 0 hallucination test cases
+2025-06-01 11:04:17 | TestFoundry | INFO | Generated 0 hallucination test cases
+2025-06-01 11:04:23 | TestFoundry | INFO | Generated 1 hallucination test cases
+2025-06-01 11:04:26 | TestFoundry | INFO | Generated 2 hallucination test cases
+2025-06-01 11:04:26 | TestFoundry | INFO | Generated 4 hallucination test cases for TI docs.docx
+2025-06-01 11:04:26 | TestFoundry | INFO | Successfully processed TI docs.docx: 40 Q&A pairs, 15 test cases
+2025-06-01 11:04:26 | TestFoundry | INFO | Azure OpenAI client closed
+2025-06-01 11:04:26 | TestFoundry | INFO | Azure OpenAI client closed
+2025-06-01 11:04:26 | TestFoundry | INFO | Generating Excel report
+2025-06-01 11:04:26 | TestFoundry | INFO | Excel report generated: output\TestFoundry_Report_20250601_110426.xlsx
+2025-06-01 11:04:26 | TestFoundry | INFO | TestFoundry Framework completed successfully
+2025-06-01 11:18:02 | TestFoundry | INFO | TestFoundry Framework started
+2025-06-01 11:18:03 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-06-01 11:18:03 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-06-01 11:18:03 | TestFoundry | INFO | Starting processing of 1 documents
+2025-06-01 11:18:03 | TestFoundry | INFO | Processing document: TI docs.docx
+2025-06-01 11:18:03 | TestFoundry | INFO | Starting document processing: TI docs.docx
+2025-06-01 11:18:03 | TestFoundry | INFO | Processing TI docs.docx with word processor
+2025-06-01 11:18:03 | TestFoundry | INFO | Processing Word document: TI docs.docx
+2025-06-01 11:18:13 | TestFoundry | INFO | Word processing complete: 15 pages, 33501 characters
+2025-06-01 11:18:13 | TestFoundry | INFO | Successfully processed TI docs.docx
+2025-06-01 11:18:13 | TestFoundry | INFO | Document stats: 15 pages, 33501 characters
+2025-06-01 11:18:13 | TestFoundry | INFO | Generating Q&A pairs for TI docs.docx
+2025-06-01 11:18:13 | TestFoundry | INFO | Generated 15 chunks from document
+2025-06-01 11:18:18 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:18:19 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:18:20 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:18:20 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk 2
+2025-06-01 11:18:23 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:18:25 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:18:30 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:18:32 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:18:34 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:18:35 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:18:42 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:18:42 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk 11
+2025-06-01 11:18:46 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:18:46 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk 12
+2025-06-01 11:18:47 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:18:53 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:18:53 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk 10
+2025-06-01 11:18:54 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:18:54 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:18:54 | TestFoundry | INFO | Generated 41 Q&A pairs for TI docs.docx
+2025-06-01 11:18:54 | TestFoundry | INFO | Generating adversarial test cases for TI docs.docx
+2025-06-01 11:18:58 | TestFoundry | INFO | Generated 0 adversarial test cases
+2025-06-01 11:19:00 | TestFoundry | INFO | Generated 1 adversarial test cases
+2025-06-01 11:19:03 | TestFoundry | INFO | Generated 1 adversarial test cases
+2025-06-01 11:19:10 | TestFoundry | INFO | Generated 0 adversarial test cases
+2025-06-01 11:19:13 | TestFoundry | INFO | Generated 0 adversarial test cases
+2025-06-01 11:19:13 | TestFoundry | INFO | Generated 2 adversarial test cases for TI docs.docx
+2025-06-01 11:19:13 | TestFoundry | INFO | Generating bias test cases for TI docs.docx
+2025-06-01 11:19:17 | TestFoundry | INFO | Generated 1 bias test cases
+2025-06-01 11:19:18 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 11:19:23 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 11:19:29 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 11:19:34 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 11:19:34 | TestFoundry | INFO | Generated 1 bias test cases for TI docs.docx
+2025-06-01 11:19:34 | TestFoundry | INFO | Generating hallucination test cases for TI docs.docx
+2025-06-01 11:19:38 | TestFoundry | INFO | Generated 1 hallucination test cases
+2025-06-01 11:19:38 | TestFoundry | INFO | Generated 1 hallucination test cases
+2025-06-01 11:19:39 | TestFoundry | INFO | Generated 1 hallucination test cases
+2025-06-01 11:19:40 | TestFoundry | INFO | Generated 2 hallucination test cases
+2025-06-01 11:19:42 | TestFoundry | INFO | Generated 2 hallucination test cases
+2025-06-01 11:19:42 | TestFoundry | INFO | Generated 7 hallucination test cases for TI docs.docx
+2025-06-01 11:19:42 | TestFoundry | INFO | Successfully processed TI docs.docx: 41 Q&A pairs, 10 test cases
+2025-06-01 11:19:42 | TestFoundry | INFO | Azure OpenAI client closed
+2025-06-01 11:19:42 | TestFoundry | INFO | Azure OpenAI client closed
+2025-06-01 11:19:42 | TestFoundry | INFO | Generating Excel report
+2025-06-01 11:19:42 | TestFoundry | INFO | Excel report generated: output\TestFoundry_Report_20250601_111942.xlsx
+2025-06-01 11:19:42 | TestFoundry | INFO | TestFoundry Framework completed successfully
+2025-06-01 11:30:00 | TestFoundry | INFO | TestFoundry Framework started
+2025-06-01 11:30:00 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-06-01 11:30:00 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-06-01 11:30:00 | TestFoundry | INFO | Starting processing of 1 documents
+2025-06-01 11:30:00 | TestFoundry | INFO | Processing document: TI docs.docx
+2025-06-01 11:30:00 | TestFoundry | INFO | Starting document processing: TI docs.docx
+2025-06-01 11:30:00 | TestFoundry | INFO | Processing TI docs.docx with word processor
+2025-06-01 11:30:00 | TestFoundry | INFO | Processing Word document: TI docs.docx
+2025-06-01 11:30:11 | TestFoundry | INFO | Word processing complete: 15 pages, 33501 characters
+2025-06-01 11:30:11 | TestFoundry | INFO | Successfully processed TI docs.docx
+2025-06-01 11:30:11 | TestFoundry | INFO | Document stats: 15 pages, 33501 characters
+2025-06-01 11:30:11 | TestFoundry | INFO | Generating Q&A pairs for TI docs.docx
+2025-06-01 11:30:11 | TestFoundry | INFO | Generated 15 chunks from document
+2025-06-01 11:30:16 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:30:20 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:30:20 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:30:24 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:30:24 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:30:26 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:30:28 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:30:31 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:30:31 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk 8
+2025-06-01 11:30:33 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:30:34 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:30:34 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk 11
+2025-06-01 11:30:38 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:30:38 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk 9
+2025-06-01 11:30:39 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:30:44 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:30:46 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:30:46 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk 12
+2025-06-01 11:30:54 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 11:30:54 | TestFoundry | INFO | Generated 41 Q&A pairs for TI docs.docx
+2025-06-01 11:30:54 | TestFoundry | INFO | Generating adversarial test cases for TI docs.docx
+2025-06-01 11:30:59 | TestFoundry | INFO | Generated 1 adversarial test cases
+2025-06-01 11:30:59 | TestFoundry | INFO | Generated 1 adversarial test cases
+2025-06-01 11:31:01 | TestFoundry | INFO | Generated 0 adversarial test cases
+2025-06-01 11:31:02 | TestFoundry | INFO | Generated 0 adversarial test cases
+2025-06-01 11:31:04 | TestFoundry | INFO | Generated 1 adversarial test cases
+2025-06-01 11:31:04 | TestFoundry | INFO | Generated 3 adversarial test cases for TI docs.docx
+2025-06-01 11:31:04 | TestFoundry | INFO | Generating bias test cases for TI docs.docx
+2025-06-01 11:31:13 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 11:31:26 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 11:31:28 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 11:31:36 | TestFoundry | INFO | Generated 1 bias test cases
+2025-06-01 11:31:37 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 11:31:37 | TestFoundry | INFO | Generated 1 bias test cases for TI docs.docx
+2025-06-01 11:31:37 | TestFoundry | INFO | Generating hallucination test cases for TI docs.docx
+2025-06-01 11:31:43 | TestFoundry | INFO | Generated 2 hallucination test cases
+2025-06-01 11:31:44 | TestFoundry | INFO | Generated 2 hallucination test cases
+2025-06-01 11:31:48 | TestFoundry | INFO | Generated 2 hallucination test cases
+2025-06-01 11:31:49 | TestFoundry | INFO | Generated 0 hallucination test cases
+2025-06-01 11:31:49 | TestFoundry | INFO | Generated 1 hallucination test cases
+2025-06-01 11:31:49 | TestFoundry | INFO | Generated 7 hallucination test cases for TI docs.docx
+2025-06-01 11:31:49 | TestFoundry | INFO | Successfully processed TI docs.docx: 41 Q&A pairs, 11 test cases
+2025-06-01 11:31:49 | TestFoundry | INFO | Azure OpenAI client closed
+2025-06-01 11:31:49 | TestFoundry | INFO | Azure OpenAI client closed
+2025-06-01 11:31:49 | TestFoundry | INFO | Generating Excel report
+2025-06-01 11:31:50 | TestFoundry | INFO | Excel report generated: output\TestFoundry_Report_20250601_113149.xlsx
+2025-06-01 11:31:50 | TestFoundry | INFO | TestFoundry Framework completed successfully
+2025-06-01 11:58:37 | TestFoundry | INFO | TestFoundry Framework started
+2025-06-01 11:58:37 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-06-01 11:58:37 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-06-01 11:58:37 | TestFoundry | INFO | Starting processing of 1 documents
+2025-06-01 11:58:37 | TestFoundry | INFO | Processing document: TI docs.docx
+2025-06-01 11:58:37 | TestFoundry | INFO | Starting document processing: TI docs.docx
+2025-06-01 11:58:37 | TestFoundry | INFO | Processing TI docs.docx with word processor
+2025-06-01 11:58:37 | TestFoundry | INFO | Processing Word document: TI docs.docx
+2025-06-01 11:58:48 | TestFoundry | INFO | Word processing complete: 15 pages, 33501 characters
+2025-06-01 11:58:48 | TestFoundry | INFO | Successfully processed TI docs.docx
+2025-06-01 11:58:48 | TestFoundry | INFO | Document stats: 15 pages, 33501 characters
+2025-06-01 11:58:48 | TestFoundry | INFO | Generating Q&A pairs for TI docs.docx
+2025-06-01 11:58:48 | TestFoundry | INFO | Generated 14 chunks from document
+2025-06-01 11:58:52 | TestFoundry | INFO | Generated 1 Q&A pairs
+2025-06-01 11:58:53 | TestFoundry | INFO | Generated 1 Q&A pairs
+2025-06-01 11:58:53 | TestFoundry | INFO | Generated 1 Q&A pairs
+2025-06-01 11:58:54 | TestFoundry | INFO | Generated 1 Q&A pairs
+2025-06-01 11:58:55 | TestFoundry | INFO | Generated 1 Q&A pairs
+2025-06-01 11:58:56 | TestFoundry | INFO | Generated 1 Q&A pairs
+2025-06-01 11:58:56 | TestFoundry | INFO | Generated 1 Q&A pairs
+2025-06-01 11:58:57 | TestFoundry | INFO | Generated 1 Q&A pairs
+2025-06-01 11:58:58 | TestFoundry | INFO | Generated 1 Q&A pairs
+2025-06-01 11:58:59 | TestFoundry | INFO | Generated 1 Q&A pairs
+2025-06-01 11:59:00 | TestFoundry | INFO | Generated 1 Q&A pairs
+2025-06-01 11:59:00 | TestFoundry | INFO | Generated 1 Q&A pairs
+2025-06-01 11:59:02 | TestFoundry | INFO | Generated 1 Q&A pairs
+2025-06-01 11:59:06 | TestFoundry | INFO | Generated 1 Q&A pairs
+2025-06-01 11:59:06 | TestFoundry | INFO | Generated 14 Q&A pairs for TI docs.docx
+2025-06-01 11:59:06 | TestFoundry | INFO | Generating adversarial test cases for TI docs.docx
+2025-06-01 11:59:14 | TestFoundry | INFO | Generated 1 adversarial test cases
+2025-06-01 11:59:15 | TestFoundry | INFO | Generated 0 adversarial test cases
+2025-06-01 11:59:19 | TestFoundry | INFO | Generated 7 adversarial test cases
+2025-06-01 11:59:23 | TestFoundry | INFO | Generated 0 adversarial test cases
+2025-06-01 11:59:29 | TestFoundry | INFO | Generated 0 adversarial test cases
+2025-06-01 11:59:29 | TestFoundry | INFO | Generated 8 adversarial test cases for TI docs.docx
+2025-06-01 11:59:29 | TestFoundry | INFO | Generating hallucination test cases for TI docs.docx
+2025-06-01 11:59:38 | TestFoundry | INFO | Generated 1 hallucination test cases
+2025-06-01 11:59:38 | TestFoundry | INFO | Generated 7 hallucination test cases
+2025-06-01 11:59:43 | TestFoundry | INFO | Generated 7 hallucination test cases
+2025-06-01 11:59:45 | TestFoundry | INFO | Generated 7 hallucination test cases
+2025-06-01 11:59:57 | TestFoundry | INFO | Generated 7 hallucination test cases
+2025-06-01 11:59:57 | TestFoundry | INFO | Generated 5 hallucination test cases for TI docs.docx
+2025-06-01 11:59:57 | TestFoundry | INFO | Successfully processed TI docs.docx: 14 Q&A pairs, 13 test cases
+2025-06-01 11:59:57 | TestFoundry | INFO | Azure OpenAI client closed
+2025-06-01 11:59:57 | TestFoundry | INFO | Azure OpenAI client closed
+2025-06-01 11:59:57 | TestFoundry | INFO | Generating Excel report
+2025-06-01 11:59:57 | TestFoundry | INFO | Excel report generated: output\TestFoundry_Report_20250601_115957.xlsx
+2025-06-01 11:59:57 | TestFoundry | INFO | TestFoundry Framework completed successfully
+2025-06-01 12:02:59 | TestFoundry | INFO | TestFoundry Framework started
+2025-06-01 12:02:59 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-06-01 12:02:59 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-06-01 12:02:59 | TestFoundry | INFO | Starting processing of 1 documents
+2025-06-01 12:02:59 | TestFoundry | INFO | Processing document: TI docs.docx
+2025-06-01 12:02:59 | TestFoundry | INFO | Starting document processing: TI docs.docx
+2025-06-01 12:02:59 | TestFoundry | INFO | Processing TI docs.docx with word processor
+2025-06-01 12:02:59 | TestFoundry | INFO | Processing Word document: TI docs.docx
+2025-06-01 12:03:13 | TestFoundry | INFO | Word processing complete: 15 pages, 33501 characters
+2025-06-01 12:03:13 | TestFoundry | INFO | Successfully processed TI docs.docx
+2025-06-01 12:03:13 | TestFoundry | INFO | Document stats: 15 pages, 33501 characters
+2025-06-01 12:03:13 | TestFoundry | INFO | Generating Q&A pairs for TI docs.docx
+2025-06-01 12:03:13 | TestFoundry | INFO | Generated 13 chunks from document
+2025-06-01 12:03:18 | TestFoundry | INFO | Generated 1 Q&A pairs
+2025-06-01 12:03:24 | TestFoundry | INFO | Generated 1 Q&A pairs
+2025-06-01 12:03:26 | TestFoundry | INFO | Generated 1 Q&A pairs
+2025-06-01 12:03:27 | TestFoundry | INFO | Generated 1 Q&A pairs
+2025-06-01 12:03:28 | TestFoundry | INFO | Generated 1 Q&A pairs
+2025-06-01 12:03:29 | TestFoundry | INFO | Generated 1 Q&A pairs
+2025-06-01 12:03:30 | TestFoundry | INFO | Generated 1 Q&A pairs
+2025-06-01 12:03:31 | TestFoundry | INFO | Generated 1 Q&A pairs
+2025-06-01 12:03:32 | TestFoundry | INFO | Generated 1 Q&A pairs
+2025-06-01 12:03:32 | TestFoundry | INFO | Generated 1 Q&A pairs
+2025-06-01 12:03:34 | TestFoundry | INFO | Generated 1 Q&A pairs
+2025-06-01 12:03:34 | TestFoundry | INFO | Generated 1 Q&A pairs
+2025-06-01 12:03:35 | TestFoundry | INFO | Generated 1 Q&A pairs
+2025-06-01 12:03:35 | TestFoundry | INFO | Generated 13 Q&A pairs for TI docs.docx
+2025-06-01 12:03:35 | TestFoundry | INFO | Generating adversarial test cases for TI docs.docx
+2025-06-01 12:03:43 | TestFoundry | INFO | Generated 7 adversarial test cases
+2025-06-01 12:03:46 | TestFoundry | INFO | Generated 7 adversarial test cases
+2025-06-01 12:03:51 | TestFoundry | INFO | Generated 8 adversarial test cases
+2025-06-01 12:03:53 | TestFoundry | INFO | Generated 7 adversarial test cases
+2025-06-01 12:03:58 | TestFoundry | INFO | Generated 7 adversarial test cases
+2025-06-01 12:03:58 | TestFoundry | INFO | Generated 8 adversarial test cases for TI docs.docx
+2025-06-01 12:03:58 | TestFoundry | INFO | Generating hallucination test cases for TI docs.docx
+2025-06-01 12:04:06 | TestFoundry | INFO | Generated 0 hallucination test cases
+2025-06-01 12:04:06 | TestFoundry | INFO | Generated 1 hallucination test cases
+2025-06-01 12:04:07 | TestFoundry | INFO | Generated 0 hallucination test cases
+2025-06-01 12:04:12 | TestFoundry | INFO | Generated 7 hallucination test cases
+2025-06-01 12:04:14 | TestFoundry | INFO | Generated 0 hallucination test cases
+2025-06-01 12:04:14 | TestFoundry | INFO | Generated 5 hallucination test cases for TI docs.docx
+2025-06-01 12:04:14 | TestFoundry | INFO | Successfully processed TI docs.docx: 13 Q&A pairs, 13 test cases
+2025-06-01 12:04:14 | TestFoundry | INFO | Azure OpenAI client closed
+2025-06-01 12:04:14 | TestFoundry | INFO | Azure OpenAI client closed
+2025-06-01 12:04:14 | TestFoundry | INFO | Generating Excel report
+2025-06-01 12:04:14 | TestFoundry | INFO | Excel report generated: output\TestFoundry_Report_20250601_120414.xlsx
+2025-06-01 12:04:14 | TestFoundry | INFO | TestFoundry Framework completed successfully
+2025-06-01 12:07:49 | TestFoundry | INFO | TestFoundry Framework started
+2025-06-01 12:07:49 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-06-01 12:07:49 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-06-01 12:07:49 | TestFoundry | INFO | Starting processing of 2 documents
+2025-06-01 12:07:49 | TestFoundry | INFO | Processing document: 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 12:07:49 | TestFoundry | INFO | Starting document processing: 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 12:07:49 | TestFoundry | INFO | Processing 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf with pdf processor
+2025-06-01 12:07:49 | TestFoundry | INFO | Processing PDF document: 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 12:07:53 | TestFoundry | INFO | PDF processing complete: 6 pages, 14393 characters
+2025-06-01 12:07:53 | TestFoundry | INFO | Successfully processed 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 12:07:53 | TestFoundry | INFO | Document stats: 6 pages, 14393 characters
+2025-06-01 12:07:53 | TestFoundry | INFO | Generating Q&A pairs for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 12:07:53 | TestFoundry | INFO | Generated 5 chunks from document
+2025-06-01 12:07:59 | TestFoundry | INFO | Generated 5 Q&A pairs
+2025-06-01 12:08:02 | TestFoundry | INFO | Generated 5 Q&A pairs
+2025-06-01 12:08:03 | TestFoundry | INFO | Generated 5 Q&A pairs
+2025-06-01 12:08:06 | TestFoundry | INFO | Generated 5 Q&A pairs
+2025-06-01 12:08:06 | TestFoundry | INFO | Generated 5 Q&A pairs
+2025-06-01 12:08:06 | TestFoundry | INFO | Generated 25 Q&A pairs for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 12:08:06 | TestFoundry | INFO | Generating adversarial test cases for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 12:08:14 | TestFoundry | INFO | Generated 7 adversarial test cases
+2025-06-01 12:08:19 | TestFoundry | INFO | Generated 7 adversarial test cases
+2025-06-01 12:08:24 | TestFoundry | INFO | Generated 7 adversarial test cases
+2025-06-01 12:08:28 | TestFoundry | INFO | Generated 0 adversarial test cases
+2025-06-01 12:08:28 | TestFoundry | INFO | Generated 7 adversarial test cases
+2025-06-01 12:08:28 | TestFoundry | INFO | Generated 8 adversarial test cases for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 12:08:28 | TestFoundry | INFO | Generating hallucination test cases for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 12:08:38 | TestFoundry | INFO | Generated 8 hallucination test cases
+2025-06-01 12:08:38 | TestFoundry | INFO | Generated 7 hallucination test cases
+2025-06-01 12:08:41 | TestFoundry | INFO | Generated 7 hallucination test cases
+2025-06-01 12:08:45 | TestFoundry | INFO | Generated 0 hallucination test cases
+2025-06-01 12:08:47 | TestFoundry | INFO | Generated 1 hallucination test cases
+2025-06-01 12:08:47 | TestFoundry | INFO | Generated 5 hallucination test cases for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 12:08:47 | TestFoundry | INFO | Successfully processed 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf: 25 Q&A pairs, 13 test cases
+2025-06-01 12:08:47 | TestFoundry | INFO | Processing document: Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 12:08:47 | TestFoundry | INFO | Starting document processing: Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 12:08:47 | TestFoundry | INFO | Processing Technology-and-Security-Use-Policies_V16-2024.pdf with pdf processor
+2025-06-01 12:08:47 | TestFoundry | INFO | Processing PDF document: Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 12:08:48 | TestFoundry | INFO | PDF processing complete: 9 pages, 23343 characters
+2025-06-01 12:08:48 | TestFoundry | INFO | Successfully processed Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 12:08:48 | TestFoundry | INFO | Document stats: 9 pages, 23343 characters
+2025-06-01 12:08:48 | TestFoundry | INFO | Generating Q&A pairs for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 12:08:48 | TestFoundry | INFO | Generated 7 chunks from document
+2025-06-01 12:08:54 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 12:08:54 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 12:08:58 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 12:08:59 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 12:09:02 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 12:09:02 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 12:09:04 | TestFoundry | INFO | Generated 3 Q&A pairs
+2025-06-01 12:09:04 | TestFoundry | INFO | Generated 21 Q&A pairs for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 12:09:04 | TestFoundry | INFO | Generating adversarial test cases for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 12:09:12 | TestFoundry | INFO | Generated 7 adversarial test cases
+2025-06-01 12:09:15 | TestFoundry | INFO | Generated 7 adversarial test cases
+2025-06-01 12:09:16 | TestFoundry | INFO | Generated 5 adversarial test cases
+2025-06-01 12:09:21 | TestFoundry | INFO | Generated 0 adversarial test cases
+2025-06-01 12:09:24 | TestFoundry | INFO | Generated 8 adversarial test cases
+2025-06-01 12:09:24 | TestFoundry | INFO | Generated 8 adversarial test cases for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 12:09:24 | TestFoundry | INFO | Generating hallucination test cases for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 12:09:33 | TestFoundry | INFO | Generated 7 hallucination test cases
+2025-06-01 12:09:35 | TestFoundry | INFO | Generated 0 hallucination test cases
+2025-06-01 12:09:36 | TestFoundry | INFO | Generated 1 hallucination test cases
+2025-06-01 12:09:41 | TestFoundry | INFO | Generated 0 hallucination test cases
+2025-06-01 12:09:46 | TestFoundry | INFO | Generated 1 hallucination test cases
+2025-06-01 12:09:46 | TestFoundry | INFO | Generated 5 hallucination test cases for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 12:09:46 | TestFoundry | INFO | Successfully processed Technology-and-Security-Use-Policies_V16-2024.pdf: 21 Q&A pairs, 13 test cases
+2025-06-01 12:09:46 | TestFoundry | INFO | Azure OpenAI client closed
+2025-06-01 12:09:46 | TestFoundry | INFO | Azure OpenAI client closed
+2025-06-01 12:09:46 | TestFoundry | INFO | Generating Excel report
+2025-06-01 12:09:46 | TestFoundry | INFO | Excel report generated: output\TestFoundry_Report_20250601_120946.xlsx
+2025-06-01 12:09:46 | TestFoundry | INFO | TestFoundry Framework completed successfully
+2025-06-01 12:19:11 | TestFoundry | INFO | TestFoundry Framework started
+2025-06-01 12:19:11 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-06-01 12:19:11 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-06-01 12:19:11 | TestFoundry | INFO | Starting processing of 1 documents
+2025-06-01 12:19:11 | TestFoundry | INFO | Processing document: powerbi.jpg
+2025-06-01 12:19:11 | TestFoundry | INFO | Starting document processing: powerbi.jpg
+2025-06-01 12:19:11 | TestFoundry | INFO | Processing powerbi.jpg with image processor
+2025-06-01 12:19:11 | TestFoundry | INFO | Processing image document: powerbi.jpg
+2025-06-01 12:19:58 | TestFoundry | INFO | Image processing complete: 270 characters extracted, OCR confidence: 0.31
+2025-06-01 12:19:58 | TestFoundry | INFO | Successfully processed powerbi.jpg
+2025-06-01 12:19:58 | TestFoundry | INFO | Document stats: 1 pages, 270 characters
+2025-06-01 12:19:58 | TestFoundry | INFO | Generating Q&A pairs for powerbi.jpg
+2025-06-01 12:19:58 | TestFoundry | INFO | Generated 1 chunks from document
+2025-06-01 12:20:12 | TestFoundry | INFO | Generated 0 Q&A pairs
+2025-06-01 12:20:12 | TestFoundry | INFO | Generated 0 Q&A pairs for powerbi.jpg
+2025-06-01 12:20:12 | TestFoundry | INFO | Generating adversarial test cases for powerbi.jpg
+2025-06-01 12:20:20 | TestFoundry | INFO | Generated 8 adversarial test cases
+2025-06-01 12:20:20 | TestFoundry | INFO | Generated 8 adversarial test cases for powerbi.jpg
+2025-06-01 12:20:20 | TestFoundry | INFO | Generating hallucination test cases for powerbi.jpg
+2025-06-01 12:20:26 | TestFoundry | INFO | Generated 5 hallucination test cases
+2025-06-01 12:20:26 | TestFoundry | INFO | Generated 5 hallucination test cases for powerbi.jpg
+2025-06-01 12:20:26 | TestFoundry | INFO | Successfully processed powerbi.jpg: 0 Q&A pairs, 13 test cases
+2025-06-01 12:20:26 | TestFoundry | INFO | Azure OpenAI client closed
+2025-06-01 12:20:26 | TestFoundry | INFO | Azure OpenAI client closed
+2025-06-01 12:20:26 | TestFoundry | INFO | Generating Excel report
+2025-06-01 12:20:26 | TestFoundry | INFO | Excel report generated: output\TestFoundry_Report_20250601_122026.xlsx
+2025-06-01 12:20:26 | TestFoundry | INFO | TestFoundry Framework completed successfully
+2025-06-01 12:27:00 | TestFoundry | INFO | TestFoundry Framework started
+2025-06-01 12:27:00 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-06-01 12:27:00 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-06-01 12:27:00 | TestFoundry | INFO | Starting processing of 3 documents
+2025-06-01 12:27:00 | TestFoundry | INFO | Processing document: 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 12:27:00 | TestFoundry | INFO | Starting document processing: 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 12:27:00 | TestFoundry | INFO | Processing 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf with pdf processor
+2025-06-01 12:27:00 | TestFoundry | INFO | Processing PDF document: 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 12:27:03 | TestFoundry | INFO | PDF processing complete: 6 pages, 14393 characters
+2025-06-01 12:27:03 | TestFoundry | INFO | Successfully processed 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 12:27:03 | TestFoundry | INFO | Document stats: 6 pages, 14393 characters
+2025-06-01 12:27:03 | TestFoundry | INFO | Generating Q&A pairs for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 12:27:03 | TestFoundry | INFO | Generated 5 chunks from document
+2025-06-01 12:27:13 | TestFoundry | INFO | Generated 14 Q&A pairs
+2025-06-01 12:27:18 | TestFoundry | INFO | Generated 12 Q&A pairs
+2025-06-01 12:27:22 | TestFoundry | INFO | Generated 13 Q&A pairs
+2025-06-01 12:27:34 | TestFoundry | INFO | Generated 13 Q&A pairs
+2025-06-01 12:27:52 | TestFoundry | INFO | Generated 14 Q&A pairs
+2025-06-01 12:27:52 | TestFoundry | INFO | Generated 66 Q&A pairs for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 12:27:52 | TestFoundry | INFO | Generating adversarial test cases for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 12:28:06 | TestFoundry | INFO | Generated 1 adversarial test cases
+2025-06-01 12:28:13 | TestFoundry | INFO | Generated 0 adversarial test cases
+2025-06-01 12:28:13 | TestFoundry | INFO | Generated 1 adversarial test cases
+2025-06-01 12:28:22 | TestFoundry | INFO | Generated 0 adversarial test cases
+2025-06-01 12:28:33 | TestFoundry | INFO | Generated 7 adversarial test cases
+2025-06-01 12:28:33 | TestFoundry | INFO | Generated 9 adversarial test cases for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 12:28:33 | TestFoundry | INFO | Generating bias test cases for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 12:28:38 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 12:28:40 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 12:28:46 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 12:28:47 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 12:28:56 | TestFoundry | INFO | Generated 1 bias test cases
+2025-06-01 12:28:56 | TestFoundry | INFO | Generated 1 bias test cases for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 12:28:56 | TestFoundry | INFO | Generating hallucination test cases for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 12:29:01 | TestFoundry | INFO | Generated 4 hallucination test cases
+2025-06-01 12:29:02 | TestFoundry | INFO | Generated 4 hallucination test cases
+2025-06-01 12:29:02 | TestFoundry | INFO | Generated 1 hallucination test cases
+2025-06-01 12:29:05 | TestFoundry | INFO | Generated 1 hallucination test cases
+2025-06-01 12:29:09 | TestFoundry | INFO | Generated 4 hallucination test cases
+2025-06-01 12:29:09 | TestFoundry | INFO | Generated 14 hallucination test cases for 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf
+2025-06-01 12:29:09 | TestFoundry | INFO | Successfully processed 2239998074Accounting-Team---Expense-Report-Guidelines-from-the-Employee-Handbook.pdf: 66 Q&A pairs, 24 test cases
+2025-06-01 12:29:09 | TestFoundry | INFO | Processing document: Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 12:29:09 | TestFoundry | INFO | Starting document processing: Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 12:29:09 | TestFoundry | INFO | Processing Technology-and-Security-Use-Policies_V16-2024.pdf with pdf processor
+2025-06-01 12:29:09 | TestFoundry | INFO | Processing PDF document: Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 12:29:10 | TestFoundry | INFO | PDF processing complete: 9 pages, 23343 characters
+2025-06-01 12:29:10 | TestFoundry | INFO | Successfully processed Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 12:29:10 | TestFoundry | INFO | Document stats: 9 pages, 23343 characters
+2025-06-01 12:29:10 | TestFoundry | INFO | Generating Q&A pairs for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 12:29:10 | TestFoundry | INFO | Generated 7 chunks from document
+2025-06-01 12:29:21 | TestFoundry | INFO | Generated 10 Q&A pairs
+2025-06-01 12:29:22 | TestFoundry | INFO | Generated 10 Q&A pairs
+2025-06-01 12:29:22 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk 3
+2025-06-01 12:29:22 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk 3
+2025-06-01 12:29:26 | TestFoundry | INFO | Generated 10 Q&A pairs
+2025-06-01 12:29:26 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk 2
+2025-06-01 12:29:26 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk 2
+2025-06-01 12:29:31 | TestFoundry | INFO | Generated 10 Q&A pairs
+2025-06-01 12:29:36 | TestFoundry | INFO | Generated 10 Q&A pairs
+2025-06-01 12:29:42 | TestFoundry | INFO | Generated 10 Q&A pairs
+2025-06-01 12:29:42 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk 4
+2025-06-01 12:29:42 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk 4
+2025-06-01 12:29:47 | TestFoundry | INFO | Generated 10 Q&A pairs
+2025-06-01 12:29:47 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk 7
+2025-06-01 12:29:47 | TestFoundry | INFO | Generated 63 Q&A pairs for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 12:29:47 | TestFoundry | INFO | Generating adversarial test cases for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 12:29:55 | TestFoundry | INFO | Generated 4 adversarial test cases
+2025-06-01 12:29:55 | TestFoundry | INFO | Generated 0 adversarial test cases
+2025-06-01 12:29:59 | TestFoundry | INFO | Generated 0 adversarial test cases
+2025-06-01 12:30:01 | TestFoundry | INFO | Generated 1 adversarial test cases
+2025-06-01 12:30:01 | TestFoundry | INFO | Generated 1 adversarial test cases
+2025-06-01 12:30:01 | TestFoundry | INFO | Generated 6 adversarial test cases for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 12:30:01 | TestFoundry | INFO | Generating bias test cases for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 12:30:06 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 12:30:09 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 12:30:11 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 12:30:16 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 12:30:23 | TestFoundry | INFO | Generated 1 bias test cases
+2025-06-01 12:30:23 | TestFoundry | INFO | Generated 1 bias test cases for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 12:30:23 | TestFoundry | INFO | Generating hallucination test cases for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 12:30:27 | TestFoundry | INFO | Generated 4 hallucination test cases
+2025-06-01 12:30:28 | TestFoundry | INFO | Generated 4 hallucination test cases
+2025-06-01 12:30:30 | TestFoundry | INFO | Generated 4 hallucination test cases
+2025-06-01 12:30:34 | TestFoundry | INFO | Generated 0 hallucination test cases
+2025-06-01 12:30:35 | TestFoundry | INFO | Generated 0 hallucination test cases
+2025-06-01 12:30:35 | TestFoundry | INFO | Generated 12 hallucination test cases for Technology-and-Security-Use-Policies_V16-2024.pdf
+2025-06-01 12:30:35 | TestFoundry | INFO | Successfully processed Technology-and-Security-Use-Policies_V16-2024.pdf: 63 Q&A pairs, 19 test cases
+2025-06-01 12:30:35 | TestFoundry | INFO | Processing document: TI docs.docx
+2025-06-01 12:30:35 | TestFoundry | INFO | Starting document processing: TI docs.docx
+2025-06-01 12:30:35 | TestFoundry | INFO | Processing TI docs.docx with word processor
+2025-06-01 12:30:35 | TestFoundry | INFO | Processing Word document: TI docs.docx
+2025-06-01 12:30:44 | TestFoundry | INFO | Word processing complete: 15 pages, 33501 characters
+2025-06-01 12:30:44 | TestFoundry | INFO | Successfully processed TI docs.docx
+2025-06-01 12:30:44 | TestFoundry | INFO | Document stats: 15 pages, 33501 characters
+2025-06-01 12:30:44 | TestFoundry | INFO | Generating Q&A pairs for TI docs.docx
+2025-06-01 12:30:44 | TestFoundry | INFO | Generated 13 chunks from document
+2025-06-01 12:30:51 | TestFoundry | INFO | Generated 5 Q&A pairs
+2025-06-01 12:30:51 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk 1
+2025-06-01 12:30:56 | TestFoundry | INFO | Generated 5 Q&A pairs
+2025-06-01 12:30:56 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk 3
+2025-06-01 12:30:57 | TestFoundry | INFO | Generated 5 Q&A pairs
+2025-06-01 12:30:57 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk 2
+2025-06-01 12:30:58 | TestFoundry | INFO | Generated 5 Q&A pairs
+2025-06-01 12:30:58 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk 4
+2025-06-01 12:31:01 | TestFoundry | INFO | Generated 5 Q&A pairs
+2025-06-01 12:31:01 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk 5
+2025-06-01 12:31:03 | TestFoundry | INFO | Generated 5 Q&A pairs
+2025-06-01 12:31:03 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk 7
+2025-06-01 12:31:03 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk 7
+2025-06-01 12:31:09 | TestFoundry | INFO | Generated 5 Q&A pairs
+2025-06-01 12:31:09 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk 6
+2025-06-01 12:31:09 | TestFoundry | INFO | Generated 5 Q&A pairs
+2025-06-01 12:31:09 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk 9
+2025-06-01 12:31:13 | TestFoundry | INFO | Generated 5 Q&A pairs
+2025-06-01 12:31:13 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk 8
+2025-06-01 12:31:18 | TestFoundry | INFO | Generated 5 Q&A pairs
+2025-06-01 12:31:18 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk 11
+2025-06-01 12:31:18 | TestFoundry | INFO | Generated 5 Q&A pairs
+2025-06-01 12:31:18 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk 10
+2025-06-01 12:31:20 | TestFoundry | INFO | Generated 5 Q&A pairs
+2025-06-01 12:31:20 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk 12
+2025-06-01 12:31:20 | TestFoundry | WARNING | Invalid Q&A pair generated for chunk 12
+2025-06-01 12:31:26 | TestFoundry | INFO | Generated 5 Q&A pairs
+2025-06-01 12:31:26 | TestFoundry | INFO | Generated 51 Q&A pairs for TI docs.docx
+2025-06-01 12:31:26 | TestFoundry | INFO | Generating adversarial test cases for TI docs.docx
+2025-06-01 12:31:41 | TestFoundry | INFO | Generated 0 adversarial test cases
+2025-06-01 12:31:44 | TestFoundry | INFO | Generated 1 adversarial test cases
+2025-06-01 12:31:45 | TestFoundry | INFO | Generated 0 adversarial test cases
+2025-06-01 12:31:47 | TestFoundry | INFO | Generated 0 adversarial test cases
+2025-06-01 12:32:19 | TestFoundry | INFO | Generated 7 adversarial test cases
+2025-06-01 12:32:19 | TestFoundry | INFO | Generated 8 adversarial test cases for TI docs.docx
+2025-06-01 12:32:19 | TestFoundry | INFO | Generating bias test cases for TI docs.docx
+2025-06-01 12:32:26 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 12:32:27 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 12:32:28 | TestFoundry | INFO | Generated 1 bias test cases
+2025-06-01 12:32:30 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 12:32:31 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 12:32:31 | TestFoundry | INFO | Generated 1 bias test cases for TI docs.docx
+2025-06-01 12:32:31 | TestFoundry | INFO | Generating hallucination test cases for TI docs.docx
+2025-06-01 12:32:36 | TestFoundry | INFO | Generated 4 hallucination test cases
+2025-06-01 12:32:37 | TestFoundry | INFO | Generated 1 hallucination test cases
+2025-06-01 12:32:40 | TestFoundry | INFO | Generated 1 hallucination test cases
+2025-06-01 12:32:41 | TestFoundry | INFO | Generated 4 hallucination test cases
+2025-06-01 12:32:46 | TestFoundry | INFO | Generated 0 hallucination test cases
+2025-06-01 12:32:46 | TestFoundry | INFO | Generated 10 hallucination test cases for TI docs.docx
+2025-06-01 12:32:46 | TestFoundry | INFO | Successfully processed TI docs.docx: 51 Q&A pairs, 19 test cases
+2025-06-01 12:32:46 | TestFoundry | INFO | Azure OpenAI client closed
+2025-06-01 12:32:46 | TestFoundry | INFO | Azure OpenAI client closed
+2025-06-01 12:32:46 | TestFoundry | INFO | Generating Excel report
+2025-06-01 12:32:46 | TestFoundry | INFO | Excel report generated: output\TestFoundry_Report_20250601_123246.xlsx
+2025-06-01 12:32:46 | TestFoundry | INFO | TestFoundry Framework completed successfully
+2025-06-01 20:45:47 | TestFoundry | INFO | TestFoundry Framework started
+2025-06-01 20:45:47 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-06-01 20:45:47 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-06-01 20:45:47 | TestFoundry | INFO | Starting processing of 1 documents
+2025-06-01 20:45:47 | TestFoundry | INFO | Processing document: figma.jpg
+2025-06-01 20:45:47 | TestFoundry | INFO | Starting document processing: figma.jpg
+2025-06-01 20:45:47 | TestFoundry | INFO | Processing figma.jpg with image processor
+2025-06-01 20:45:47 | TestFoundry | INFO | Processing image document: figma.jpg
+2025-06-01 20:45:56 | TestFoundry | INFO | Image processing complete: 289 characters extracted, OCR confidence: 0.42
+2025-06-01 20:45:56 | TestFoundry | INFO | Successfully processed figma.jpg
+2025-06-01 20:45:56 | TestFoundry | INFO | Document stats: 1 pages, 289 characters
+2025-06-01 20:45:56 | TestFoundry | INFO | Generating Q&A pairs for figma.jpg
+2025-06-01 20:45:56 | TestFoundry | INFO | Generated 1 chunks from document
+2025-06-01 20:46:48 | TestFoundry | INFO | Generated 0 Q&A pairs
+2025-06-01 20:46:48 | TestFoundry | INFO | Generated 0 Q&A pairs for figma.jpg
+2025-06-01 20:46:48 | TestFoundry | INFO | Generating adversarial test cases for figma.jpg
+2025-06-01 20:47:06 | TestFoundry | INFO | Generated 1 adversarial test cases
+2025-06-01 20:47:06 | TestFoundry | INFO | Generated 1 adversarial test cases for figma.jpg
+2025-06-01 20:47:06 | TestFoundry | INFO | Generating bias test cases for figma.jpg
+2025-06-01 20:47:41 | TestFoundry | INFO | Generated 0 bias test cases
+2025-06-01 20:47:41 | TestFoundry | INFO | Generated 0 bias test cases for figma.jpg
+2025-06-01 20:47:41 | TestFoundry | INFO | Generating hallucination test cases for figma.jpg
+2025-06-01 20:48:05 | TestFoundry | INFO | Generated 20 hallucination test cases
+2025-06-01 20:48:05 | TestFoundry | INFO | Generated 20 hallucination test cases for figma.jpg
+2025-06-01 20:48:05 | TestFoundry | INFO | Successfully processed figma.jpg: 0 Q&A pairs, 21 test cases
+2025-06-01 20:48:05 | TestFoundry | INFO | Azure OpenAI client closed
+2025-06-01 20:48:05 | TestFoundry | INFO | Azure OpenAI client closed
+2025-06-01 20:48:05 | TestFoundry | INFO | Generating Excel report
+2025-06-01 20:48:05 | TestFoundry | INFO | Excel report generated: output\TestFoundry_Report_20250601_204805.xlsx
+2025-06-01 20:48:05 | TestFoundry | INFO | TestFoundry Framework completed successfully
+2025-07-02 15:28:40 | TestFoundry | INFO | TestFoundry Framework started
+2025-07-02 15:28:40 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-02 15:28:40 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-02 15:28:40 | TestFoundry | INFO | Starting processing of 1 documents
+2025-07-02 15:28:40 | TestFoundry | INFO | Processing document: figma.jpg
+2025-07-02 15:28:40 | TestFoundry | INFO | Starting document processing: figma.jpg
+2025-07-02 15:28:40 | TestFoundry | INFO | Processing figma.jpg with image processor
+2025-07-02 15:28:40 | TestFoundry | INFO | Processing image document: figma.jpg
+2025-07-02 15:28:41 | TestFoundry | ERROR | OCR extraction failed: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-07-02 15:28:41 | TestFoundry | INFO | Image processing complete: 0 characters extracted, OCR confidence: 0.00
+2025-07-02 15:28:41 | TestFoundry | INFO | Successfully processed figma.jpg
+2025-07-02 15:28:41 | TestFoundry | INFO | Document stats: 1 pages, 0 characters
+2025-07-02 15:28:41 | TestFoundry | INFO | Generating Q&A pairs for figma.jpg
+2025-07-02 15:28:41 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-02 15:28:41 | TestFoundry | INFO | Generating adversarial test cases for figma.jpg
+2025-07-02 15:28:41 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-02 15:28:41 | TestFoundry | INFO | Generating bias test cases for figma.jpg
+2025-07-02 15:28:41 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-02 15:28:41 | TestFoundry | INFO | Generating hallucination test cases for figma.jpg
+2025-07-02 15:28:41 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-02 15:28:41 | TestFoundry | INFO | Successfully processed figma.jpg: 0 Q&A pairs, 0 test cases
+2025-07-02 15:28:41 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-02 15:28:41 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-02 15:28:41 | TestFoundry | INFO | Generating Excel report
+2025-07-02 15:28:41 | TestFoundry | INFO | Excel report generated: output/TestFoundry_Report_20250702_152841.xlsx
+2025-07-02 15:28:41 | TestFoundry | INFO | TestFoundry Framework completed successfully
+2025-07-02 15:30:25 | TestFoundry | INFO | TestFoundry Framework started
+2025-07-02 15:30:25 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-02 15:30:25 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-02 15:30:25 | TestFoundry | INFO | Starting processing of 1 documents
+2025-07-02 15:30:25 | TestFoundry | INFO | Processing document: figma.jpg
+2025-07-02 15:30:25 | TestFoundry | INFO | Starting document processing: figma.jpg
+2025-07-02 15:30:25 | TestFoundry | INFO | Processing figma.jpg with image processor
+2025-07-02 15:30:25 | TestFoundry | INFO | Processing image document: figma.jpg
+2025-07-02 15:30:26 | TestFoundry | ERROR | OCR extraction failed: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-07-02 15:30:26 | TestFoundry | INFO | Image processing complete: 0 characters extracted, OCR confidence: 0.00
+2025-07-02 15:30:26 | TestFoundry | INFO | Successfully processed figma.jpg
+2025-07-02 15:30:26 | TestFoundry | INFO | Document stats: 1 pages, 0 characters
+2025-07-02 15:30:26 | TestFoundry | INFO | Generating Q&A pairs for figma.jpg
+2025-07-02 15:30:26 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-02 15:30:26 | TestFoundry | INFO | Generating adversarial test cases for figma.jpg
+2025-07-02 15:30:26 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-02 15:30:26 | TestFoundry | INFO | Generating bias test cases for figma.jpg
+2025-07-02 15:30:26 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-02 15:30:26 | TestFoundry | INFO | Generating hallucination test cases for figma.jpg
+2025-07-02 15:30:26 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-02 15:30:26 | TestFoundry | INFO | Successfully processed figma.jpg: 0 Q&A pairs, 0 test cases
+2025-07-02 15:30:26 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-02 15:30:26 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-02 15:30:26 | TestFoundry | INFO | Generating Excel report
+2025-07-02 15:30:26 | TestFoundry | INFO | Excel report generated: output/TestFoundry_Report_20250702_153026.xlsx
+2025-07-02 15:30:26 | TestFoundry | INFO | TestFoundry Framework completed successfully
+2025-07-02 15:35:48 | TestFoundry | INFO | TestFoundry Framework started
+2025-07-02 15:35:48 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-02 15:35:48 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-02 15:35:48 | TestFoundry | INFO | Starting processing of 1 documents
+2025-07-02 15:35:48 | TestFoundry | INFO | Processing document: figma.jpg
+2025-07-02 15:35:48 | TestFoundry | INFO | Starting document processing: figma.jpg
+2025-07-02 15:35:48 | TestFoundry | INFO | Processing figma.jpg with image processor
+2025-07-02 15:35:48 | TestFoundry | INFO | Processing image document: figma.jpg
+2025-07-02 15:35:49 | TestFoundry | ERROR | OCR extraction failed: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-07-02 15:35:49 | TestFoundry | INFO | Image processing complete: 0 characters extracted, OCR confidence: 0.00
+2025-07-02 15:35:49 | TestFoundry | INFO | Successfully processed figma.jpg
+2025-07-02 15:35:49 | TestFoundry | INFO | Document stats: 1 pages, 0 characters
+2025-07-02 15:35:49 | TestFoundry | INFO | Generating Q&A pairs for figma.jpg
+2025-07-02 15:35:49 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-02 15:35:49 | TestFoundry | INFO | Generating adversarial test cases for figma.jpg
+2025-07-02 15:35:49 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-02 15:35:49 | TestFoundry | INFO | Generating bias test cases for figma.jpg
+2025-07-02 15:35:49 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-02 15:35:49 | TestFoundry | INFO | Generating hallucination test cases for figma.jpg
+2025-07-02 15:35:49 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-02 15:35:49 | TestFoundry | INFO | Successfully processed figma.jpg: 0 Q&A pairs, 0 test cases
+2025-07-02 15:35:49 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-02 15:35:49 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-02 15:35:49 | TestFoundry | INFO | Generating Excel report
+2025-07-02 15:35:49 | TestFoundry | INFO | Excel report generated: output/TestFoundry_Report_20250702_153549.xlsx
+2025-07-02 15:35:49 | TestFoundry | INFO | TestFoundry Framework completed successfully
+2025-07-02 15:41:09 | TestFoundry | INFO | TestFoundry Framework started
+2025-07-02 15:41:09 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-02 15:41:09 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-02 15:41:09 | TestFoundry | INFO | Starting processing of 1 documents
+2025-07-02 15:41:09 | TestFoundry | INFO | Processing document: figma.jpg
+2025-07-02 15:41:09 | TestFoundry | INFO | Starting document processing: figma.jpg
+2025-07-02 15:41:09 | TestFoundry | INFO | Processing figma.jpg with image processor
+2025-07-02 15:41:09 | TestFoundry | INFO | Processing image document: figma.jpg
+2025-07-02 15:41:10 | TestFoundry | ERROR | OCR extraction failed: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-07-02 15:41:10 | TestFoundry | INFO | Image processing complete: 0 characters extracted, OCR confidence: 0.00
+2025-07-02 15:41:10 | TestFoundry | INFO | Successfully processed figma.jpg
+2025-07-02 15:41:10 | TestFoundry | INFO | Document stats: 1 pages, 0 characters
+2025-07-02 15:41:10 | TestFoundry | INFO | Generating Q&A pairs for figma.jpg
+2025-07-02 15:41:10 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-02 15:41:10 | TestFoundry | INFO | Generating adversarial test cases for figma.jpg
+2025-07-02 15:41:10 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-02 15:41:10 | TestFoundry | INFO | Generating bias test cases for figma.jpg
+2025-07-02 15:41:10 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-02 15:41:10 | TestFoundry | INFO | Generating hallucination test cases for figma.jpg
+2025-07-02 15:41:10 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-02 15:41:10 | TestFoundry | INFO | Successfully processed figma.jpg: 0 Q&A pairs, 0 test cases
+2025-07-02 15:41:10 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-02 15:41:10 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-02 15:41:10 | TestFoundry | INFO | Generating Excel report
+2025-07-02 15:41:10 | TestFoundry | INFO | Excel report generated: output/TestFoundry_Report_20250702_154110.xlsx
+2025-07-02 15:41:10 | TestFoundry | INFO | TestFoundry Framework completed successfully
+2025-07-02 15:49:12 | TestFoundry | INFO | TestFoundry Framework started
+2025-07-02 15:49:12 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-02 15:49:12 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-02 15:49:12 | TestFoundry | INFO | Starting processing of 1 documents
+2025-07-02 15:49:12 | TestFoundry | INFO | Processing document: figma.jpg
+2025-07-02 15:49:12 | TestFoundry | INFO | Starting document processing: figma.jpg
+2025-07-02 15:49:12 | TestFoundry | INFO | Processing figma.jpg with image processor
+2025-07-02 15:49:12 | TestFoundry | INFO | Processing image document: figma.jpg
+2025-07-02 15:49:13 | TestFoundry | ERROR | OCR extraction failed: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-07-02 15:49:13 | TestFoundry | INFO | Image processing complete: 0 characters extracted, OCR confidence: 0.00
+2025-07-02 15:49:13 | TestFoundry | INFO | Successfully processed figma.jpg
+2025-07-02 15:49:13 | TestFoundry | INFO | Document stats: 1 pages, 0 characters
+2025-07-02 15:49:13 | TestFoundry | INFO | Generating Q&A pairs for figma.jpg
+2025-07-02 15:49:13 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-02 15:49:13 | TestFoundry | INFO | Generating adversarial test cases for figma.jpg
+2025-07-02 15:49:13 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-02 15:49:13 | TestFoundry | INFO | Generating bias test cases for figma.jpg
+2025-07-02 15:49:13 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-02 15:49:13 | TestFoundry | INFO | Generating hallucination test cases for figma.jpg
+2025-07-02 15:49:13 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-02 15:49:13 | TestFoundry | INFO | Successfully processed figma.jpg: 0 Q&A pairs, 0 test cases
+2025-07-02 15:49:13 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-02 15:49:13 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-02 15:49:13 | TestFoundry | INFO | Generating Excel report
+2025-07-02 15:49:13 | TestFoundry | INFO | Excel report generated: output/TestFoundry_Report_20250702_154913.xlsx
+2025-07-02 15:49:13 | TestFoundry | INFO | TestFoundry Framework completed successfully
+2025-07-02 15:49:59 | TestFoundry | INFO | TestFoundry Framework started
+2025-07-02 15:49:59 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-02 15:49:59 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-02 15:49:59 | TestFoundry | INFO | Starting processing of 1 documents
+2025-07-02 15:49:59 | TestFoundry | INFO | Processing document: figma.jpg
+2025-07-02 15:49:59 | TestFoundry | INFO | Starting document processing: figma.jpg
+2025-07-02 15:49:59 | TestFoundry | INFO | Processing figma.jpg with image processor
+2025-07-02 15:49:59 | TestFoundry | INFO | Processing image document: figma.jpg
+2025-07-02 15:49:59 | TestFoundry | ERROR | OCR extraction failed: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-07-02 15:49:59 | TestFoundry | INFO | Image processing complete: 0 characters extracted, OCR confidence: 0.00
+2025-07-02 15:49:59 | TestFoundry | INFO | Successfully processed figma.jpg
+2025-07-02 15:49:59 | TestFoundry | INFO | Document stats: 1 pages, 0 characters
+2025-07-02 15:49:59 | TestFoundry | INFO | Generating Q&A pairs for figma.jpg
+2025-07-02 15:49:59 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-02 15:49:59 | TestFoundry | INFO | Generating adversarial test cases for figma.jpg
+2025-07-02 15:49:59 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-02 15:49:59 | TestFoundry | INFO | Generating bias test cases for figma.jpg
+2025-07-02 15:49:59 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-02 15:49:59 | TestFoundry | INFO | Generating hallucination test cases for figma.jpg
+2025-07-02 15:49:59 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-02 15:49:59 | TestFoundry | INFO | Successfully processed figma.jpg: 0 Q&A pairs, 0 test cases
+2025-07-02 15:49:59 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-02 15:49:59 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-02 15:49:59 | TestFoundry | INFO | Generating Excel report
+2025-07-02 15:49:59 | TestFoundry | INFO | Excel report generated: output/TestFoundry_Report_20250702_154959.xlsx
+2025-07-02 15:49:59 | TestFoundry | INFO | TestFoundry Framework completed successfully
+2025-07-02 15:51:20 | TestFoundry | INFO | TestFoundry Framework started
+2025-07-02 15:51:20 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-02 15:51:20 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-02 15:51:20 | TestFoundry | INFO | Starting processing of 1 documents
+2025-07-02 15:51:20 | TestFoundry | INFO | Processing document: figma.jpg
+2025-07-02 15:51:20 | TestFoundry | INFO | Starting document processing: figma.jpg
+2025-07-02 15:51:20 | TestFoundry | INFO | Processing figma.jpg with image processor
+2025-07-02 15:51:20 | TestFoundry | INFO | Processing image document: figma.jpg
+2025-07-02 15:51:21 | TestFoundry | ERROR | OCR extraction failed: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-07-02 15:51:21 | TestFoundry | INFO | Image processing complete: 0 characters extracted, OCR confidence: 0.00
+2025-07-02 15:51:21 | TestFoundry | INFO | Successfully processed figma.jpg
+2025-07-02 15:51:21 | TestFoundry | INFO | Document stats: 1 pages, 0 characters
+2025-07-02 15:51:21 | TestFoundry | INFO | Generating Q&A pairs for figma.jpg
+2025-07-02 15:51:21 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-02 15:51:21 | TestFoundry | INFO | Generating adversarial test cases for figma.jpg
+2025-07-02 15:51:21 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-02 15:51:21 | TestFoundry | INFO | Generating bias test cases for figma.jpg
+2025-07-02 15:51:21 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-02 15:51:21 | TestFoundry | INFO | Generating hallucination test cases for figma.jpg
+2025-07-02 15:51:21 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-02 15:51:21 | TestFoundry | INFO | Successfully processed figma.jpg: 0 Q&A pairs, 0 test cases
+2025-07-02 15:51:21 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-02 15:51:21 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-02 15:51:21 | TestFoundry | INFO | Generating Excel report
+2025-07-02 15:51:21 | TestFoundry | INFO | Excel report generated: output/TestFoundry_Report_20250702_155121.xlsx
+2025-07-02 15:51:21 | TestFoundry | INFO | TestFoundry Framework completed successfully
+2025-07-03 12:11:07 | TestFoundry | INFO | TestFoundry Framework started
+2025-07-03 12:11:07 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-03 12:11:07 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-03 12:11:07 | TestFoundry | INFO | Starting processing of 1 documents
+2025-07-03 12:11:07 | TestFoundry | INFO | Processing document: figma.jpg
+2025-07-03 12:11:07 | TestFoundry | INFO | Starting document processing: figma.jpg
+2025-07-03 12:11:07 | TestFoundry | INFO | Processing figma.jpg with image processor
+2025-07-03 12:11:07 | TestFoundry | INFO | Processing image document: figma.jpg
+2025-07-03 12:11:09 | TestFoundry | ERROR | OCR extraction failed: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-07-03 12:11:09 | TestFoundry | INFO | Image processing complete: 0 characters extracted, OCR confidence: 0.00
+2025-07-03 12:11:09 | TestFoundry | INFO | Successfully processed figma.jpg
+2025-07-03 12:11:09 | TestFoundry | INFO | Document stats: 1 pages, 0 characters
+2025-07-03 12:11:09 | TestFoundry | INFO | Generating Q&A pairs for figma.jpg
+2025-07-03 12:11:09 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-03 12:11:09 | TestFoundry | INFO | Generating adversarial test cases for figma.jpg
+2025-07-03 12:11:09 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-03 12:11:09 | TestFoundry | INFO | Generating bias test cases for figma.jpg
+2025-07-03 12:11:09 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-03 12:11:09 | TestFoundry | INFO | Generating hallucination test cases for figma.jpg
+2025-07-03 12:11:09 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-03 12:11:09 | TestFoundry | INFO | Successfully processed figma.jpg: 0 Q&A pairs, 0 test cases
+2025-07-03 12:11:09 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-03 12:11:09 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-03 12:11:09 | TestFoundry | INFO | Generating Excel report
+2025-07-03 12:11:09 | TestFoundry | INFO | Excel report generated: output/TestFoundry_Report_20250703_121109.xlsx
+2025-07-03 12:11:09 | TestFoundry | INFO | TestFoundry Framework completed successfully
+2025-07-03 12:14:56 | TestFoundry | INFO | TestFoundry Framework started
+2025-07-03 12:14:56 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-03 12:14:56 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-03 12:14:56 | TestFoundry | INFO | Starting processing of 1 documents
+2025-07-03 12:14:56 | TestFoundry | INFO | Processing document: figma.jpg
+2025-07-03 12:14:56 | TestFoundry | INFO | Starting document processing: figma.jpg
+2025-07-03 12:14:56 | TestFoundry | INFO | Processing figma.jpg with image processor
+2025-07-03 12:14:56 | TestFoundry | INFO | Processing image document: figma.jpg
+2025-07-03 12:14:57 | TestFoundry | ERROR | OCR extraction failed: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-07-03 12:14:57 | TestFoundry | INFO | Image processing complete: 0 characters extracted, OCR confidence: 0.00
+2025-07-03 12:14:57 | TestFoundry | INFO | Successfully processed figma.jpg
+2025-07-03 12:14:57 | TestFoundry | INFO | Document stats: 1 pages, 0 characters
+2025-07-03 12:14:57 | TestFoundry | INFO | Generating Q&A pairs for figma.jpg
+2025-07-03 12:14:57 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-03 12:14:57 | TestFoundry | INFO | Generating adversarial test cases for figma.jpg
+2025-07-03 12:14:57 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-03 12:14:57 | TestFoundry | INFO | Generating bias test cases for figma.jpg
+2025-07-03 12:14:57 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-03 12:14:57 | TestFoundry | INFO | Generating hallucination test cases for figma.jpg
+2025-07-03 12:14:57 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-03 12:14:57 | TestFoundry | INFO | Successfully processed figma.jpg: 0 Q&A pairs, 0 test cases
+2025-07-03 12:14:57 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-03 12:14:57 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-03 12:14:57 | TestFoundry | INFO | Generating Excel report
+2025-07-03 12:14:57 | TestFoundry | INFO | Excel report generated: output/TestFoundry_Report_20250703_121457.xlsx
+2025-07-03 12:14:57 | TestFoundry | INFO | TestFoundry Framework completed successfully
+2025-07-08 17:00:44 | TestFoundry | INFO | TestFoundry Framework started
+2025-07-08 17:00:44 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-08 17:00:44 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-08 17:00:44 | TestFoundry | INFO | Starting processing of 1 documents
+2025-07-08 17:00:44 | TestFoundry | INFO | Processing document: figma.jpg
+2025-07-08 17:00:44 | TestFoundry | INFO | Starting document processing: figma.jpg
+2025-07-08 17:00:44 | TestFoundry | INFO | Processing figma.jpg with image processor
+2025-07-08 17:00:44 | TestFoundry | INFO | Processing image document: figma.jpg
+2025-07-08 17:00:45 | TestFoundry | ERROR | OCR extraction failed: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-07-08 17:00:45 | TestFoundry | INFO | Image processing complete: 0 characters extracted, OCR confidence: 0.00
+2025-07-08 17:00:45 | TestFoundry | INFO | Successfully processed figma.jpg
+2025-07-08 17:00:45 | TestFoundry | INFO | Document stats: 1 pages, 0 characters
+2025-07-08 17:00:45 | TestFoundry | INFO | Generating Q&A pairs for figma.jpg
+2025-07-08 17:00:45 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-08 17:00:45 | TestFoundry | INFO | Generating adversarial test cases for figma.jpg
+2025-07-08 17:00:45 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-08 17:00:45 | TestFoundry | INFO | Generating bias test cases for figma.jpg
+2025-07-08 17:00:45 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-08 17:00:45 | TestFoundry | INFO | Generating hallucination test cases for figma.jpg
+2025-07-08 17:00:45 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-08 17:00:45 | TestFoundry | INFO | Successfully processed figma.jpg: 0 Q&A pairs, 0 test cases
+2025-07-08 17:00:45 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-08 17:00:45 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-08 17:00:45 | TestFoundry | INFO | Generating Excel report
+2025-07-08 17:00:45 | TestFoundry | INFO | Excel report generated: output/TestFoundry_Report_20250708_170045.xlsx
+2025-07-08 17:00:45 | TestFoundry | INFO | TestFoundry Framework completed successfully
+2025-07-08 17:00:54 | TestFoundry | INFO | TestFoundry Framework started
+2025-07-08 17:00:54 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-08 17:00:54 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-08 17:00:54 | TestFoundry | INFO | Starting processing of 1 documents
+2025-07-08 17:00:54 | TestFoundry | INFO | Processing document: figma.jpg
+2025-07-08 17:00:54 | TestFoundry | INFO | Starting document processing: figma.jpg
+2025-07-08 17:00:54 | TestFoundry | INFO | Processing figma.jpg with image processor
+2025-07-08 17:00:54 | TestFoundry | INFO | Processing image document: figma.jpg
+2025-07-08 17:00:54 | TestFoundry | ERROR | OCR extraction failed: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-07-08 17:00:54 | TestFoundry | INFO | Image processing complete: 0 characters extracted, OCR confidence: 0.00
+2025-07-08 17:00:54 | TestFoundry | INFO | Successfully processed figma.jpg
+2025-07-08 17:00:54 | TestFoundry | INFO | Document stats: 1 pages, 0 characters
+2025-07-08 17:00:54 | TestFoundry | INFO | Generating Q&A pairs for figma.jpg
+2025-07-08 17:00:54 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-08 17:00:54 | TestFoundry | INFO | Generating adversarial test cases for figma.jpg
+2025-07-08 17:00:54 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-08 17:00:54 | TestFoundry | INFO | Generating bias test cases for figma.jpg
+2025-07-08 17:00:54 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-08 17:00:54 | TestFoundry | INFO | Generating hallucination test cases for figma.jpg
+2025-07-08 17:00:54 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-08 17:00:54 | TestFoundry | INFO | Successfully processed figma.jpg: 0 Q&A pairs, 0 test cases
+2025-07-08 17:00:54 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-08 17:00:54 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-08 17:00:54 | TestFoundry | INFO | Generating Excel report
+2025-07-08 17:00:54 | TestFoundry | INFO | Excel report generated: output/TestFoundry_Report_20250708_170054.xlsx
+2025-07-08 17:00:54 | TestFoundry | INFO | TestFoundry Framework completed successfully
+2025-07-10 14:28:48 | TestFoundry | INFO | TestFoundry Framework started
+2025-07-10 14:28:48 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-10 14:28:49 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-10 14:28:49 | TestFoundry | INFO | Starting processing of 1 documents
+2025-07-10 14:28:49 | TestFoundry | INFO | Processing document: figma.jpg
+2025-07-10 14:28:49 | TestFoundry | INFO | Starting document processing: figma.jpg
+2025-07-10 14:28:49 | TestFoundry | INFO | Processing figma.jpg with image processor
+2025-07-10 14:28:49 | TestFoundry | INFO | Processing image document: figma.jpg
+2025-07-10 14:28:52 | TestFoundry | ERROR | OCR extraction failed: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-07-10 14:28:52 | TestFoundry | INFO | Image processing complete: 0 characters extracted, OCR confidence: 0.00
+2025-07-10 14:28:52 | TestFoundry | INFO | Successfully processed figma.jpg
+2025-07-10 14:28:52 | TestFoundry | INFO | Document stats: 1 pages, 0 characters
+2025-07-10 14:28:52 | TestFoundry | INFO | Generating Q&A pairs for figma.jpg
+2025-07-10 14:28:52 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-10 14:28:52 | TestFoundry | INFO | Generating adversarial test cases for figma.jpg
+2025-07-10 14:28:52 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-10 14:28:52 | TestFoundry | INFO | Generating bias test cases for figma.jpg
+2025-07-10 14:28:52 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-10 14:28:52 | TestFoundry | INFO | Generating hallucination test cases for figma.jpg
+2025-07-10 14:28:52 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-10 14:28:52 | TestFoundry | INFO | Successfully processed figma.jpg: 0 Q&A pairs, 0 test cases
+2025-07-10 14:28:52 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-10 14:28:52 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-10 14:28:52 | TestFoundry | INFO | Generating Excel report
+2025-07-10 14:28:52 | TestFoundry | INFO | Excel report generated: output/TestFoundry_Report_20250710_142852.xlsx
+2025-07-10 14:28:52 | TestFoundry | INFO | TestFoundry Framework completed successfully
+2025-07-10 14:29:30 | TestFoundry | INFO | TestFoundry Framework started
+2025-07-10 14:29:30 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-10 14:29:31 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-10 14:29:31 | TestFoundry | INFO | TestFoundry Framework started
+2025-07-10 14:29:31 | TestFoundry | INFO | Starting processing of 1 documents
+2025-07-10 14:29:31 | TestFoundry | INFO | Processing document: figma.jpg
+2025-07-10 14:29:31 | TestFoundry | INFO | Starting document processing: figma.jpg
+2025-07-10 14:29:31 | TestFoundry | INFO | Processing figma.jpg with image processor
+2025-07-10 14:29:31 | TestFoundry | INFO | Processing image document: figma.jpg
+2025-07-10 14:29:31 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-10 14:29:31 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-10 14:29:31 | TestFoundry | INFO | Starting processing of 1 documents
+2025-07-10 14:29:31 | TestFoundry | INFO | Processing document: figma.jpg
+2025-07-10 14:29:31 | TestFoundry | INFO | Starting document processing: figma.jpg
+2025-07-10 14:29:31 | TestFoundry | INFO | Processing figma.jpg with image processor
+2025-07-10 14:29:31 | TestFoundry | INFO | Processing image document: figma.jpg
+2025-07-10 14:29:33 | TestFoundry | ERROR | OCR extraction failed: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-07-10 14:29:33 | TestFoundry | INFO | Image processing complete: 0 characters extracted, OCR confidence: 0.00
+2025-07-10 14:29:33 | TestFoundry | INFO | Successfully processed figma.jpg
+2025-07-10 14:29:33 | TestFoundry | INFO | Document stats: 1 pages, 0 characters
+2025-07-10 14:29:33 | TestFoundry | INFO | Generating Q&A pairs for figma.jpg
+2025-07-10 14:29:33 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-10 14:29:33 | TestFoundry | INFO | Generating adversarial test cases for figma.jpg
+2025-07-10 14:29:33 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-10 14:29:33 | TestFoundry | INFO | Generating bias test cases for figma.jpg
+2025-07-10 14:29:33 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-10 14:29:33 | TestFoundry | INFO | Generating hallucination test cases for figma.jpg
+2025-07-10 14:29:33 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-10 14:29:33 | TestFoundry | INFO | Successfully processed figma.jpg: 0 Q&A pairs, 0 test cases
+2025-07-10 14:29:33 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-10 14:29:33 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-10 14:29:33 | TestFoundry | INFO | Generating Excel report
+2025-07-10 14:29:33 | TestFoundry | INFO | Excel report generated: output/TestFoundry_Report_20250710_142933.xlsx
+2025-07-10 14:29:33 | TestFoundry | INFO | TestFoundry Framework completed successfully
+2025-07-10 14:29:34 | TestFoundry | ERROR | OCR extraction failed: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-07-10 14:29:34 | TestFoundry | INFO | Image processing complete: 0 characters extracted, OCR confidence: 0.00
+2025-07-10 14:29:34 | TestFoundry | INFO | Successfully processed figma.jpg
+2025-07-10 14:29:34 | TestFoundry | INFO | Document stats: 1 pages, 0 characters
+2025-07-10 14:29:34 | TestFoundry | INFO | Generating Q&A pairs for figma.jpg
+2025-07-10 14:29:34 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-10 14:29:34 | TestFoundry | INFO | Generating adversarial test cases for figma.jpg
+2025-07-10 14:29:34 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-10 14:29:34 | TestFoundry | INFO | Generating bias test cases for figma.jpg
+2025-07-10 14:29:34 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-10 14:29:34 | TestFoundry | INFO | Generating hallucination test cases for figma.jpg
+2025-07-10 14:29:34 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-10 14:29:34 | TestFoundry | INFO | Successfully processed figma.jpg: 0 Q&A pairs, 0 test cases
+2025-07-10 14:29:34 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-10 14:29:34 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-10 14:29:34 | TestFoundry | INFO | Generating Excel report
+2025-07-10 14:29:34 | TestFoundry | INFO | Excel report generated: output/TestFoundry_Report_20250710_142934.xlsx
+2025-07-10 14:29:34 | TestFoundry | INFO | TestFoundry Framework completed successfully
+2025-07-10 14:29:36 | TestFoundry | INFO | TestFoundry Framework started
+2025-07-10 14:29:36 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-10 14:29:36 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-10 14:29:36 | TestFoundry | INFO | Starting processing of 1 documents
+2025-07-10 14:29:36 | TestFoundry | INFO | Processing document: figma.jpg
+2025-07-10 14:29:36 | TestFoundry | INFO | Starting document processing: figma.jpg
+2025-07-10 14:29:36 | TestFoundry | INFO | Processing figma.jpg with image processor
+2025-07-10 14:29:36 | TestFoundry | INFO | Processing image document: figma.jpg
+2025-07-10 14:29:38 | TestFoundry | ERROR | OCR extraction failed: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-07-10 14:29:38 | TestFoundry | INFO | Image processing complete: 0 characters extracted, OCR confidence: 0.00
+2025-07-10 14:29:38 | TestFoundry | INFO | Successfully processed figma.jpg
+2025-07-10 14:29:38 | TestFoundry | INFO | Document stats: 1 pages, 0 characters
+2025-07-10 14:29:38 | TestFoundry | INFO | Generating Q&A pairs for figma.jpg
+2025-07-10 14:29:38 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-10 14:29:38 | TestFoundry | INFO | Generating adversarial test cases for figma.jpg
+2025-07-10 14:29:38 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-10 14:29:38 | TestFoundry | INFO | Generating bias test cases for figma.jpg
+2025-07-10 14:29:38 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-10 14:29:38 | TestFoundry | INFO | Generating hallucination test cases for figma.jpg
+2025-07-10 14:29:38 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-10 14:29:38 | TestFoundry | INFO | Successfully processed figma.jpg: 0 Q&A pairs, 0 test cases
+2025-07-10 14:29:38 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-10 14:29:38 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-10 14:29:38 | TestFoundry | INFO | Generating Excel report
+2025-07-10 14:29:38 | TestFoundry | INFO | Excel report generated: output/TestFoundry_Report_20250710_142938.xlsx
+2025-07-10 14:29:38 | TestFoundry | INFO | TestFoundry Framework completed successfully
+2025-07-10 18:15:06 | TestFoundry | INFO | TestFoundry Framework started
+2025-07-10 18:15:06 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-10 18:15:06 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-10 18:15:06 | TestFoundry | INFO | Starting processing of 1 documents
+2025-07-10 18:15:06 | TestFoundry | INFO | Processing document: figma.jpg
+2025-07-10 18:15:06 | TestFoundry | INFO | Starting document processing: figma.jpg
+2025-07-10 18:15:06 | TestFoundry | INFO | Processing figma.jpg with image processor
+2025-07-10 18:15:06 | TestFoundry | INFO | Processing image document: figma.jpg
+2025-07-10 18:15:08 | TestFoundry | ERROR | OCR extraction failed: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-07-10 18:15:08 | TestFoundry | INFO | Image processing complete: 0 characters extracted, OCR confidence: 0.00
+2025-07-10 18:15:08 | TestFoundry | INFO | Successfully processed figma.jpg
+2025-07-10 18:15:08 | TestFoundry | INFO | Document stats: 1 pages, 0 characters
+2025-07-10 18:15:08 | TestFoundry | INFO | Generating Q&A pairs for figma.jpg
+2025-07-10 18:15:08 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-10 18:15:08 | TestFoundry | INFO | Generating adversarial test cases for figma.jpg
+2025-07-10 18:15:08 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-10 18:15:08 | TestFoundry | INFO | Generating bias test cases for figma.jpg
+2025-07-10 18:15:08 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-10 18:15:08 | TestFoundry | INFO | Generating hallucination test cases for figma.jpg
+2025-07-10 18:15:08 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-10 18:15:08 | TestFoundry | INFO | Successfully processed figma.jpg: 0 Q&A pairs, 0 test cases
+2025-07-10 18:15:08 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-10 18:15:08 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-10 18:15:08 | TestFoundry | INFO | Generating Excel report
+2025-07-10 18:15:08 | TestFoundry | INFO | Excel report generated: output/TestFoundry_Report_20250710_181508.xlsx
+2025-07-10 18:15:08 | TestFoundry | INFO | TestFoundry Framework completed successfully
+2025-07-10 18:15:25 | TestFoundry | INFO | TestFoundry Framework started
+2025-07-10 18:15:25 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-10 18:15:25 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-10 18:15:25 | TestFoundry | INFO | Starting processing of 1 documents
+2025-07-10 18:15:25 | TestFoundry | INFO | Processing document: figma.jpg
+2025-07-10 18:15:25 | TestFoundry | INFO | Starting document processing: figma.jpg
+2025-07-10 18:15:25 | TestFoundry | INFO | Processing figma.jpg with image processor
+2025-07-10 18:15:25 | TestFoundry | INFO | Processing image document: figma.jpg
+2025-07-10 18:15:27 | TestFoundry | ERROR | OCR extraction failed: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-07-10 18:15:27 | TestFoundry | INFO | Image processing complete: 0 characters extracted, OCR confidence: 0.00
+2025-07-10 18:15:27 | TestFoundry | INFO | Successfully processed figma.jpg
+2025-07-10 18:15:27 | TestFoundry | INFO | Document stats: 1 pages, 0 characters
+2025-07-10 18:15:27 | TestFoundry | INFO | Generating Q&A pairs for figma.jpg
+2025-07-10 18:15:27 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-10 18:15:27 | TestFoundry | INFO | Generating adversarial test cases for figma.jpg
+2025-07-10 18:15:27 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-10 18:15:27 | TestFoundry | INFO | Generating bias test cases for figma.jpg
+2025-07-10 18:15:27 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-10 18:15:27 | TestFoundry | INFO | Generating hallucination test cases for figma.jpg
+2025-07-10 18:15:27 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-10 18:15:27 | TestFoundry | INFO | Successfully processed figma.jpg: 0 Q&A pairs, 0 test cases
+2025-07-10 18:15:27 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-10 18:15:27 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-10 18:15:27 | TestFoundry | INFO | Generating Excel report
+2025-07-10 18:15:27 | TestFoundry | INFO | Excel report generated: output/TestFoundry_Report_20250710_181527.xlsx
+2025-07-10 18:15:27 | TestFoundry | INFO | TestFoundry Framework completed successfully
+2025-07-10 18:15:33 | TestFoundry | INFO | TestFoundry Framework started
+2025-07-10 18:15:33 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-10 18:15:33 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-10 18:15:33 | TestFoundry | INFO | Starting processing of 1 documents
+2025-07-10 18:15:33 | TestFoundry | INFO | Processing document: figma.jpg
+2025-07-10 18:15:33 | TestFoundry | INFO | Starting document processing: figma.jpg
+2025-07-10 18:15:33 | TestFoundry | INFO | Processing figma.jpg with image processor
+2025-07-10 18:15:33 | TestFoundry | INFO | Processing image document: figma.jpg
+2025-07-10 18:15:35 | TestFoundry | ERROR | OCR extraction failed: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-07-10 18:15:35 | TestFoundry | INFO | Image processing complete: 0 characters extracted, OCR confidence: 0.00
+2025-07-10 18:15:35 | TestFoundry | INFO | Successfully processed figma.jpg
+2025-07-10 18:15:35 | TestFoundry | INFO | Document stats: 1 pages, 0 characters
+2025-07-10 18:15:35 | TestFoundry | INFO | Generating Q&A pairs for figma.jpg
+2025-07-10 18:15:35 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-10 18:15:35 | TestFoundry | INFO | Generating adversarial test cases for figma.jpg
+2025-07-10 18:15:35 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-10 18:15:35 | TestFoundry | INFO | Generating bias test cases for figma.jpg
+2025-07-10 18:15:35 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-10 18:15:35 | TestFoundry | INFO | Generating hallucination test cases for figma.jpg
+2025-07-10 18:15:35 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-10 18:15:35 | TestFoundry | INFO | Successfully processed figma.jpg: 0 Q&A pairs, 0 test cases
+2025-07-10 18:15:35 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-10 18:15:35 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-10 18:15:35 | TestFoundry | INFO | Generating Excel report
+2025-07-10 18:15:35 | TestFoundry | INFO | Excel report generated: output/TestFoundry_Report_20250710_181535.xlsx
+2025-07-10 18:15:35 | TestFoundry | INFO | TestFoundry Framework completed successfully
+2025-07-10 18:23:38 | TestFoundry | INFO | TestFoundry Framework started
+2025-07-10 18:23:39 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-10 18:23:39 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-10 18:23:39 | TestFoundry | INFO | Starting processing of 1 documents
+2025-07-10 18:23:39 | TestFoundry | INFO | Processing document: figma.jpg
+2025-07-10 18:23:39 | TestFoundry | INFO | Starting document processing: figma.jpg
+2025-07-10 18:23:39 | TestFoundry | INFO | Processing figma.jpg with image processor
+2025-07-10 18:23:39 | TestFoundry | INFO | Processing image document: figma.jpg
+2025-07-10 18:23:41 | TestFoundry | ERROR | OCR extraction failed: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-07-10 18:23:41 | TestFoundry | INFO | Image processing complete: 0 characters extracted, OCR confidence: 0.00
+2025-07-10 18:23:41 | TestFoundry | INFO | Successfully processed figma.jpg
+2025-07-10 18:23:41 | TestFoundry | INFO | Document stats: 1 pages, 0 characters
+2025-07-10 18:23:41 | TestFoundry | INFO | Generating Q&A pairs for figma.jpg
+2025-07-10 18:23:41 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-10 18:23:41 | TestFoundry | INFO | Generating adversarial test cases for figma.jpg
+2025-07-10 18:23:41 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-10 18:23:41 | TestFoundry | INFO | Generating bias test cases for figma.jpg
+2025-07-10 18:23:41 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-10 18:23:41 | TestFoundry | INFO | Generating hallucination test cases for figma.jpg
+2025-07-10 18:23:41 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-10 18:23:41 | TestFoundry | INFO | Successfully processed figma.jpg: 0 Q&A pairs, 0 test cases
+2025-07-10 18:23:41 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-10 18:23:41 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-10 18:23:41 | TestFoundry | INFO | Generating Excel report
+2025-07-10 18:23:41 | TestFoundry | INFO | Excel report generated: output/TestFoundry_Report_20250710_182341.xlsx
+2025-07-10 18:23:41 | TestFoundry | INFO | TestFoundry Framework completed successfully
+2025-07-15 13:42:38 | TestFoundry | INFO | TestFoundry Framework started
+2025-07-15 13:42:38 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-15 13:42:38 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-15 13:42:38 | TestFoundry | INFO | Starting processing of 1 documents
+2025-07-15 13:42:38 | TestFoundry | INFO | Processing document: figma.jpg
+2025-07-15 13:42:38 | TestFoundry | INFO | Starting document processing: figma.jpg
+2025-07-15 13:42:38 | TestFoundry | INFO | Processing figma.jpg with image processor
+2025-07-15 13:42:38 | TestFoundry | INFO | Processing image document: figma.jpg
+2025-07-15 13:42:40 | TestFoundry | ERROR | OCR extraction failed: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-07-15 13:42:40 | TestFoundry | INFO | Image processing complete: 0 characters extracted, OCR confidence: 0.00
+2025-07-15 13:42:40 | TestFoundry | INFO | Successfully processed figma.jpg
+2025-07-15 13:42:40 | TestFoundry | INFO | Document stats: 1 pages, 0 characters
+2025-07-15 13:42:40 | TestFoundry | INFO | Generating Q&A pairs for figma.jpg
+2025-07-15 13:42:40 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-15 13:42:40 | TestFoundry | INFO | Generating adversarial test cases for figma.jpg
+2025-07-15 13:42:40 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-15 13:42:40 | TestFoundry | INFO | Generating bias test cases for figma.jpg
+2025-07-15 13:42:40 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-15 13:42:40 | TestFoundry | INFO | Generating hallucination test cases for figma.jpg
+2025-07-15 13:42:40 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-15 13:42:40 | TestFoundry | INFO | Successfully processed figma.jpg: 0 Q&A pairs, 0 test cases
+2025-07-15 13:42:40 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-15 13:42:40 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-15 13:42:40 | TestFoundry | INFO | Generating Excel report
+2025-07-15 13:42:40 | TestFoundry | INFO | Excel report generated: output/TestFoundry_Report_20250715_134240.xlsx
+2025-07-15 13:42:40 | TestFoundry | INFO | TestFoundry Framework completed successfully
+2025-07-15 13:45:40 | TestFoundry | INFO | TestFoundry Framework started
+2025-07-15 13:45:41 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-15 13:45:41 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-15 13:45:41 | TestFoundry | INFO | Starting processing of 1 documents
+2025-07-15 13:45:41 | TestFoundry | INFO | Processing document: figma.jpg
+2025-07-15 13:45:41 | TestFoundry | INFO | Starting document processing: figma.jpg
+2025-07-15 13:45:41 | TestFoundry | INFO | Processing figma.jpg with image processor
+2025-07-15 13:45:41 | TestFoundry | INFO | Processing image document: figma.jpg
+2025-07-15 13:45:42 | TestFoundry | ERROR | OCR extraction failed: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-07-15 13:45:42 | TestFoundry | INFO | Image processing complete: 0 characters extracted, OCR confidence: 0.00
+2025-07-15 13:45:42 | TestFoundry | INFO | Successfully processed figma.jpg
+2025-07-15 13:45:42 | TestFoundry | INFO | Document stats: 1 pages, 0 characters
+2025-07-15 13:45:42 | TestFoundry | INFO | Generating Q&A pairs for figma.jpg
+2025-07-15 13:45:42 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-15 13:45:42 | TestFoundry | INFO | Generating adversarial test cases for figma.jpg
+2025-07-15 13:45:42 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-15 13:45:42 | TestFoundry | INFO | Generating bias test cases for figma.jpg
+2025-07-15 13:45:42 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-15 13:45:42 | TestFoundry | INFO | Generating hallucination test cases for figma.jpg
+2025-07-15 13:45:42 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-15 13:45:42 | TestFoundry | INFO | Successfully processed figma.jpg: 0 Q&A pairs, 0 test cases
+2025-07-15 13:45:42 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-15 13:45:42 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-15 13:45:42 | TestFoundry | INFO | Generating Excel report
+2025-07-15 13:45:42 | TestFoundry | INFO | Excel report generated: output/TestFoundry_Report_20250715_134542.xlsx
+2025-07-15 13:45:42 | TestFoundry | INFO | TestFoundry Framework completed successfully
+2025-07-29 11:48:38 | TestFoundry | INFO | TestFoundry Framework started
+2025-07-29 11:48:38 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-29 11:48:38 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-29 11:48:38 | TestFoundry | INFO | Starting processing of 1 documents
+2025-07-29 11:48:38 | TestFoundry | INFO | Processing document: figma.jpg
+2025-07-29 11:48:38 | TestFoundry | INFO | Starting document processing: figma.jpg
+2025-07-29 11:48:38 | TestFoundry | INFO | Processing figma.jpg with image processor
+2025-07-29 11:48:38 | TestFoundry | INFO | Processing image document: figma.jpg
+2025-07-29 11:48:40 | TestFoundry | ERROR | OCR extraction failed: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-07-29 11:48:40 | TestFoundry | INFO | Image processing complete: 0 characters extracted, OCR confidence: 0.00
+2025-07-29 11:48:40 | TestFoundry | INFO | Successfully processed figma.jpg
+2025-07-29 11:48:40 | TestFoundry | INFO | Document stats: 1 pages, 0 characters
+2025-07-29 11:48:40 | TestFoundry | INFO | Generating Q&A pairs for figma.jpg
+2025-07-29 11:48:40 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-29 11:48:40 | TestFoundry | INFO | Generating adversarial test cases for figma.jpg
+2025-07-29 11:48:40 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-29 11:48:40 | TestFoundry | INFO | Generating bias test cases for figma.jpg
+2025-07-29 11:48:40 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-29 11:48:40 | TestFoundry | INFO | Generating hallucination test cases for figma.jpg
+2025-07-29 11:48:40 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-29 11:48:40 | TestFoundry | INFO | Successfully processed figma.jpg: 0 Q&A pairs, 0 test cases
+2025-07-29 11:48:40 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-29 11:48:40 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-29 11:48:40 | TestFoundry | INFO | Generating Excel report
+2025-07-29 11:48:40 | TestFoundry | INFO | Excel report generated: output/TestFoundry_Report_20250729_114840.xlsx
+2025-07-29 11:48:40 | TestFoundry | INFO | TestFoundry Framework completed successfully
+2025-07-30 18:38:27 | TestFoundry | INFO | TestFoundry Framework started
+2025-07-30 18:38:27 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-30 18:38:27 | TestFoundry | INFO | Azure OpenAI client initialized with deployment: gpt-4o-mini
+2025-07-30 18:38:27 | TestFoundry | INFO | Starting processing of 1 documents
+2025-07-30 18:38:27 | TestFoundry | INFO | Processing document: figma.jpg
+2025-07-30 18:38:27 | TestFoundry | INFO | Starting document processing: figma.jpg
+2025-07-30 18:38:27 | TestFoundry | INFO | Processing figma.jpg with image processor
+2025-07-30 18:38:27 | TestFoundry | INFO | Processing image document: figma.jpg
+2025-07-30 18:38:29 | TestFoundry | ERROR | OCR extraction failed: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-07-30 18:38:29 | TestFoundry | INFO | Image processing complete: 0 characters extracted, OCR confidence: 0.00
+2025-07-30 18:38:29 | TestFoundry | INFO | Successfully processed figma.jpg
+2025-07-30 18:38:29 | TestFoundry | INFO | Document stats: 1 pages, 0 characters
+2025-07-30 18:38:29 | TestFoundry | INFO | Generating Q&A pairs for figma.jpg
+2025-07-30 18:38:29 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-30 18:38:29 | TestFoundry | INFO | Generating adversarial test cases for figma.jpg
+2025-07-30 18:38:29 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-30 18:38:29 | TestFoundry | INFO | Generating hallucination test cases for figma.jpg
+2025-07-30 18:38:29 | TestFoundry | WARNING | No chunks generated for figma.jpg
+2025-07-30 18:38:29 | TestFoundry | INFO | Successfully processed figma.jpg: 0 Q&A pairs, 0 test cases
+2025-07-30 18:38:29 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-30 18:38:29 | TestFoundry | INFO | Azure OpenAI client closed
+2025-07-30 18:38:29 | TestFoundry | INFO | Generating Excel report
+2025-07-30 18:38:29 | TestFoundry | INFO | Excel report generated: output/TestFoundry_Report_20250730_183829.xlsx
+2025-07-30 18:38:29 | TestFoundry | INFO | TestFoundry Framework completed successfully
