@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;  /* 100% of the viewport width */
+  height: 100vh; /* 100% of the viewport height */
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@theme {
+  --color-primary: #1f77db;
+  --color-primary-hover: #185aa5;
+  --color-primary-text: #ffffff;
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center
+           px-5 py-2.5 m-1
+           rounded-md
+           cursor-pointer
+           font-semibold text-sm
+           shadow-sm
+           text-primary-text bg-primary
+           transition ease-in-out duration-150
+           hover:bg-primary-hover
+           active:scale-95
+  }
+
+  .btn-primary:disabled {
+    @apply opacity-50 cursor-not-allowed;
+  }
+}

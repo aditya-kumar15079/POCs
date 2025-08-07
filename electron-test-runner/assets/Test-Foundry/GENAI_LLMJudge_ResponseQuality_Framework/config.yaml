@@ -1,0 +1,8 @@
+evaluation:
+  metrics:
+    accuracy: true
+    coherence: true
+    relevance: true
+    faithfulness: true
+    bias: true
+    toxicity: true
