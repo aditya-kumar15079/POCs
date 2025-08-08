@@ -9,4 +9,7 @@ export default defineConfig({
     outDir: "../dist",
     emptyOutDir: true,
   },
+  watch: {
+    ignored: ["**/Test-Foundry/**"],
+  },
 });

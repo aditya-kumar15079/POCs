@@ -60,8 +60,10 @@ const LeftPane = () => {
         </div>
 
         <div className="mt-4 flex space-x-2">
-          <button className="btn-primary">Reset</button>
-          <button className="btn-primary" onClick={handleSubmit}>
+          <button type="button" className="btn-primary">
+            Reset
+          </button>
+          <button type="button" className="btn-primary" onClick={handleSubmit}>
             Submit
           </button>
         </div>

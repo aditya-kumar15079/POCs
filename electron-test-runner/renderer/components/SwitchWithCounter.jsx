@@ -20,7 +20,12 @@ export const SwitchWithCounter = ({ title, description, count, setCount, isEnabl
       <div className="flex justify-center text-gray-500 m-4">{description}</div>
 
       <div className="flex items-center space-x-2">
-        <button onClick={() => setCount(Math.max(count - 1, 0))} className="px-2 py-1 bg-gray-200 rounded" disabled={!isEnabled}>
+        <button
+          type="button"
+          onClick={() => setCount(Math.max(count - 1, 0))}
+          className="px-2 py-1 bg-gray-200 rounded"
+          disabled={!isEnabled}
+        >
           -
         </button>
         <input
@@ -30,7 +35,7 @@ export const SwitchWithCounter = ({ title, description, count, setCount, isEnabl
           className="w-12 text-center"
           disabled={!isEnabled}
         />
-        <button onClick={() => setCount(count + 1)} className="px-2 py-1 bg-gray-200 rounded" disabled={!isEnabled}>
+        <button type="button" onClick={() => setCount(count + 1)} className="px-2 py-1 bg-gray-200 rounded" disabled={!isEnabled}>
           +
         </button>
       </div>

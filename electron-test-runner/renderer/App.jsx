@@ -44,6 +44,7 @@ const App = () => {
                 ?.filter((sol) => sol.enabled)
                 .map((sol, idx) => (
                   <button
+                    type="button"
                     key={idx}
                     onClick={() => setCurrentTab(sol.id)}
                     className={`px-4 py-2 rounded font-semibold ${sol.id === currentTab ? "bg-blue-100 text-blue-600" : "text-gray-500"}`}

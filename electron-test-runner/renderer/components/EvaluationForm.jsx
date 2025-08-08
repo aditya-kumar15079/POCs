@@ -1,17 +1,19 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import ToggleSwitch from "./ToggleSwitch";
 
 const EvaluationForm = ({ id }) => {
   const [fileConfig, setFileConfig] = useState(null);
+  const isFromUI = useRef(false);
+
   const updateFileContent = async (content) => {
     await window.api.writeYAML(content, getConfigFile(id));
   };
 
   const getConfigFile = (id) => {
     if (id === 102) {
-      return "Test-Foundry/GENAI_LLMJudge_ResponseQuality_Framework/config.yaml";
+      return "Test-Foundry/GENAI_LLMJudge_ResponseQuality_Framework/config/config.yaml";
     } else if (id === 103) {
-      return "Test-Foundry/GENAI_Compass/config.yaml";
+      return "Test-Foundry/GENAI_Compass/config/config.yaml";
     }
     return null;
   };
@@ -28,7 +30,10 @@ const EvaluationForm = ({ id }) => {
   }, [id]);
 
   useEffect(() => {
-    updateFileContent(fileConfig);
+    if (fileConfig && isFromUI.current) {
+      updateFileContent(fileConfig);
+      isFromUI.current = false;
+    }
   }, [fileConfig]);
 
   const executeTest = () => {
@@ -42,6 +47,7 @@ const EvaluationForm = ({ id }) => {
   };
 
   const toggleMetric = (metric) => {
+    isFromUI.current = true;
     setFileConfig((prev) => ({
       ...prev,
       evaluation: {
@@ -54,24 +60,49 @@ const EvaluationForm = ({ id }) => {
     }));
   };
 
+  const toggleCompassMetric = (metric) => {
+    isFromUI.current = true;
+    setFileConfig((prev) => ({
+      ...prev,
+      metrics: {
+        ...prev?.metrics,
+        [metric]: {
+          ...prev?.metrics?.[metric],
+          enabled: !prev?.metrics?.[metric]?.enabled,
+        },
+      },
+    }));
+  };
+
   return (
     <>
       <div className="flex justify-between">
-        <span className="font-semibold text-gray-500 ml-2">Evaluation Meterics</span>
-        <button className="text-sm text-blue-600 mr-2">View Previous Evaluation</button>
+        <span className="font-semibold text-gray-500 ml-2">Evaluation Metrics</span>
+        <button type="button" className="text-sm text-blue-600 mr-2">
+          View Previous Evaluation
+        </button>
       </div>
       <div className="mx-auto bg-white border border-gray-300 rounded-lg shadow p-6">
         <div className="space-y-4">
-          {Object.entries(fileConfig?.evaluation?.metrics || {}).map(([label, value]) => (
-            <div key={label} className="flex items-center justify-between">
-              <label className="text-gray-700 flex items-center gap-1">{label}</label>
-              <label className="inline-flex items-center cursor-pointer">
-                <input type="checkbox" checked={value} onChange={() => toggleMetric(label)} className="sr-only" />
-                {/* {value ? <ToggleLeft className="w-6 h-6 text-gray-500" /> : <ToggleRight className="w-6 h-6 text-green-500" />} */}
-                <ToggleSwitch isOn={value} />
-              </label>
-            </div>
-          ))}
+          {id === 102
+            ? Object.entries(fileConfig?.evaluation?.metrics || {}).map(([label, value]) => (
+                <div key={label} className="flex items-center justify-between">
+                  <label className="text-gray-700 flex items-center gap-1">{label}</label>
+                  <label className="inline-flex items-center cursor-pointer">
+                    <input type="checkbox" checked={value} onChange={() => toggleMetric(label)} className="sr-only" />
+                    <ToggleSwitch isOn={value} />
+                  </label>
+                </div>
+              ))
+            : Object.entries(fileConfig?.metrics || {}).map(([label, value]) => (
+                <div key={label} className="flex items-center justify-between">
+                  <label className="text-gray-700 flex items-center gap-1">{label}</label>
+                  <label className="inline-flex items-center cursor-pointer">
+                    <input type="checkbox" checked={value?.enabled} onChange={() => toggleCompassMetric(label)} className="sr-only" />
+                    <ToggleSwitch isOn={value?.enabled} />
+                  </label>
+                </div>
+              ))}
         </div>
       </div>
       <div className="mt-6 bg-white p-4 shadow rounded">
@@ -82,7 +113,7 @@ const EvaluationForm = ({ id }) => {
         />
       </div>
       <div className="flex justify-end">
-        <button className="btn-primary" onClick={executeTest}>
+        <button type="button" className="btn-primary" onClick={executeTest}>
           Execute Evaluation
         </button>
       </div>

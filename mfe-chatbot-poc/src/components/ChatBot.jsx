@@ -36,7 +36,7 @@ export default function ChatBot() {
           onKeyDown={(e) => e.key === "Enter" && handleSend()}
           placeholder="Type a message..."
         />
-        <button onClick={handleSend} className="bg-blue-500 text-white px-4 rounded">
+        <button type="button" onClick={handleSend} className="bg-blue-500 text-white px-4 rounded">
           Send
         </button>
       </div>

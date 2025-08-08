@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { SwitchWithCounter } from "./SwitchWithCounter";
 import { debounce } from "../utils/Helpers";
 import ModalWrapper from "./ModelWrapper";
@@ -18,13 +18,14 @@ const TestCaseGenerator = () => {
 
   const [files, setFiles] = useState([]);
   const [outputFiles, setOutputFiles] = useState([]);
+  const isFromUI = useRef(false);
 
   let saveTimeout = null;
   const filePath = "Test-Foundry/TestFoundry_Framework/config.yaml";
   const updateFileContent = async (content) => {
     await window.api.writeYAML(content, filePath);
   };
-  const debouncedUpdateFileContent = React.useMemo(() => debounce(updateFileContent, 500), []);
+  // const debouncedUpdateFileContent = React.useMemo(() => debounce(updateFileContent, 500), []);
 
   const fetchOutputFiles = async () => {
     const files = await window.api.listFiles("Test-Foundry/TestFoundry_Framework/output");
@@ -42,11 +43,16 @@ const TestCaseGenerator = () => {
   }, []);
 
   useEffect(() => {
-    debouncedUpdateFileContent(fileConfig);
+    if (fileConfig && isFromUI.current) {
+      updateFileContent(fileConfig);
+      isFromUI.current = false;
+    }
   }, [fileConfig]);
 
   useEffect(() => {
-    const config = {
+    if (!fileConfig) return;
+
+    const newConfig = {
       ...fileConfig,
       qa_generation: {
         ...fileConfig?.qa_generation,
@@ -75,8 +81,11 @@ const TestCaseGenerator = () => {
         },
       },
     };
-    setFileConfig(config);
-    console.log("setFileConfigs");
+
+    if (JSON.stringify(newConfig) !== JSON.stringify(fileConfig)) {
+      isFromUI.current = true;
+      setFileConfig(newConfig);
+    }
   }, [qaCount, qaEnabled, advCount, advEnabled, biasCount, biasEnabled, hallCount, hallEnabled]);
 
   const readConfig = async () => {
@@ -127,7 +136,7 @@ const TestCaseGenerator = () => {
     <>
       <div className="flex justify-between">
         <span className="font-semibold text-gray-500 ml-2">QA Generation Settings</span>
-        <button className="text-sm text-primary hover:text-primary-hover mr-2" onClick={handleViewPreviousEvaluation}>
+        <button type="button" className="text-sm text-primary hover:text-primary-hover mr-2" onClick={handleViewPreviousEvaluation}>
           View Previous Evaluation
         </button>
       </div>
@@ -193,7 +202,7 @@ const TestCaseGenerator = () => {
         </div>
       </div>
       <div className="flex justify-end mt-2">
-        <button className="btn-primary" onClick={executeTest}>
+        <button type="button" className="btn-primary" onClick={executeTest}>
           Execute Test
         </button>
       </div>
