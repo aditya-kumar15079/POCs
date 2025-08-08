@@ -11,31 +11,6 @@ const isDev = !app.isPackaged;
 
 let mainWindow;
 
-// function createWindow() {
-//   const primaryDisplay = screen.getPrimaryDisplay();
-//   const { width, height } = primaryDisplay.workAreaSize;
-
-//   const win = new BrowserWindow({
-//     width: width,
-//     height: height,
-//     webPreferences: {
-//       preload: path.join(__dirname, "preload.js"),
-//       contextIsolation: true,
-//       enableRemoteModule: false,
-//       nodeIntegration: false,
-//     },
-//   });
-//   // win.setMenu(null);
-
-//   if (isDev) {
-//     setTimeout(() => {
-//       win.loadURL("http://localhost:5173");
-//     }, 2000);
-//   } else {
-//     win.loadFile(path.join(__dirname, "dist/index.html"));
-//   }
-// }
-
   function createWindow() {
     const primaryDisplay = screen.getPrimaryDisplay();
     const { width, height } = primaryDisplay.workAreaSize;
