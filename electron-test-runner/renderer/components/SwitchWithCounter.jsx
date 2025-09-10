@@ -9,7 +9,7 @@ export const SwitchWithCounter = ({ title, description, count, setCount, isEnabl
     }
   }, [isEnabled]);
   return (
-    <div className={`p-4 bg-white rounded shadow-sm ${disabled ? "opacity-50" : ""}`}>
+    <div className={`p-4 bg-white rounded border border-gray-200 ${disabled ? "opacity-50" : ""}`}>
       <div className="flex justify-between items-center mb-2 border-b border-gray-300 pb-2">
         <h3 className="font-semibold text-gray-700">{title}</h3>
         <label className="inline-flex items-center cursor-pointer">

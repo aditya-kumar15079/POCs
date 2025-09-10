@@ -75,14 +75,14 @@ const EvaluationForm = ({ id }) => {
   };
 
   return (
-    <>
+    <div className="bg-white px-2 py-4">
       <div className="flex justify-between">
         <span className="font-semibold text-gray-500 ml-2">Evaluation Metrics</span>
         <button type="button" className="text-sm text-blue-600 mr-2">
           View Previous Evaluation
         </button>
       </div>
-      <div className="mx-auto bg-white border border-gray-300 rounded-lg shadow p-6">
+      <div className="mx-auto bg-white rounded-lg border border-gray-200 p-6">
         <div className="space-y-4">
           {id === 102
             ? Object.entries(fileConfig?.evaluation?.metrics || {}).map(([label, value]) => (
@@ -105,19 +105,19 @@ const EvaluationForm = ({ id }) => {
               ))}
         </div>
       </div>
-      <div className="mt-6 bg-white p-4 shadow rounded">
-        <h3 className="text-md font-semibold mb-2 text-gray-500 border-b pb-2">Upload Document</h3>
+      <div className="mt-6 bg-white p-4 border border-gray-200 rounded">
+        <h3 className="text-md font-semibold mb-2 text-gray-500 border-b border-gray-300 pb-2">Upload Document</h3>
         <input
           type="file"
           className="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100"
         />
       </div>
-      <div className="flex justify-end">
+      <div className="flex justify-end mt-2">
         <button type="button" className="btn-primary" onClick={executeTest}>
           Execute Evaluation
         </button>
       </div>
-    </>
+    </div>
   );
 };
 

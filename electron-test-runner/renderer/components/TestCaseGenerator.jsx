@@ -133,7 +133,7 @@ const TestCaseGenerator = () => {
   };
 
   return (
-    <>
+    <div className="bg-white px-2 py-4">
       <div className="flex justify-between">
         <span className="font-semibold text-gray-500 ml-2">QA Generation Settings</span>
         <button type="button" className="text-sm text-primary hover:text-primary-hover mr-2" onClick={handleViewPreviousEvaluation}>
@@ -175,8 +175,8 @@ const TestCaseGenerator = () => {
         />
       </div>
 
-      <div className="mt-6 bg-white p-4 shadow rounded">
-        <h3 className="text-md font-semibold mb-2 text-gray-500 border-b pb-2">Upload Document</h3>
+      <div className="mt-6 bg-white p-4 border border-gray-200 rounded">
+        <h3 className="text-md font-semibold mb-2 text-gray-500 border-b border-gray-300 pb-2">Upload Document</h3>
         <input
           type="file"
           multiple
@@ -210,7 +210,7 @@ const TestCaseGenerator = () => {
       <ModalWrapper isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
         <PreviousEvaluation files={outputFiles} />
       </ModalWrapper>
-    </>
+    </div>
   );
 };
 
