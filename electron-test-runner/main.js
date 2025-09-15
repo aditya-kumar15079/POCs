@@ -35,29 +35,28 @@ let mainWindow;
     });
   }
 
+const getParentPath = async () => {
+   if (!isDev) {
+      if (process.env.APPIMAGE) {
+        return path.dirname(process.env.APPIMAGE);
+      } else {
+        //hard coded for windows packaged app
+        return path.join("C:/Users", process.env.USERNAME, "Downloads/test-foundry-app/Test-Foundry");
+      }
+    } else {
+      return __dirname;
+    }
+};
+
 const getScriptPath = async (filepath) => {
   const parentPath = await getParentPath();
     if (platform === "win32") {
       return path.join(parentPath, filepath);
     } else if (platform === "linux") {
       const linuxFilePath = filepath?.replace(".bat", ".sh");
-      console.log("window.api.getParentPath()", parentPath);
       return path.join(parentPath, linuxFilePath);
     } else {
-      alert("Unsupported OS");
       return null;
-    }
-};
-
-const getParentPath = async () => {
-   if (!isDev) {
-      if (process.env.APPIMAGE) {
-        return path.dirname(process.env.APPIMAGE);
-      } else {
-        return path.dirname(app.getPath("exe"));
-      }
-    } else {
-      return __dirname;
     }
 };
 
@@ -123,6 +122,12 @@ function registerIpcHandlers() {
   ipcMain.handle("execute-test", async (_, batPath) => {
     const scriptPath = await getScriptPath(batPath);
     const absolutePath = path.resolve(scriptPath);
+
+     console.log("execute-test → batPath:", batPath);
+  console.log("execute-test → scriptPath:", scriptPath);
+  console.log("execute-test → absolutePath:", absolutePath);
+
+
     const isWindows = os.platform() === "win32";
 
     let terminalCommand;
@@ -140,7 +145,7 @@ function registerIpcHandlers() {
       },
       (err) => {
         if (err) {
-          alert("Error: " + err.message);
+          console.error("Error executing test:", err.message);
           return;
         }
         console.log(`Script launched in terminal: ${absolutePath}`);

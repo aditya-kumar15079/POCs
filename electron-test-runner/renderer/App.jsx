@@ -6,16 +6,7 @@ import { useSelector } from "react-redux";
 
 const App = () => {
   const [currentTab, setCurrentTab] = React.useState(101);
-  // const llmResponseMetrics = ["Accuracy", "Coherence", "Relevance", "Faithfulness", "Bias", "Toxicity"];
-  // const genAICompassMetrics = ["BLEU Score", "ROUGE Score", "Meteor Score", "Bert Score", "Accuracy", "Coherence", "Toxicity"];
   const solutions = useSelector((state) => state.config.solutions);
-
-  // useEffect(() => {
-  //   (async () => {
-  //     const path = await window.api.getParentPath();
-  //     console.log("window.api.getParentPath()", path);
-  //   })();
-  // }, []);
 
   const getTabComponent = () => {
     switch (currentTab) {
