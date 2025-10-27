@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+  /* text-align: center; */
+}
+
+@theme {
+  --color-hexorange: #e64a19;
+  --color-hexblue: #1B2A5E;
+  --color-bermuda: #78dcca;
+}

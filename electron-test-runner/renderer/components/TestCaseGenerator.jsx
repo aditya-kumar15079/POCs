@@ -26,15 +26,15 @@ const TestCaseGenerator = () => {
   };
   const debouncedUpdateFileContent = React.useMemo(() => debounce(updateFileContent, 500), []);
 
-  // const fetchOutputFiles = async () => {
-  //   const files = await window.api.listFiles("Test-Foundry/TestFoundry_Framework/output");
-  //   console.log("Formatted Files:", files);
-  //   setOutputFiles(files);
-  // };
+  const fetchOutputFiles = async () => {
+    const files = await window.api.listFiles("Test-Foundry/TestFoundry_Framework/output");
+    console.log("Formatted Files:", files);
+    setOutputFiles(files);
+  };
 
   const onMount = () => {
     readConfig();
-    // fetchOutputFiles();
+    fetchOutputFiles();
   };
 
   useEffect(() => {
@@ -120,7 +120,7 @@ const TestCaseGenerator = () => {
 
   const handleViewPreviousEvaluation = () => {
     setIsModalOpen(true);
-    // fetchOutputFiles();
+    fetchOutputFiles();
   };
 
   return (

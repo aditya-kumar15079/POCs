@@ -15,10 +15,10 @@ function App() {
       <h1 className="text-3xl font-bold">Vite + React</h1>
       <div className="card">
         <h2>Counter: {count}</h2>
-        <button className="primary-button" onClick={() => dispatch(increment())}>
+        <button type="button" className="primary-button" onClick={() => dispatch(increment())}>
           increment
         </button>
-        <button className="secondary-button mx-4" onClick={() => dispatch(decrement())}>
+        <button type="button" className="secondary-button mx-4" onClick={() => dispatch(decrement())}>
           decrement
         </button>
         <p>

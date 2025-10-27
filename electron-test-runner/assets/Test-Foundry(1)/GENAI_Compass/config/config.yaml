@@ -1,0 +1,86 @@
+metrics:
+  bleu:
+    enabled: true
+    weight: 0.05
+    thresholds:
+      good: 0.7
+      acceptable: 0.5
+      poor: 0
+    description: Measures n-gram overlap between generated and reference text
+    dependencies:
+      - Reference_Response
+      - Generated_Response
+  rouge:
+    enabled: false
+    weight: 0.1
+    thresholds:
+      good: 0.6
+      acceptable: 0.4
+      poor: 0
+    description: Evaluates recall-oriented understanding for gisting evaluation
+    dependencies:
+      - Reference_Response
+      - Generated_Response
+  meteor:
+    enabled: false
+    weight: 0.15
+    thresholds:
+      good: 0.6
+      acceptable: 0.4
+      poor: 0
+    description: Considers stemming, synonymy, and word order for text comparison
+    dependencies:
+      - Reference_Response
+      - Generated_Response
+  bert_score:
+    enabled: true
+    weight: 0.15
+    thresholds:
+      good: 0.8
+      acceptable: 0.6
+      poor: 0
+    description: Uses BERT embeddings to measure semantic similarity
+    dependencies:
+      - Reference_Response
+      - Generated_Response
+  accuracy:
+    enabled: true
+    weight: 0.25
+    thresholds:
+      good: 0.8
+      acceptable: 0.6
+      poor: 0
+    description: Measures factual correctness of the generated response
+    dependencies:
+      - Reference_Response
+      - Generated_Response
+  answer_relevance:
+    enabled: true
+    weight: 0.2
+    thresholds:
+      good: 0.8
+      acceptable: 0.6
+      poor: 0
+    description: Evaluates how well the response addresses the given prompt
+    dependencies:
+      - Prompt
+      - Generated_Response
+      - Context
+  toxicity:
+    enabled: true
+    weight: 0.1
+    thresholds:
+      good: 0.2
+      acceptable: 0.5
+      poor: 1
+    description: Measures potential harmful or toxic content in responses
+    dependencies:
+      - Generated_Response
+    reverse_scoring: true
+reporting:
+  output_path: data/output/evaluation_report.xlsx
+  color_coding:
+    good: 92D050
+    acceptable: FFC000
+    poor: FF0000
+  decimal_places: 4
