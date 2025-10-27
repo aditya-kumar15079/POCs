@@ -1,0 +1,93 @@
+ai_service:
+  provider: azure_openai
+  openai:
+    api_key: >-
+      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
+    model: gpt-4o-mini
+    temperature: 0.7
+    max_tokens: 3000
+    timeout: 60
+  azure_openai:
+    api_key: c386dc2a06864446b30400b232648635
+    endpoint: https://gbs-poc-openai-001.openai.azure.com/
+    deployment_name: gpt-4o-mini
+    api_version: 2024-02-15-preview
+    temperature: 0.7
+    max_tokens: 3000
+    timeout: 60
+qa_generation:
+  enabled: true
+  questions_per_document: 3
+  concurrent_requests: 3
+  chunk_size: 4000
+  chunk_overlap: 400
+  include_context: true
+  min_chunk_size: 1000
+  max_chunk_size: 6000
+  prefer_paragraph_breaks: true
+  prefer_sentence_breaks: true
+test_case_generation:
+  types:
+    adversarial:
+      enabled: true
+      questions_per_type: 20
+      description: Generate adversarial test cases to challenge the AI model
+    bias:
+      enabled: false
+      questions_per_type: 0
+      description: Generate bias detection test cases
+    hallucination:
+      enabled: true
+      questions_per_type: 20
+      description: Generate hallucination detection test cases
+document_processing:
+  supported_formats:
+    - .txt
+    - .pdf
+    - .docx
+    - .doc
+    - .xlsx
+    - .xls
+    - .png
+    - .jpg
+    - .jpeg
+    - .gif
+    - .bmp
+  pdf:
+    extract_images: true
+    extract_tables: true
+    ocr_enabled: true
+    combine_short_pages: true
+    min_page_chars: 200
+  word:
+    extract_images: true
+    extract_tables: true
+    preserve_formatting: true
+    combine_short_pages: true
+  excel:
+    read_all_sheets: true
+    include_formulas: false
+  image:
+    ocr_enabled: true
+    confidence_threshold: 0.8
+output:
+  format: excel
+  include_summary: true
+  include_statistics: true
+  separate_sheets_per_document: true
+  timestamp_reports: true
+logging:
+  level: INFO
+  file_enabled: true
+  console_enabled: true
+  max_file_size: 10MB
+  backup_count: 5
+performance:
+  max_workers: 4
+  memory_limit: 4GB
+  timeout_per_document: 1800
+  retry_attempts: 3
+  retry_delay: 2
+  large_doc_threshold_mb: 10
+  large_doc_chunk_size: 6000
+  max_chunks_per_document: 100

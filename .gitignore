@@ -4,4 +4,4 @@
 venv/
 dist/
 node_modules/
-Test-Foundry/
+electron-test-runner/Test-Foundry/
