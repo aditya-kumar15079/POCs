@@ -1,0 +1,7 @@
+*.zip
+*.AppImage
+*.asar
+venv/
+dist/
+node_modules/
+electron-test-runner/Test-Foundry/
