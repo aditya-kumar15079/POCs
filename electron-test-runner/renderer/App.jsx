@@ -22,25 +22,22 @@ const App = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 p-1">
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-1">
+    <div className="min-h-screen bg-gray-100 p-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {/* Left Column */}
         <LeftPane />
 
         {/* Right Column */}
-        <div className="md:col-span-3 p-2 bg-white shadow rounded max-w-5xl">
-          <div className="flex justify-between items-center">
-            <div className="flex bg-gray-100">
+        <div className="md:col-span-2 p-4">
+          <div className="flex justify-between items-center mb-4">
+            <div className="flex space-x-4">
               {solutions
                 ?.filter((sol) => sol.enabled)
                 .map((sol, idx) => (
                   <button
-                    type="button"
                     key={idx}
                     onClick={() => setCurrentTab(sol.id)}
-                    className={`px-4 py-2 rounded font-semibold cursor-pointer border border-gray-300 ${
-                      sol.id === currentTab ? "bg-white text-blue-600 border-b-0" : "text-gray-500"
-                    }`}
+                    className={`px-4 py-2 rounded font-semibold ${sol.id === currentTab ? "bg-blue-100 text-blue-600" : "text-gray-500"}`}
                   >
                     {sol.name}
                   </button>

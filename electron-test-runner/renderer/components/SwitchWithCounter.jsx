@@ -9,7 +9,7 @@ export const SwitchWithCounter = ({ title, description, count, setCount, isEnabl
     }
   }, [isEnabled]);
   return (
-    <div className={`p-4 bg-white rounded border border-gray-200 ${disabled ? "opacity-50" : ""}`}>
+    <div className={`p-4 bg-white rounded shadow-sm ${disabled ? "opacity-50" : ""}`}>
       <div className="flex justify-between items-center mb-2 border-b border-gray-300 pb-2">
         <h3 className="font-semibold text-gray-700">{title}</h3>
         <label className="inline-flex items-center cursor-pointer">
@@ -20,12 +20,7 @@ export const SwitchWithCounter = ({ title, description, count, setCount, isEnabl
       <div className="flex justify-center text-gray-500 m-4">{description}</div>
 
       <div className="flex items-center space-x-2">
-        <button
-          type="button"
-          onClick={() => setCount(Math.max(count - 1, 0))}
-          className="px-2 py-1 bg-gray-200 rounded"
-          disabled={!isEnabled}
-        >
+        <button onClick={() => setCount(Math.max(count - 1, 0))} className="px-2 py-1 bg-gray-200 rounded" disabled={!isEnabled}>
           -
         </button>
         <input
@@ -35,7 +30,7 @@ export const SwitchWithCounter = ({ title, description, count, setCount, isEnabl
           className="w-12 text-center"
           disabled={!isEnabled}
         />
-        <button type="button" onClick={() => setCount(count + 1)} className="px-2 py-1 bg-gray-200 rounded" disabled={!isEnabled}>
+        <button onClick={() => setCount(count + 1)} className="px-2 py-1 bg-gray-200 rounded" disabled={!isEnabled}>
           +
         </button>
       </div>

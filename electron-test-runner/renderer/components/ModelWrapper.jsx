@@ -22,8 +22,8 @@ const ModalWrapper = ({ isOpen, onClose, children, width = "max-w-3xl" }) => {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/70" onClick={onClose}>
       <div className={`bg-white rounded-lg shadow-lg w-full ${width} relative p-4`} onClick={(e) => e.stopPropagation()}>
+        {/* Close Button */}
         <button
-          type="button"
           className="absolute top-2 right-3 text-gray-600 text-2xl font-bold hover:text-gray-800"
           onClick={onClose}
           aria-label="Close"

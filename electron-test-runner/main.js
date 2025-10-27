@@ -8,45 +8,32 @@ const { exec } = require("child_process");
 const platform = os.platform();
 
 const isDev = !app.isPackaged;
+app.disableHardwareAcceleration();
 
-let mainWindow;
+function createWindow() {
+  const primaryDisplay = screen.getPrimaryDisplay();
+  const { width, height } = primaryDisplay.workAreaSize;
 
-  function createWindow() {
-    const primaryDisplay = screen.getPrimaryDisplay();
-    const { width, height } = primaryDisplay.workAreaSize;
+  const win = new BrowserWindow({
+    width: width,
+    height: height,
+    webPreferences: {
+      preload: path.join(__dirname, "preload.js"),
+      contextIsolation: true,
+      enableRemoteModule: false,
+      nodeIntegration: false,
+    },
+  });
+  // win.setMenu(null);
 
-    mainWindow = new BrowserWindow({
-      width: width,
-      height: height,
-      webPreferences: {
-        preload: path.join(__dirname, "preload.js"),
-        contextIsolation: true,
-        nodeIntegration: false,
-      },
-    });
-    if (isDev) {
-      mainWindow.loadURL("http://localhost:5173");
-    } else {
-      mainWindow.loadFile(path.join(__dirname, "dist/index.html"));
-    }
-
-    mainWindow.on("closed", () => {
-      mainWindow = null;
-    });
+  if (isDev) {
+    setTimeout(() => {
+      win.loadURL("http://localhost:5173");
+    }, 2000);
+  } else {
+    win.loadFile(path.join(__dirname, "dist/index.html"));
   }
-
-const getParentPath = async () => {
-   if (!isDev) {
-      if (process.env.APPIMAGE) {
-        return path.dirname(process.env.APPIMAGE);
-      } else {
-        //hard coded for windows packaged app
-        return path.join("C:/Users", process.env.USERNAME, "Downloads/test-foundry-app/Test-Foundry");
-      }
-    } else {
-      return __dirname;
-    }
-};
+}
 
 const getScriptPath = async (filepath) => {
   const parentPath = await getParentPath();
@@ -60,7 +47,21 @@ const getScriptPath = async (filepath) => {
     }
 };
 
-function registerIpcHandlers() {
+const getParentPath = async () => {
+   if (!isDev) {
+      if (process.env.APPIMAGE) {
+        return path.dirname(process.env.APPIMAGE);
+      } else {
+        return path.dirname(app.getPath("exe"));
+      }
+    } else {
+      return __dirname;
+    }
+};
+
+app.whenReady().then(() => {
+  createWindow();
+
   ipcMain.handle("read-yaml", async (_, filePath) => {
     const scriptPath = await getScriptPath(filePath);
     try {
@@ -75,7 +76,7 @@ function registerIpcHandlers() {
   ipcMain.handle("write-yaml", async (_, content, filePath) => {
     const scriptPath = await getScriptPath(filePath);
     try {
-      const yamlStr = yaml.dump(content);
+      const yamlStr = yaml.dump(data);
       await fs.writeFile(scriptPath, yamlStr, "utf8");
       console.log(filePath, "YAML file written successfully");
     } catch (err) {
@@ -83,41 +84,49 @@ function registerIpcHandlers() {
     }
   });
 
-  if (!ipcMain.listenerCount("list-files")) {
-    ipcMain.handle("list-files", async (event, relativeDirPath) => {
-      try {
-        const parentDir = isDev ? __dirname : process.env.APPIMAGE ? path.dirname(process.env.APPIMAGE) : path.dirname(app.getPath("exe"));
+  ipcMain.handle("list-files", async (event, relativeDirPath) => {
+    try {
+      const parentDir = isDev
+        ? __dirname
+        : process.env.APPIMAGE
+        ? path.dirname(process.env.APPIMAGE)
+        : path.dirname(app.getPath("exe"));
 
-        const dirPath = path.resolve(parentDir, relativeDirPath);
-        const entries = await fs.readdir(dirPath);
+      const dirPath = path.resolve(parentDir, relativeDirPath);
+      const entries = await fs.readdir(dirPath);
 
-        const filesWithStats = await Promise.all(
-          entries.map(async (entry) => {
-            const fullPath = path.join(dirPath, entry);
-            const stat = await fs.stat(fullPath);
-            if (!stat.isFile()) return null;
+      const filesWithStats = await Promise.all(
+        entries.map(async (entry) => {
+          const fullPath = path.join(dirPath, entry);
+          const stat = await fs.stat(fullPath);
+          const isFile = stat.isFile();
+          if (!isFile) return null;
 
-            const createdAt = stat.birthtimeMs && stat.birthtimeMs > 0 ? stat.birthtime : stat.mtime;
+          const datetime = dayjs(stat.mtime).format("DD-MM-YYYY hh:mm A");
 
-            return {
-              name: entry,
-              createdAt,
-              datetime: dayjs(createdAt).format("DD-MM-YYYY hh:mm A"),
-              downloadUrl: "#",
-            };
-          })
-        );
+          return {
+            name: entry,
+            datetime: dayjs(stat.birthtime).format("DD-MM-YYYY hh:mm A"),
+            createdAt: stat.birthtime, // keep original for sorting
+            downloadUrl: "#",
+          };
+        })
+      );
 
-        return filesWithStats
-          .filter(Boolean)
-          .sort((a, b) => b.createdAt - a.createdAt)
-          .map(({ name, datetime, downloadUrl }) => ({ name, datetime, downloadUrl }));
-      } catch (err) {
-        console.error("Error listing files:", err.message);
-        return [];
-      }
-    });
-  }
+      const sortedFiles = filesWithStats
+        .filter(Boolean)
+        .sort((a, b) => b.createdAt - a.createdAt);
+
+      return sortedFiles.map(({ name, datetime, downloadUrl }) => ({
+        name,
+        datetime,
+        downloadUrl,
+      }));
+    } catch (err) {
+      console.error("Error listing files:", err.message);
+      return [];
+    }
+  });
 
   ipcMain.handle("execute-test", async (_, batPath) => {
     const scriptPath = await getScriptPath(batPath);
@@ -152,13 +161,6 @@ function registerIpcHandlers() {
       }
     );
   });
-
-}
-
-app.whenReady().then(() => {
-  createWindow();
-  registerIpcHandlers();
-  
 
   app.on("activate", () => {
     if (BrowserWindow.getAllWindows().length === 0) createWindow();

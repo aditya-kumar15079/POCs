@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { SwitchWithCounter } from "./SwitchWithCounter";
 import { debounce } from "../utils/Helpers";
 import ModalWrapper from "./ModelWrapper";
@@ -18,14 +18,13 @@ const TestCaseGenerator = () => {
 
   const [files, setFiles] = useState([]);
   const [outputFiles, setOutputFiles] = useState([]);
-  const isFromUI = useRef(false);
 
   let saveTimeout = null;
   const filePath = "Test-Foundry/TestFoundry_Framework/config.yaml";
   const updateFileContent = async (content) => {
     await window.api.writeYAML(content, filePath);
   };
-  // const debouncedUpdateFileContent = React.useMemo(() => debounce(updateFileContent, 500), []);
+  const debouncedUpdateFileContent = React.useMemo(() => debounce(updateFileContent, 500), []);
 
   const fetchOutputFiles = async () => {
     const files = await window.api.listFiles("Test-Foundry/TestFoundry_Framework/output");
@@ -43,16 +42,11 @@ const TestCaseGenerator = () => {
   }, []);
 
   useEffect(() => {
-    if (fileConfig && isFromUI.current) {
-      updateFileContent(fileConfig);
-      isFromUI.current = false;
-    }
+    debouncedUpdateFileContent(fileConfig);
   }, [fileConfig]);
 
   useEffect(() => {
-    if (!fileConfig) return;
-
-    const newConfig = {
+    const config = {
       ...fileConfig,
       qa_generation: {
         ...fileConfig?.qa_generation,
@@ -81,11 +75,8 @@ const TestCaseGenerator = () => {
         },
       },
     };
-
-    if (JSON.stringify(newConfig) !== JSON.stringify(fileConfig)) {
-      isFromUI.current = true;
-      setFileConfig(newConfig);
-    }
+    setFileConfig(config);
+    console.log("setFileConfigs");
   }, [qaCount, qaEnabled, advCount, advEnabled, biasCount, biasEnabled, hallCount, hallEnabled]);
 
   const readConfig = async () => {
@@ -133,10 +124,10 @@ const TestCaseGenerator = () => {
   };
 
   return (
-    <div className="bg-white px-2 py-4">
+    <>
       <div className="flex justify-between">
         <span className="font-semibold text-gray-500 ml-2">QA Generation Settings</span>
-        <button type="button" className="text-sm text-primary hover:text-primary-hover mr-2" onClick={handleViewPreviousEvaluation}>
+        <button className="text-sm text-primary hover:text-primary-hover mr-2" onClick={handleViewPreviousEvaluation}>
           View Previous Evaluation
         </button>
       </div>
@@ -175,8 +166,8 @@ const TestCaseGenerator = () => {
         />
       </div>
 
-      <div className="mt-6 bg-white p-4 border border-gray-200 rounded">
-        <h3 className="text-md font-semibold mb-2 text-gray-500 border-b border-gray-300 pb-2">Upload Document</h3>
+      <div className="mt-6 bg-white p-4 shadow rounded">
+        <h3 className="text-md font-semibold mb-2 text-gray-500 border-b pb-2">Upload Document</h3>
         <input
           type="file"
           multiple
@@ -202,7 +193,7 @@ const TestCaseGenerator = () => {
         </div>
       </div>
       <div className="flex justify-end mt-2">
-        <button type="button" className="btn-primary" onClick={executeTest}>
+        <button className="btn-primary" onClick={executeTest}>
           Execute Test
         </button>
       </div>
@@ -210,7 +201,7 @@ const TestCaseGenerator = () => {
       <ModalWrapper isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
         <PreviousEvaluation files={outputFiles} />
       </ModalWrapper>
-    </div>
+    </>
   );
 };
 

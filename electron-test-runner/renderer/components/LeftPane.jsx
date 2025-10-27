@@ -37,7 +37,7 @@ const LeftPane = () => {
 
   return (
     <>
-      <div className="bg-white p-2 shadow rounded">
+      <div className="bg-white p-4 shadow rounded">
         <h2 className="text-lg font-semibold mb-4 text-gray-500">Project Configuration</h2>
         <DropdownSelect label="Project Name" options={projects} onSelected={onDropDownSelect(selectIteration)} />
         <DropdownSelect label="Iteration Number" options={iterations} onSelected={onDropDownSelect(selectIteration)} />
@@ -60,10 +60,8 @@ const LeftPane = () => {
         </div>
 
         <div className="mt-4 flex space-x-2">
-          <button type="button" className="btn-primary">
-            Reset
-          </button>
-          <button type="button" className="btn-primary" onClick={handleSubmit}>
+          <button className="btn-primary">Reset</button>
+          <button className="btn-primary" onClick={handleSubmit}>
             Submit
           </button>
         </div>
