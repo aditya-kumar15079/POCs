@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import 'tailwindcss';
+@custom-variant dark (&:where(.dark, .dark *));
+
+#root {
+  font-family: 'Montserrat', sans-serif;
+  @apply text-gray-800 text-xl dark:text-white;
+}
+
+@theme {
+  --color-primary: #0b5bab;
+  --color-secondary: #efefef;
+  --color-bg: #fafafa;
+  --color-orangeGlow: #f4b43a;
+  --shadow-ring: 0 0 45px 10px rgba(0, 0, 0, 0.25);
+}
+
+@layer base {
+  button{
+    @apply cursor-pointer hover:brightness-120 active:shadow-none disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:brightness-100;
+  }
+}
+
+@layer components {
+
+  .primary-button {
+    @apply bg-primary text-white font-bold text-base min-h-[50px] min-w-[100px] w-max px-8 relative rounded-full shadow-md active:shadow-none
+  }
+
+  .secondary-button {
+   @apply bg-secondary text-gray-800 font-bold text-base min-h-[50px] min-w-[100px] w-max px-8 relative rounded-full border border-gray-800 shadow-md active:shadow-none
+  }
+}
+
+

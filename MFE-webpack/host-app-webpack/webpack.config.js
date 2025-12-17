@@ -29,7 +29,7 @@ module.exports = {
     new ModuleFederationPlugin({
       name: "host_app",
       remotes: {
-        chatbot_mfe: "chatbot_mfe@http://localhost:3000/remoteEntry.js",
+        chatbot_mfe: "chatbot_mfe@http://localhost:5173/remoteEntry.js",
       },
       shared: {
         react: { singleton: true },
