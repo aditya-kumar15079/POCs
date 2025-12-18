@@ -2,7 +2,7 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { decrement, increment } from "./reducers/counterSlice";
 import Loader from "./components/common/Loader";
-import Chatbot from "chatbot/ChatRoot";
+import Chatbot from "remoteApp/ChatRoot";
 
 function App() {
   // const [count, setCount] = useState(0);

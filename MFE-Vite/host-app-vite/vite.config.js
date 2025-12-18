@@ -13,7 +13,7 @@ export default defineConfig({
     tailwindcss(),
     federation({
       remotes: {
-        chatbot: "http://localhost:4173/assets/remoteEntry.js",
+        remoteApp: "http://localhost:4173/assets/remoteEntry.js",
       },
       shared: {
         react: { singleton: true },
