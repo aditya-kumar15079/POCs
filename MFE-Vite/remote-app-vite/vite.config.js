@@ -16,6 +16,7 @@ export default defineConfig({
       filename: "remoteEntry.js",
       exposes: {
         "./ChatRoot": "./src/bootstrap.jsx",
+        "./chatbotReducer": "./src/reducer/chatbotReducer.js",
       },
       shared: {
         react: {

@@ -6,7 +6,7 @@ import CoachMaci from "remoteApp/ChatRoot";
 
 function App() {
   // const [count, setCount] = useState(0);
-  const count = useSelector((state) => state.counter.value);
+  const count = useSelector((state) => state?.chatBot?.counter.value);
   const dispatch = useDispatch();
 
   const authToken =
