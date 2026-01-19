@@ -2,42 +2,24 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { decrement, increment } from "./reducers/counterSlice";
 import Loader from "./components/common/Loader";
-import Chatbot from "remoteApp/ChatRoot";
+import CoachMaci from "remoteApp/ChatRoot";
 
 function App() {
   // const [count, setCount] = useState(0);
   const count = useSelector((state) => state.counter.value);
   const dispatch = useDispatch();
 
+  const authToken =
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTI5MjM1LTAwMjI2MjAiLCJuYW1lIjoiQWRpdHlhIEt1bWFyIiwiZW1haWwiOiJhZGl0eWEua3VtYXIyQGhhcHBpZXN0bWluZHMuY29tIiwiY291cnNlIjoiQ29tcFRJQSBBKyIsImV4cCI6MTc2ODQwNTk2MCwidG9rZW5faWQiOiJjNmZjMWMxYS1iNGY0LTRmMTktYTMwYi02ZTU5Njc3OWU5ZTcifQ._-004ovpAHC9WQsOkhm5vCDrI8XxxeOO9eATkH0pfTY";
+
   return (
-    <>
-      <h1 className="text-sm">React + Tailwind Template</h1>
-      <div className="flex flex-col gap-2">
-        <div className="flex items-center">
-          <label className="mr-10 font-bold">Buttons:</label>
-          <button type="button" className="primary-button" onClick={() => dispatch(increment())}>
-            increment
-          </button>
-          <button type="button" className="secondary-button mx-4" onClick={() => dispatch(decrement())}>
-            decrement
-          </button>
-          <label>Counter: {count}</label>
-        </div>
-
-        <div className="flex items-center">
-          <label className="mr-10 font-bold">Disabled:</label>
-          <button type="button" className="primary-button" disabled={true}>
-            Fetch data
-          </button>
-        </div>
-
-        <div className="flex items-center">
-          <label className="mr-10 font-bold">Loader:</label>
-          <Loader />
-        </div>
+    <div className="flex p-4">
+      <div className="flex-3 bg-gray-100"></div>
+      <div className="flex-1 p-1">
+        {/* remote component */ }
+        <CoachMaci authToken={authToken} courseName="Comptia A+" userName="JohnDoe" moreDetails={{}} mode="my-aci" />
       </div>
-      <Chatbot />
-    </>
+    </div>
   );
 }
 
